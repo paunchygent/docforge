@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --font-family-sans: "Inter", system-ui, sans-serif;
+  --font-family-display: "Playfair Display", "Times New Roman", serif;
+  --color-brand-primary: oklch(65% 0.2 258);
+  --color-brand-accent: oklch(78% 0.16 210);
+  --spacing-handout: 1.75rem;
+  --radius-handout-card: 18px;
+}
+
+/* Example utility mappings for PDF-friendly surfaces */
+.handout-card {
+  @apply rounded-[var(--radius-handout-card)] border border-slate-200/80 bg-white/95 p-6 shadow-sm;
+}
+
+.handout-heading {
+  @apply font-display text-2xl text-[var(--color-brand-primary)] leading-tight;
+}
+
+.handout-body {
+  @apply font-sans text-slate-800/90 leading-relaxed tracking-tight;
+}

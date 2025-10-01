@@ -1,31 +1,32 @@
 # Repository Guidelines
-Contributors help convert Tailwind-powered HTML handouts into polished PDFs/Docx deliverables. Follow these practices to keep Python tooling and assets cohesive.
+Contributors help convert Tailwind-powered HTML handouts into polished PDFs/Docx deliverables. Follow these notes to keep Python, Tailwind, and documentation assets aligned.
 
 ## Project Structure & Module Organization
-- `handout_templates/` stores production-ready templates; keep related HTML, partials, and data files together per template family.
-- `scripts/` houses Typer CLIs and helper scripts (e.g., `handout_builder.py`, `build_css.py`); extend existing commands before adding new entry points.
-- `utils/` contains reusable conversion utilities (`convert_html_to_pdf.py`, `sync_rules.py`) and Mermaid diagrams; favour composable functions over script-level logic.
-- `rapport_till_kollegor/` retains sample datasets and generated reports—sanitize sensitive exports before committing.
-- `TASKS/` tracks ongoing work notes. Update or add task files instead of overwriting history.
+- `handout_templates/` holds production-ready HTML templates plus any data/partials required per handout family.
+- `scripts/` contains operational tooling: CLI entry points at the root (`handout_builder.py`, `build_css.py`), conversion utilities in `scripts/converters/`, and maintenance helpers in `scripts/maintenance/`.
+- `docs/` hosts converter manuals (e.g. `docs/converters/html_to_pdf.md`), Tailwind v4 notes, and supporting assets under `docs/assets/`.
+- `rapport_till_kollegor/` retains example datasets and generated reports—scrub sensitive exports before committing updates.
+- `TASKS/` tracks worklog and plans; append new notes instead of rewriting history.
 
 ## Build, Test, and Development Commands
-- `pdm install` provisions the Python environment; run after dependency updates.
-- `pdm run build:css` will compile Tailwind assets once the pipeline is wired (current stub prints a TODO).
-- `pdm run build:pdf` / `pdm run build:docx` kick off conversion workflows; until implemented they log placeholders—extend them when adding new formats.
-- `pdm run lint`, `pdm run format`, and `pdm run typecheck` wrap Ruff and MyPy checks.
-- `pdm run test` executes pytest with verbose logging.
+- `pnpm install` and `pdm install` set up Node + Python environments; rerun after dependency changes.
+- Let pnpm manage semantic versions (use caret ranges by default; avoid hard pins unless a regression requires it).
+- `pdm run build:css` wraps the Tailwind v4 CLI (`tailwindcss` via pnpm) and emits `styles/dist/tailwind.css`.
+- `pdm run build:pdf` / `pdm run build:docx` will orchestrate conversions once `scripts/handout_builder.py` is implemented—extend that command rather than adding new scripts.
+- `pdm run lint`, `pdm run format`, and `pdm run typecheck` enforce Ruff and MyPy baselines.
+- `pdm run test` executes the pytest suite; add fixtures for new template families.
 
 ## Coding Style & Naming Conventions
-- Python files use 4-space indentation, 100-character lines, and Ruff-managed imports. Prefer explicit function and module names (`convert_*`, `render_*`).
-- Keep Jinja templates and CSS class names kebab-case; prefix shared utility templates with `_`.
-- Run `pdm run format` before committing to maintain consistent quoting and whitespace.
+- Python: 4-space indentation, 100-character lines, Ruff-managed imports, and descriptive module names (`convert_*`, `render_*`).
+- Tailwind: author source CSS in `styles/src/tailwind.css` using `@import "tailwindcss";` + `@theme` variables; keep class names kebab-case in templates.
+- Templates: ensure Jinja blocks and front-matter keys read as lower_snake_case; prefix shared partials with `_`.
 
 ## Testing Guidelines
-- Place tests under `tests/` following `test_*.py` patterns; mirror module paths for clarity.
-- Use pytest fixtures for HTML fixtures and PDF snapshots; aim for coverage on parsing and conversion branches.
-- Document manual QA steps when adding new template assets.
+- Place automated tests under `tests/` following `test_*.py` naming; mirror module structure (`tests/converters/test_html_to_pdf.py`).
+- Snapshot critical PDF/Docx outputs or compare metadata hashes; accompany binary checks with readable HTML fixtures.
+- Document manual QA steps in `docs/` whenever you introduce a new handout style or conversion backend.
 
 ## Commit & Pull Request Guidelines
-- Write imperative, scoped commit messages (`Add Typer command for PDF build`). Combine related template assets in one commit to keep history reviewable.
-- PRs should summarize behaviour, note file outputs (PDF/Docx paths), and include before/after screenshots or rendered PDFs when UI changes occur.
-- Link task files or issues from `TASKS/` in the PR description and call out any manual data cleanup required.
+- Write imperative, scoped commit messages (`Add Tailwind v4 build runner`). Group related template/CSS assets in the same commit to simplify reviews.
+- PRs should summarise behaviour changes, list generated artefacts (PDF/Docx paths), and include screenshots or rendered PDFs for visual updates.
+- Link relevant `TASKS/` entries or GitHub issues in PR descriptions and note any required manual data cleanup or migration steps.

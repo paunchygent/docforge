@@ -1,20 +1,62 @@
 #!/usr/bin/env python3
-"""Tailwind CSS build orchestrator stub.
+"""Tailwind CSS build orchestrator.
 
-This script will be expanded to invoke the pnpm Tailwind build pipeline once the
-frontend tooling has been configured. For now it simply reports that the build
-step is not yet implemented.
+Wraps the pnpm Tailwind CLI so Python tooling (PDM scripts, Typer CLI) can
+trigger CSS builds in a consistent way. Supports one-off builds and watch mode.
 """
 
+from __future__ import annotations
+
+import argparse
+import shutil
+import subprocess
 import sys
+from pathlib import Path
+
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+STYLES_DIR = PROJECT_ROOT / "styles"
+SRC_CSS = STYLES_DIR / "src" / "tailwind.css"
+DIST_CSS = STYLES_DIR / "dist" / "tailwind.css"
 
 
-def main() -> int:
-    """Entry point."""
-    print("Tailwind build pipeline is not configured yet.\n"
-          "Set up the frontend tooling and update scripts/build_css.py")
-    return 0
+def ensure_structure() -> None:
+    """Make sure source/output directories exist before running Tailwind."""
+    SRC_CSS.parent.mkdir(parents=True, exist_ok=True)
+    DIST_CSS.parent.mkdir(parents=True, exist_ok=True)
 
 
-if __name__ == "__main__":
+def run_tailwind(watch: bool) -> int:
+    """Invoke the configured pnpm script for Tailwind CSS."""
+    pnpm = shutil.which("pnpm")
+    if pnpm is None:
+        print("pnpm is required to build Tailwind CSS. Install pnpm and retry.", file=sys.stderr)
+        return 1
+
+    script = "tailwind:watch" if watch else "tailwind:build"
+    command = [pnpm, "run", script]
+
+    try:
+        return subprocess.run(command, cwd=PROJECT_ROOT, check=True).returncode
+    except subprocess.CalledProcessError as exc:  # pragma: no cover - thin wrapper
+        print(f"Tailwind CLI exited with code {exc.returncode}.", file=sys.stderr)
+        return exc.returncode
+
+
+def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="Run the Tailwind CSS v4 pipeline.")
+    parser.add_argument(
+        "--watch",
+        action="store_true",
+        help="Keep the Tailwind CLI running in watch mode.",
+    )
+    return parser.parse_args(argv)
+
+
+def main(argv: list[str] | None = None) -> int:
+    args = parse_args(argv)
+    ensure_structure()
+    return run_tailwind(watch=args.watch)
+
+
+if __name__ == "__main__":  # pragma: no cover - CLI entry point
     sys.exit(main())

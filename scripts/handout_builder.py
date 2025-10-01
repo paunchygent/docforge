@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Handout build CLI stub.
 
-This Typer application will coordinate HTML template rendering and conversion to
-PDF/Docx. Commands are currently placeholders until the workflow is wired up.
+This Typer application coordinates template rendering and delegates to tools in
+`scripts.converters`. Commands are placeholder stubs until the workflow is wired up.
 """
 
 from __future__ import annotations
@@ -25,7 +25,7 @@ def build(
     target: str = typer.Argument(..., help="Output target: pdf, docx, or all."),
 ) -> None:
     """Build the requested output format(s)."""
-    _not_implemented(f"Build for target '{target}'")
+    _not_implemented(f"Build pipeline for '{target}'")
 
 
 @app.command()

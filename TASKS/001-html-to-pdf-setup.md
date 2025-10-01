@@ -5,7 +5,7 @@ Create a structured mono-repo that manages HTML templates with Tailwind CSS and 
 
 ## Requirements
 - Use PDM for Python dependency management and CLI orchestration.
-- Use pnpm + Tailwind + Vite for frontend CSS compilation and preview.
+- Use pnpm with the Tailwind CSS v4 CLI for CSS compilation; introduce Vite only if richer previews are required.
 - Provide conversion pathways via WeasyPrint (PDF) and Pandoc/DocxTpl (Docx).
 - Maintain governance per `.windsurf/rules/` and task documentation standards.
 

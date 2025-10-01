@@ -14,25 +14,25 @@ pdm add weasyprint  # Already done
 ### Basic Conversion
 ```bash
 # Always use PDM to ensure correct environment
-pdm run python scripts/utils/convert_html_to_pdf.py input.html
+pdm run python scripts/converters/convert_html_to_pdf.py input.html
 
 # Specify output file
-pdm run python scripts/utils/convert_html_to_pdf.py input.html -o output.pdf
+pdm run python scripts/converters/convert_html_to_pdf.py input.html -o output.pdf
 
 # Verbose mode for debugging
-pdm run python scripts/utils/convert_html_to_pdf.py input.html --verbose
+pdm run python scripts/converters/convert_html_to_pdf.py input.html --verbose
 ```
 
 ### Check Available Backends
 ```bash
-pdm run python scripts/utils/convert_html_to_pdf.py --check-backends
+pdm run python scripts/converters/convert_html_to_pdf.py --check-backends
 ```
 
 ### Convert the Kalibrering Report
 ```bash
-pdm run python scripts/utils/convert_html_to_pdf.py \
-  docs/rapport_till_kollegor/files/kalibrering_rapport_korrigerad.html \
-  -o docs/rapport_till_kollegor/files/kalibrering_rapport_korrigerad.pdf
+pdm run python scripts/converters/convert_html_to_pdf.py \
+  rapport_till_kollegor/files/kalibrering_rapport_korrigerad.html \
+  -o rapport_till_kollegor/files/kalibrering_rapport_korrigerad.pdf
 ```
 
 ## Features
