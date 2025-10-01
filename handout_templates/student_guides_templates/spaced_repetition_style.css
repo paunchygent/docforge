@@ -1,0 +1,131 @@
+/* Spaced Repetition Student Guide Styles
+   Usage:
+   1) Link Tailwind CSS first, then this file
+   2) This file contains print-specific and specialized styles
+   3) Most layout/typography uses Tailwind utilities in HTML
+*/
+
+/* --- Print & page setup --- */
+@page {
+  size: A4 portrait;
+  margin: 12mm;
+}
+
+* {
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+/* --- Custom properties for panel colors --- */
+:root {
+  /* Panel colors - soft blue/purple tint for learner-friendly design */
+  --panel-bg: #f8f9fe;
+  --panel-border: #d4daf0;
+  --panel-accent: #6b7fd7;
+  
+  /* Tag colors - RED/YELLOW/GREEN with distinct grayscale values */
+  --tag-hard: #ffcdd2;        /* Light red - prints as 82% gray */
+  --tag-hard-border: #ef5350; /* Red border */
+  --tag-okay: #fff9c4;        /* Light yellow - prints as 94% gray */
+  --tag-okay-border: #fbc02d; /* Yellow border */
+  --tag-easy: #c8e6c9;        /* Light green - prints as 88% gray */
+  --tag-easy-border: #66bb6a; /* Green border */
+}
+
+/* --- Print-specific breaks --- */
+.keep-together {
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+/* --- Panel styling (used throughout) --- */
+.panel {
+  background: var(--panel-bg);
+  border: 0.35mm solid var(--panel-border);
+  border-radius: 2.2mm;
+  padding: 4.5mm;
+  break-inside: avoid;
+}
+
+/* --- Custom bullet styling --- */
+.bullets {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.bullets li {
+  position: relative;
+  padding-left: 5mm;
+  margin: 0 0 2mm 0;
+  font-size: 10.5pt;
+  line-height: 1.4;
+}
+
+.bullets li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 11pt;
+  line-height: 1.4;
+  color: var(--panel-accent);
+  font-weight: bold;
+}
+
+/* --- Custom checkbox styling --- */
+.checkbox-item {
+  display: flex;
+  align-items: center;
+  margin: 0 0 2.5mm 0;
+  font-size: 10.5pt;
+}
+
+.box {
+  width: 4mm;
+  height: 4mm;
+  border: 0.4mm solid #444;
+  margin-right: 2.5mm;
+  border-radius: 0.8mm;
+  flex-shrink: 0;
+  background: #fff;
+  /* Fix for the vertical line issue */
+  box-sizing: border-box;
+}
+
+/* --- Tag system for difficulty markers --- */
+.tag {
+  text-align: center;
+  padding: 2mm 2.5mm;
+  border-radius: 1.8mm;
+  font-weight: 700;
+  font-size: 10.5pt;
+  border: 0.4mm solid;
+}
+
+.tag.hard {
+  background: var(--tag-hard);
+  border-color: var(--tag-hard-border);
+  color: #c62828;
+}
+
+.tag.okay {
+  background: var(--tag-okay);
+  border-color: var(--tag-okay-border);
+  color: #f57f17;
+}
+
+.tag.easy {
+  background: var(--tag-easy);
+  border-color: var(--tag-easy-border);
+  color: #2e7d32;
+}
+
+/* --- Divider rule --- */
+.rule {
+  height: 0.8mm;
+  background: var(--panel-accent);
+  margin: 3mm 0 4mm 0;
+  border-radius: 0.4mm;
+  width: 65%;
+}

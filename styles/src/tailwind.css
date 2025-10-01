@@ -15,9 +15,11 @@
 }
 
 .handout-heading {
-  @apply font-display text-2xl text-[var(--color-brand-primary)] leading-tight;
+  font-family: var(--font-family-display);
+  @apply text-2xl text-[var(--color-brand-primary)] leading-tight;
 }
 
 .handout-body {
-  @apply font-sans text-slate-800/90 leading-relaxed tracking-tight;
+  font-family: var(--font-family-sans);
+  @apply text-slate-800/90 leading-relaxed tracking-tight;
 }

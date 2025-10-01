@@ -35,6 +35,15 @@ pdm run python scripts/converters/convert_html_to_pdf.py \
   -o rapport_till_kollegor/files/kalibrering_rapport_korrigerad.pdf
 ```
 
+### Batch Builds via Handout CLI
+```bash
+pdm run build:pdf --template kalibrering
+```
+- Outputs land in `build/pdf/`, preserving the template directory structure.
+- Repeat `--template` flags to narrow builds, or omit them to process every template under `handout_templates/`.
+- Add `--skip-css` if Tailwind assets are already compiled locally.
+- If Fontconfig reports missing cache directories, run with `XDG_CACHE_HOME=$PWD/.cache` or pre-create `~/.cache/fontconfig`.
+
 ## Features
 - **WeasyPrint backend**: Excellent CSS support, preserves styling perfectly
 - **pypandoc backend**: Basic fallback (limited Unicode and image support)

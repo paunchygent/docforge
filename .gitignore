@@ -22,3 +22,5 @@ styles/dist/
 htmlcov/
 coverage/
 
+build/
+.cache/

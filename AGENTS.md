@@ -5,6 +5,7 @@ Contributors help convert Tailwind-powered HTML handouts into polished PDFs/Docx
 - `handout_templates/` holds production-ready HTML templates plus any data/partials required per handout family.
 - `scripts/` contains operational tooling: CLI entry points at the root (`handout_builder.py`, `build_css.py`), conversion utilities in `scripts/converters/`, and maintenance helpers in `scripts/maintenance/`.
 - `docs/` hosts converter manuals (e.g. `docs/converters/html_to_pdf.md`), Tailwind v4 notes, and supporting assets under `docs/assets/`.
+- `build/` contains generated artefacts (PDF/Docx). Keep it untracked; outputs are regenerated on demand.
 - `rapport_till_kollegor/` retains example datasets and generated reports—scrub sensitive exports before committing updates.
 - `TASKS/` tracks worklog and plans; append new notes instead of rewriting history.
 
@@ -12,7 +13,7 @@ Contributors help convert Tailwind-powered HTML handouts into polished PDFs/Docx
 - `pnpm install` and `pdm install` set up Node + Python environments; rerun after dependency changes.
 - Let pnpm manage semantic versions (use caret ranges by default; avoid hard pins unless a regression requires it).
 - `pdm run build:css` wraps the Tailwind v4 CLI (`tailwindcss` via pnpm) and emits `styles/dist/tailwind.css`.
-- `pdm run build:pdf` / `pdm run build:docx` will orchestrate conversions once `scripts/handout_builder.py` is implemented—extend that command rather than adding new scripts.
+- `pdm run build:pdf` / `pdm run build:docx` invoke the Typer builder (`scripts/handout_builder.py`). Use the CLI flags (`--template`, `--skip-css`, `--verbose`) instead of creating new entry points.
 - `pdm run lint`, `pdm run format`, and `pdm run typecheck` enforce Ruff and MyPy baselines.
 - `pdm run test` executes the pytest suite; add fixtures for new template families.
 

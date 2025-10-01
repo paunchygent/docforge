@@ -4,6 +4,8 @@
 - Stand up repository governance, Python/PDM tooling, and a Tailwind CSS v4 build so HTML handouts export cleanly to PDF/Docx through a single CLI.
 
 ## Worklog
+- 2025-10-01T22:15+02:00 — Generated spaced repetition PDF via `pdm run build:pdf` and captured Fontconfig cache guidance.
+- 2025-10-01T22:05+02:00 — Implemented Typer-based handout builder CLI that generates PDF/Docx artefacts under `build/` and documented usage.
 - 2025-10-01T21:34+02:00 — Migrated conversion utilities into `scripts/converters/` and archived docs under `docs/` with new Tailwind v4 guidance.
 - 2025-10-01T21:24+02:00 — Upgraded Tailwind pipeline to v4 (pnpm-driven CLI wrapper on Tailwind 4.x) and implemented `scripts/build_css.py` runner.
 - 2025-10-01T18:13+02:00 — Installed Tailwind v3 CLI via pnpm along with @tailwindcss/cli, postcss, and autoprefixer.
@@ -19,7 +21,7 @@
 - Do we need additional guardrails before enabling automatic Tailwind content discovery in larger repos?
 
 ## Next Actions
-- Implement template rendering + conversion orchestration inside `scripts/handout_builder.py` (delegate to modules in `scripts.converters`).
+- Integrate template front-matter parsing so builders can derive output names and assets dynamically.
 - Create regression fixtures under `tests/` for HTML→PDF and Markdown→PDF flows, including binary diff strategy.
 - Document manual QA checklist for new handouts in `docs/` so educators can verify layout before publishing.
 
