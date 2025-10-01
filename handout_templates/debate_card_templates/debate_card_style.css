@@ -1,0 +1,94 @@
+
+/* Debate Card Style Template
+   Usage:
+   1) Link this file in your debate card HTML: <link rel="stylesheet" href="debate_card_style.css">
+   2) Wrap all content in <div class="page">…</div>.
+   3) Use .page-break to separate the main card and the glossary.
+   4) Use .twocol with .block children for YES/NO columns.
+   5) Use .tag for domain words, .checklist on UL for tick-style markers.
+   6) Use .glossary with .term items for the Swedish section.
+*/
+
+:root {
+  --page-width: 860px;
+  --accent: #0f172a;      /* deep slate */
+  --text: #0a0a0a;
+  --muted: #444;
+  --border: #cfd4d9;
+  --bg-soft: #fbfcfd;
+}
+
+* { box-sizing: border-box; }
+html, body { padding: 0; margin: 0; }
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--text);
+  background: #fff;
+  padding: 20px;
+}
+
+.page {
+  max-width: var(--page-width);
+  margin: 0 auto;
+}
+
+/* Headings & copy */
+h1 {
+  font-size: 26px;
+  margin: 0 0 8px;
+  text-align: center;
+  color: var(--accent);
+}
+h2 { font-size: 18px; margin: 16px 0 6px; color: #111; }
+h3 { font-size: 16px; margin: 14px 0 6px; color: #111; }
+p { font-size: 14px; margin: 6px 0; line-height: 1.35; }
+ul { margin: 6px 0 8px 20px; }
+li { margin: 4px 0; font-size: 14px; }
+.sub { font-size: 13px; color: var(--muted); text-align: center; margin-bottom: 14px; }
+
+/* Components */
+.block {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 12px;
+  margin: 10px 0;
+  background: var(--bg-soft);
+}
+.twocol {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+.tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  font-size: 12px;
+  margin: 2px 6px 2px 0;
+  background: #fff;
+}
+.small { font-size: 13px; color: #333; }
+.checklist li::marker { content: "□  "; }
+.hr { height: 1px; background: #e5e7eb; border: 0; margin: 18px 0; }
+
+/* Glossary */
+.glossary { column-width: 380px; column-gap: 24px; }
+.term { break-inside: avoid; margin: 0 0 10px; }
+.term b { display: inline-block; min-width: 200px; }
+
+/* Print */
+@media print {
+  body { padding: 0; }
+  .page { width: 190mm; margin: 8mm auto; }
+  .page-break { page-break-before: always; border-top: none; padding-top: 0; }
+  a { color: black; text-decoration: none; }
+}
+
+/* Page-break marker for screen and print */
+.page-break {
+  page-break-before: always;
+  margin-top: 24px;
+  border-top: 2px dashed var(--border);
+  padding-top: 16px;
+}

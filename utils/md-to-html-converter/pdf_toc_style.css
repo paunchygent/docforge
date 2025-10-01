@@ -1,0 +1,138 @@
+/* pdf_toc_style.css - Dedicated TOC page, cohesive links, and responsive diagrams */
+
+/* --- PDF Diagram and Header Flow Control --- */
+/* Prevent page breaks between a heading and the following figure (diagram) */
+h2, h3, h4, h5, h6 {
+    page-break-after: avoid;
+}
+
+/* Prevent page breaks before or inside a figure */
+figure {
+    page-break-before: avoid;
+    page-break-inside: avoid;
+}
+
+/* Target the div containers for Mermaid diagrams specifically */
+div.mermaid {
+    page-break-inside: avoid !important;
+    page-break-before: avoid !important;
+}
+
+/* --- Mermaid Diagram Scaling --- */
+/* Target the container div created by the Lua filter to precisely scale diagrams */
+.mermaid-container img {
+    max-width: 95% !important; /* Scale image to 95% of the container width */
+    height: auto !important;   /* Maintain aspect ratio */
+    display: block;           /* Ensure block-level layout */
+    margin-left: auto;        /* Center the image */
+    margin-right: auto;
+}
+
+
+/* Table of Contents on its own page */
+.toc {
+  page-break-before: always; /* Start TOC on a new page */
+  padding: 2em 1em; /* Add some padding around the TOC content */
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #fdfdff; /* Light background for the TOC page */
+  border-radius: 8px;
+  margin-bottom: 2em; /* Space after TOC if content follows on same page (unlikely with page-break) */
+}
+
+/* Styling for the TOC title ("Innehållsförteckning") */
+.toc-title {
+  font-size: 2em; /* Larger title for a dedicated page */
+  color: #1565c0;
+  font-weight: bold;
+  text-align: center; /* Center the title */
+  margin-bottom: 1.5em;
+  letter-spacing: 0.03em;
+  border-bottom: 2px solid #d3e3fc;
+  padding-bottom: 0.5em;
+}
+
+.toc ul, .toc ol {
+  padding-left: 1.5em; /* Standard indentation for list items */
+  list-style-type: none; /* Remove default bullets/numbers if desired, or keep for structure */
+}
+
+.toc li {
+  margin: 0.4em 0;
+  font-size: 1.1em;
+}
+
+.toc a {
+  color: #1565c0; /* Cohesive link color */
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.toc a:hover {
+  text-decoration: underline;
+}
+
+/* Headings: Keep with subsequent content */
+h1, h2, h3, h4, h5, h6 {
+  break-after: avoid; /* CSS3: Suggests no page break after the heading */
+  break-inside: avoid; /* CSS3: Suggests no page break inside the heading itself */
+  margin-top: 1em;
+  margin-bottom: 0.3em; /* Slightly reduced bottom margin */
+}
+
+/* Paragraphs and Figures: Try to keep them on one page */
+p, figure {
+  break-inside: avoid; /* CSS3: Suggests no page break inside these elements */
+  margin-top: 0.3em;
+  margin-bottom: 0.7em;
+}
+
+/* Responsive images and SVGs (including Mermaid diagrams) */
+img, svg {
+  max-width: 100%;
+  max-height: 65vh; /* General constraint for very tall diagrams */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Ensures it takes up its own line and margins apply correctly */
+  margin: 0.5em auto; /* Vertical margin and auto horizontal for centering */
+  break-inside: avoid; /* CSS3: Suggests no page break inside the image/SVG itself */
+  /* Let the container (p/figure) and preceding header manage break-before properties */
+}
+
+
+/* AGGRESSIVE TARGETING FOR 'Designval och deras fördelar' AND ITS DIAGRAM */
+#designval-och-deras-fördelar {
+  break-after: avoid !important; /* Keep this header with what's next */
+  break-inside: avoid !important;
+  margin-bottom: 0 !important; /* Pull diagram as close as possible */
+  padding-bottom: 0 !important;
+}
+
+/* Target the specific Mermaid diagram after this header */
+#designval-och-deras-fördelar + * .mermaid,
+#designval-och-deras-fördelar ~ figure:first-of-type {
+  max-height: 35vh !important; /* Reduce height even further */
+  transform: scale(0.9) !important; /* Slightly scale down */
+  transform-origin: top left !important;
+  break-before: avoid !important;
+  break-inside: avoid !important;
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* Target the specific SVG within the Mermaid diagram */
+#designval-och-deras-fördelar + * .mermaid svg,
+#designval-och-deras-fördelar ~ figure:first-of-type svg {
+  max-height: 35vh !important;
+}
+
+
+/* General Page Setup & Print/PDF tweaks for WeasyPrint - Keep this */
+@page {
+  size: A4;
+  margin: 2cm; /* Standard margins for all pages */
+}
+
+/* Ensure body/main content does not have leftover sidebar margins */
+body, .main-content, main, .content {
+  margin-left: 0 !important; /* Remove any fixed margin from previous sidebar attempt */
+  padding-left: 0; /* Reset padding */
+}

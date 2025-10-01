@@ -1,0 +1,109 @@
+[project]
+name = "html-to-pdf-handout-templates"
+version = "0.1.0"
+description = "HTML/Tailwind template hub for generating PDF and Docx outputs."
+authors = [
+    { name = "Olof Larsson", email = "paunchygent@gmail.com" },
+]
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+license = { text = "MIT" }
+dependencies = [
+    "jinja2",
+    "typer>=0.12.3",
+    "rich",
+    "python-frontmatter",
+    "weasyprint>=66.0",
+    "pypandoc",
+    "docxtpl",
+    "watchfiles",
+    "beautifulsoup4",
+]
+
+[dependency-groups]
+dev = [
+    "pytest",
+    "pytest-cov",
+    "pytest-mock",
+    "pytest-timeout",
+    "pytest-xdist",
+    "ruff",
+    "mypy",
+    "pre-commit",
+    "types-beautifulsoup4",
+    "types-pytz",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+exclude = [
+    ".git",
+    ".venv",
+    "__pycache__",
+    ".mypy_cache",
+    ".pytest_cache",
+    ".ruff_cache",
+    "node_modules",
+    "frontend/node_modules",
+    "styles/dist",
+]
+
+[tool.ruff.lint]
+select = [
+    "E",
+    "W",
+    "F",
+    "I",
+]
+ignore = [
+    "E203",
+]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+
+[tool.mypy]
+python_version = "3.11"
+warn_unused_configs = true
+warn_return_any = true
+check_untyped_defs = true
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+addopts = "-s -v"
+python_files = "test_*.py *_test.py"
+pythonpath = "."
+testpaths = [
+    "tests",
+]
+
+[tool.coverage.run]
+omit = [
+    "tests/*",
+    "scripts/*",
+]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "if __name__ == '__main__':",
+]
+
+[tool.pdm]
+distribution = false
+
+[tool.pdm.scripts]
+"build:css" = "python scripts/build_css.py"
+"build:pdf" = "python scripts/handout_builder.py build pdf"
+"build:docx" = "python scripts/handout_builder.py build docx"
+"build:all" = { composite = ["pdm run build:css", "python scripts/handout_builder.py build all"] }
+"lint" = "ruff check ."
+"format" = "ruff format ."
+"typecheck" = "mypy --config-file pyproject.toml"
+"test" = "pytest -s"
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"

@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Spaced Repetition — Vocabulary (CEFR B1)</title>
+<style>
+  /* --- Print & page setup --- */
+  @page {
+    size: A4 portrait;
+    margin: 12mm;
+  }
+  * {
+    box-sizing: border-box;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  html, body {
+    height: 100%;
+  }
+  body {
+    margin: 0;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Noto Sans", "Liberation Sans", sans-serif;
+    color: #111;
+    line-height: 1.35;
+  }
+
+  /* --- Layout --- */
+  .sheet {
+    width: 186mm; /* 210mm - 2*12mm margins */
+    min-height: calc(297mm - 2*12mm);
+    margin: 0 auto;
+  }
+  .header {
+    margin-bottom: 6mm;
+  }
+  h1 {
+    font-size: 18pt;
+    margin: 0;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+  }
+  .kicker {
+    margin-top: 2mm;
+    color: #333;
+    font-size: 11pt;
+  }
+  .rule {
+    height: 0.6mm;
+    background: #222;
+    opacity: 0.6;
+    margin: 3mm 0 4mm 0;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 8mm;
+    grid-row-gap: 6mm;
+  }
+
+  /* --- Panels --- */
+  :root {
+    --panel-bg: #f6f7fb;
+    --panel-border: #d8dbe8;
+    --tag-hard: #e2e2e2;
+    --tag-okay: #f0f0f0;
+    --tag-easy: #dcdcdc;
+  }
+  .panel {
+    background: var(--panel-bg);
+    border: 0.35mm solid var(--panel-border);
+    border-radius: 2.2mm;
+    padding: 4.5mm;
+    break-inside: avoid;
+  }
+  .panel h2 {
+    font-size: 12.5pt;
+    margin: 0 0 3mm 0;
+    font-weight: 700;
+  }
+  .panel p {
+    font-size: 10.5pt;
+    margin: 0 0 3mm 0;
+  }
+  .panel .small {
+    font-size: 10pt;
+    color: #333;
+  }
+
+  /* --- Lists & bullets --- */
+  .steps, .bullets, .schedule {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .steps li {
+    margin: 0 0 2.5mm 0;
+    font-size: 10.5pt;
+  }
+  .steps li .n {
+    font-weight: 700;
+    margin-right: 1.2mm;
+  }
+  .bullets li {
+    position: relative;
+    padding-left: 5.2mm;
+    margin: 0 0 2.4mm 0;
+    font-size: 10.5pt;
+  }
+  .bullets li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 12pt;
+    line-height: 1;
+  }
+
+  /* --- Checkboxes for schedule --- */
+  .schedule li {
+    display: flex;
+    align-items: center;
+    margin: 0 0 3mm 0;
+    font-size: 10.5pt;
+  }
+  .box {
+    width: 4.2mm;
+    height: 4.2mm;
+    border: 0.35mm solid #333;
+    margin-right: 2.4mm;
+    border-radius: 0.6mm;
+    flex: 0 0 auto;
+  }
+  .muted {
+    color: #444;
+  }
+
+  /* --- Tag rows --- */
+  .tag-row {
+    display: grid;
+    grid-template-columns: 22mm 1fr;
+    grid-column-gap: 3mm;
+    align-items: center;
+    margin-bottom: 3mm;
+  }
+  .tag {
+    text-align: center;
+    padding: 1.8mm 2mm;
+    border: 0.3mm solid #222;
+    border-radius: 1.6mm;
+    font-weight: 700;
+    font-size: 10.5pt;
+  }
+  .tag.hard { background: var(--tag-hard); }
+  .tag.okay { background: var(--tag-okay); }
+  .tag.easy { background: var(--tag-easy); }
+  .tag-desc { font-size: 10.5pt; }
+
+  /* --- Utility --- */
+  .tight { margin-top: 1.5mm; }
+  .spacer { height: 3mm; }
+  .avoid-break { break-inside: avoid; }
+
+  /* --- Footer --- */
+  .footer {
+    margin-top: 6mm;
+    font-size: 9pt;
+    color: #555;
+  }
+
+  /* --- Keep important chunks intact on print --- */
+  .keep-together { break-inside: avoid; }
+</style>
+</head>
+<body>
+  <div class="sheet">
+    <header class="header">
+      <h1>Spaced Repetition — Vocabulary (CEFR B1)</h1>
+      <div class="rule"></div>
+      <p class="kicker">Short study. Growing breaks. Say or write the answer before you look.</p>
+    </header>
+
+    <main class="grid">
+      <!-- Left column -->
+      <section class="panel keep-together">
+        <h2>Session length (each set)</h2>
+        <p><strong>5–10 minutes.</strong> If you have more words, do another short set later.</p>
+        <p class="small">Stop at 10 minutes—come back at the next time.</p>
+      </section>
+
+      <section class="panel keep-together">
+        <h2>When to review (put these in your planner)</h2>
+        <p class="tight"><strong>Day 0 (first study):</strong> quick repeats on the same list.</p>
+        <ul class="schedule">
+          <li><span class="box" aria-hidden="true"></span><span>after ~2 minutes</span></li>
+          <li><span class="box" aria-hidden="true"></span><span>after ~10 minutes</span></li>
+        </ul>
+
+        <p class="tight"><strong>Then do these 8 reviews:</strong></p>
+        <ul class="schedule avoid-break">
+          <li><span class="box" aria-hidden="true"></span><span>+1 hour</span></li>
+          <li><span class="box" aria-hidden="true"></span><span>Next day</span></li>
+          <li><span class="box" aria-hidden="true"></span><span>+3 days</span></li>
+          <li><span class="box" aria-hidden="true"></span><span>+7 days</span></li>
+          <li><span class="box" aria-hidden="true"></span><span>+16 days</span></li>
+          <li><span class="box" aria-hidden="true"></span><span>+35 days (≈1 month)</span></li>
+          <li><span class="box" aria-hidden="true"></span><span>+90 days (≈3 months)</span></li>
+          <li><span class="box" aria-hidden="true"></span><span>+180 days (≈6 months)</span></li>
+        </ul>
+        <p class="small muted">Missed one? Don’t restart—do the next review and continue.</p>
+      </section>
+
+      <section class="panel keep-together">
+        <h2>How to review (fast routine)</h2>
+        <ol class="steps">
+          <li><span class="n">1)</span> Active recall: hide one side. Say or write the answer before you check.</li>
+          <li><span class="n">2)</span> Mark each word: <strong>Hard</strong> / <strong>Okay</strong> / <strong>Easy</strong>.</li>
+          <li><span class="n">3)</span> Repeat the <strong>Hard</strong> words 2–3 more times in the same set.</li>
+          <li><span class="n">4)</span> Shuffle the order each time.</li>
+          <li><span class="n">5)</span> Mix old + new: keep <strong>20–30%</strong> old words in every set.</li>
+          <li><span class="n">6)</span> Park strong words: if a word is <strong>Easy</strong> for three sets in a row, leave it until its next due date.</li>
+        </ol>
+      </section>
+
+      <section class="panel keep-together">
+        <h2>Make your marks change the next date</h2>
+
+        <div class="tag-row">
+          <div class="tag hard">HARD</div>
+          <div class="tag-desc">Next gap about half as long (e.g., 7 days → 3–4 days).</div>
+        </div>
+
+        <div class="tag-row">
+          <div class="tag okay">OKAY</div>
+          <div class="tag-desc">Keep the planned gap.</div>
+        </div>
+
+        <div class="tag-row">
+          <div class="tag easy">EASY</div>
+          <div class="tag-desc">Next gap × about 1.5 (e.g., 7 days → 10–11 days).</div>
+        </div>
+      </section>
+
+      <section class="panel keep-together">
+        <h2>Small rules that help</h2>
+        <ul class="bullets">
+          <li>Stop at 10 minutes; come back at the next time.</li>
+          <li>Speak or write the word; just recognising it is not enough.</li>
+          <li>After a test: still do +1 month and +6 months reviews, or use the words in writing/speaking that week.</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="footer">
+      Made for CEFR B1 students • Simple schedule, short sets, and active recall.
+    </footer>
+  </div>
+</body>
+</html>
