@@ -5,6 +5,7 @@
 
 ## Worklog
 - 2025-10-01T22:15+02:00 — Generated spaced repetition PDF via `pdm run build:pdf` and captured Fontconfig cache guidance.
+- 2025-10-02T11:28+02:00 — Linked Tailwind bundle into spaced repetition template, rebuilt CSS, and verified WeasyPrint renders Tailwind classes (noting unsupported @layer/@property warnings).
 - 2025-10-01T22:05+02:00 — Implemented Typer-based handout builder CLI that generates PDF/Docx artefacts under `build/` and documented usage.
 - 2025-10-01T21:34+02:00 — Migrated conversion utilities into `scripts/converters/` and archived docs under `docs/` with new Tailwind v4 guidance.
 - 2025-10-01T21:24+02:00 — Upgraded Tailwind pipeline to v4 (pnpm-driven CLI wrapper on Tailwind 4.x) and implemented `scripts/build_css.py` runner.
