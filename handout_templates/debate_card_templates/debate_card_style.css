@@ -9,6 +9,9 @@
   --page-width: 186mm;
   --accent: #1e3a8a;
   --accent-light: #3b82f6;
+  --accent-dark: #1d4ed8;
+  --panel-yes: var(--highlight);
+  --panel-no: var(--highlight);
   --text: #1f2937;
   --muted: #6b7280;
   --border: #d1d5db;
@@ -48,7 +51,7 @@ h1 {
   margin: 0 0 2mm;
   font-weight: 700;
   color: var(--accent);
-  letter-spacing: 0.01em;
+  letter-spacing: 0.005em;
   border-bottom: 1mm solid var(--accent);
   padding-bottom: 0mm;
 }
@@ -142,6 +145,55 @@ hr {
   border: none;
   border-top: 0.3mm solid var(--border);
   margin: 3mm 0;
+}
+
+/* Two-column stance blocks */
+.twocol {
+  margin: 2mm 0 3mm;
+  font-size: 0;
+}
+
+.block {
+  background: var(--panel-yes);
+  border: 0.4mm solid var(--accent-light);
+  border-radius: 3mm;
+}
+
+.twocol {
+  display: table;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 4mm;
+  margin: 2mm 0 3mm;
+}
+
+.twocol .block {
+  display: table-cell;
+  width: 50%;
+  vertical-align: top;
+  font-size: 10pt;
+  padding: 4mm;
+}
+
+.twocol .block h3 {
+  margin-top: 0;
+  margin-bottom: 2mm;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.twocol .block ul {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.twocol .block li {
+  margin: 0 0 2mm;
+}
+
+.twocol .block li:last-child {
+  margin-bottom: 0;
 }
 
 /* Domain words highlighting */

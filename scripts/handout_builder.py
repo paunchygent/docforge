@@ -8,7 +8,6 @@ Coordinates Tailwind CSS builds and delegates to converter utilities in
 from __future__ import annotations
 
 import logging
-import subprocess
 import sys
 from pathlib import Path
 from typing import Iterable, List, Sequence, Tuple
@@ -27,7 +26,6 @@ TEMPLATES_ROOT = PROJECT_ROOT / "handout_templates"
 BUILD_ROOT = PROJECT_ROOT / "build"
 PDF_OUTPUT_ROOT = BUILD_ROOT / "pdf"
 DOCX_OUTPUT_ROOT = BUILD_ROOT / "docx"
-TAILWIND_SCRIPT = PROJECT_ROOT / "scripts" / "build_css.py"
 VALID_TARGETS = {"pdf", "docx", "all"}
 
 
@@ -52,22 +50,6 @@ def _discover_templates(filters: Sequence[str] | None) -> List[Path]:
         ]
 
     return templates
-
-
-def _run_tailwind_build(skip_css: bool) -> None:
-    if skip_css:
-        typer.secho("Skipping Tailwind CSS build (per --skip-css).", fg=typer.colors.YELLOW)
-        return
-
-    if not TAILWIND_SCRIPT.exists():
-        raise BuildError("Tailwind build helper script is missing. Re-run repository setup.")
-
-    typer.echo("Building Tailwind CSS (pnpm run tailwind:build)…")
-    try:
-        subprocess.run([sys.executable, str(TAILWIND_SCRIPT)], cwd=PROJECT_ROOT, check=True)
-    except subprocess.CalledProcessError as exc:
-        raise BuildError("Tailwind CSS build failed; see output above.") from exc
-
 
 def _convert_html_to_docx(html_path: Path, output_path: Path) -> Tuple[Path, str]:
     try:
@@ -139,7 +121,6 @@ def build(
         "-t",
         help="Filter templates by substring (case-insensitive). Repeat flag to combine filters.",
     ),
-    skip_css: bool = typer.Option(False, help="Skip Tailwind CSS build step."),
     verbose: bool = typer.Option(False, "--verbose", "-v", help="Enable verbose logging for converters."),
 ) -> None:
     """Build the requested output artefacts for the discovered templates."""
@@ -155,9 +136,6 @@ def build(
             raise BuildError("No templates matched the selection criteria.")
 
         typer.echo(f"Found {len(templates)} template(s) to process.")
-
-        if normalised_target in {"pdf", "all"}:
-            _run_tailwind_build(skip_css=skip_css)
 
         pdf_results: List[Tuple[Path, Path, str]] = []
         docx_results: List[Tuple[Path, Path, str]] = []

@@ -1,7 +1,7 @@
 [project]
 name = "html-to-pdf-handout-templates"
 version = "0.1.0"
-description = "HTML/Tailwind template hub for generating PDF and Docx outputs."
+description = "HTML template hub for generating PDF and Docx outputs."
 authors = [
     { name = "Olof Larsson", email = "paunchygent@gmail.com" },
 ]
@@ -46,7 +46,7 @@ exclude = [
     ".ruff_cache",
     "node_modules",
     "frontend/node_modules",
-    "styles/dist",
+    "frontend/styles/dist",
 ]
 
 [tool.ruff.lint]
@@ -95,10 +95,9 @@ exclude_lines = [
 distribution = false
 
 [tool.pdm.scripts]
-"build:css" = "python scripts/build_css.py"
 "build:pdf" = "python scripts/handout_builder.py build pdf"
 "build:docx" = "python scripts/handout_builder.py build docx"
-"build:all" = { composite = ["pdm run build:css", "python scripts/handout_builder.py build all"] }
+"build:all" = { composite = ["python scripts/handout_builder.py build all"] }
 "lint" = "ruff check ."
 "format" = "ruff format ."
 "typecheck" = "mypy --config-file pyproject.toml"
