@@ -163,8 +163,8 @@ hr {
   display: table;
   width: 100%;
   border-collapse: separate;
-  border-spacing: 4mm;
-  margin: 2mm 0 3mm;
+  border-spacing: 4mm 0;
+  margin: 2mm -4mm 3mm;
 }
 
 .twocol .block {
