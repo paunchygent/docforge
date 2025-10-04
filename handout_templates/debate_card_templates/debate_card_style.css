@@ -93,17 +93,24 @@ ul {
   padding-left: 5mm;
 }
 
-li { 
+li {
   margin: 0 0 1mm;
   font-size: 10pt;
   line-height: 1.4;
 }
 
-.sub { 
+.sub {
   font-size: 9.5pt;
   color: var(--muted);
   margin: 1mm 0 3mm;
   font-style: italic;
+}
+
+.sub.example {
+  margin-top: 0;
+  margin-bottom: 1mm;
+  font-size: 9pt;
+  color: #4b5563; /* A slightly different muted color */
 }
 
 /* Special sections */
@@ -265,6 +272,38 @@ hr {
   margin: 0;
   padding: 0;
 }
+
+/* === PREP SHEET ADDITIONS === */
+.prep-section {
+  border: 0.4mm solid var(--border);
+  border-radius: 3mm;
+  padding: 4mm;
+  margin-bottom: 5mm;
+  break-inside: avoid;
+}
+
+.prep-section h2 {
+  margin-top: 0;
+  padding-bottom: 1mm;
+  border-bottom: 0.5mm solid var(--accent-light);
+}
+
+.prep-section p {
+  margin: 3mm 0 1mm;
+}
+
+.prep-box {
+  border: 0.3mm solid #9ca3af; /* A slightly darker border for visibility */
+  border-radius: 2mm;
+  background: #fdfdfd;
+  min-height: 25mm; /* Default height for writing */
+  padding: 2mm; /* Internal space */
+}
+
+.prep-box.large-box {
+  min-height: 40mm; /* More space for thesis or summary */
+}
+
 
 /* Print optimizations */
 @media print {
