@@ -167,17 +167,14 @@ hr {
 }
 
 .twocol {
-  display: table;
+  display: flex;
+  justify-content: space-between;
+  gap: 4mm;
   width: 100%;
-  border-collapse: separate;
-  border-spacing: 4mm 0;
-  margin: 2mm -4mm 3mm;
 }
 
 .twocol .block {
-  display: table-cell;
   width: 50%;
-  vertical-align: top;
   font-size: 10pt;
   padding: 4mm;
 }
