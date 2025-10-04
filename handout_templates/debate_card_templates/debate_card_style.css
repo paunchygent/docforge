@@ -331,8 +331,8 @@ hr {
   font-family: "Avenir Next", Avenir, "Gill Sans", sans-serif;
   font-size: 10pt;
   font-weight: 600;
-  color: var(--text);
   text-transform: uppercase;
+  color: var(--accent);
   margin: 4mm 0 1mm; /* Standard space before a list */
 }
 
