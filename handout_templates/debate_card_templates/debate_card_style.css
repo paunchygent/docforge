@@ -310,6 +310,49 @@ hr {
 }
 
 
+/* === STUDENT GUIDE ADDITIONS (Corrected) === */
+.guide-section {
+  border: 0.4mm solid var(--border);
+  border-radius: 3mm;
+  padding: 4mm;
+  margin-bottom: 5mm;
+  break-inside: avoid;
+}
+
+.guide-section h2 {
+  margin-top: 0;
+  padding-bottom: 1mm;
+  border-bottom: 0.5mm solid var(--accent-light);
+}
+
+/* Consistent heading styles */
+.guide-section h3,
+.guide-section h4 {
+  font-family: "Avenir Next", Avenir, "Gill Sans", sans-serif;
+  font-size: 10pt;
+  font-weight: 600;
+  color: var(--text);
+  text-transform: uppercase;
+  margin: 4mm 0 1mm; /* Standard space before a list */
+}
+
+/* Consistent paragraph styles */
+.guide-section p {
+  margin: 0 0 1mm; /* Standard space before a list */
+}
+
+/* Definitive list styles */
+.guide-section ul,
+.guide-section ol {
+  margin: 0; /* Override all default margins */
+  padding-left: 5mm; /* Align all lists */
+}
+
+/* Fix for blue bolded text */
+.guide-section li strong {
+  color: var(--text);
+}
+
 /* Print optimizations */
 @media print {
   body { padding: 0; }
