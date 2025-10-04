@@ -304,6 +304,14 @@ hr {
   min-height: 40mm; /* More space for thesis or summary */
 }
 
+.expanded-box {
+  min-height: 31.25mm; /* 25% taller than prep-box */
+}
+
+.expanded-box.large-box {
+  min-height: 50mm; /* 25% taller than large-box */
+}
+
 
 /* Print optimizations */
 @media print {
