@@ -4,6 +4,9 @@
 - Stand up repository governance, Python/PDM tooling, and a Tailwind CSS v4 build so HTML handouts export cleanly to PDF/Docx through a single CLI.
 
 ## Worklog
+- 2025-10-06T09:14+02:00 — Created `debate_foundations_reference.html` as continuous A4-optimized reference document with logical sections and strategic page breaks for print cohesion.
+- 2025-10-06T09:01+02:00 — Created `POWERPOINT_CONVERSION_INSTRUCTIONS.md` with AI agent instructions for interpreting markdown slide structure and `debate_foundations_slides.html` using debate_card_style.css for visual cohesion across all materials.
+- 2025-10-06T08:54+02:00 — Created `debate_foundations_slides.md` as foundational slide deck covering debate format, SEAL structure, rebuttals, POIs, weighing, and core rhetorical concepts to ground students before using prep planner and score card.
 - 2025-10-01T22:15+02:00 — Generated spaced repetition PDF via `pdm run build:pdf` and captured Fontconfig cache guidance.
 - 2025-10-02T11:28+02:00 — Linked Tailwind bundle into spaced repetition template, rebuilt CSS, and verified WeasyPrint renders Tailwind classes (noting unsupported @layer/@property warnings).
 - 2025-10-01T22:05+02:00 — Implemented Typer-based handout builder CLI that generates PDF/Docx artefacts under `build/` and documented usage.

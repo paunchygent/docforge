@@ -36,6 +36,7 @@ body {
   background: #fff;
   padding: 0;
   line-height: 1.5;
+  text-align: left; /* Default to left-align to prevent wide word spacing */
 }
 
 .page {
@@ -111,6 +112,17 @@ li {
   margin-bottom: 1mm;
   font-size: 9pt;
   color: #4b5563; /* A slightly different muted color */
+}
+
+code {
+  background-color: var(--panel-bg);
+  border: 0.3mm solid var(--border);
+  border-radius: 1mm;
+  padding: 0.5mm 1mm;
+  font-family: "Menlo", "Consolas", "Courier New", monospace;
+  font-size: 9pt;
+  color: var(--text);
+  white-space: nowrap;
 }
 
 /* Special sections */
@@ -219,7 +231,6 @@ hr {
   list-style-position: inside;
   column-count: 3;
   column-gap: 5mm;
-  text-align: justify;
 }
 
 .domain-words li {
