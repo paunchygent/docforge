@@ -12,7 +12,7 @@ Contributors help convert Tailwind-powered HTML handouts into polished PDFs/Docx
 - `scripts/` contains operational tooling: CLI entry points at the root (`handout_builder.py`, `build_css.py`), conversion utilities in `scripts/converters/`, and maintenance helpers in `scripts/maintenance/`.
 - `docs/` hosts converter manuals (e.g. `docs/converters/html_to_pdf.md`), Tailwind v4 notes, and supporting assets under `docs/assets/`.
 - `build/` contains generated artefacts (PDF/Docx). Keep it untracked; outputs are regenerated on demand.
-- `rapport_till_kollegor/` retains example datasets and generated reports—scrub sensitive exports before committing updates.
+- `rapportmallar/` retains example datasets and historical report assets—scrub sensitive exports before committing updates.
 - `TASKS/` tracks worklog and plans; append new notes instead of rewriting history.
 
 ## Build, Test, and Development Commands

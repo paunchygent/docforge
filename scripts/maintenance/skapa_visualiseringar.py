@@ -4,10 +4,17 @@ Visualiseringar för bedömarpanelrapporten
 Skapar pedagogiska diagram för att illustrera resultaten
 """
 
+from pathlib import Path
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
+
+
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+OUTPUT_DIR = PROJECT_ROOT / "handout_templates" / "report_templates"
+OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 # Konfigurera svenska teckenuppsättning och stil
 plt.rcParams['font.family'] = 'DejaVu Sans'
@@ -78,7 +85,7 @@ ax.axvline(x=0, color='gray', linestyle='--', alpha=0.5)
 ax.grid(axis='x', alpha=0.3)
 
 plt.tight_layout()
-plt.savefig('/mnt/user-data/outputs/figur1_uppsatskvalitet.png', dpi=150, bbox_inches='tight')
+plt.savefig(OUTPUT_DIR / 'figur1_uppsatskvalitet.png', dpi=150, bbox_inches='tight')
 plt.close()
 
 print("✓ Figur 1: Uppsatskvalitet skapad")
@@ -125,7 +132,7 @@ ax.legend(loc='lower right')
 ax.grid(axis='x', alpha=0.3)
 
 plt.tight_layout()
-plt.savefig('/mnt/user-data/outputs/figur2_bedömarstränghet.png', dpi=150, bbox_inches='tight')
+plt.savefig(OUTPUT_DIR / 'figur2_bedömarstränghet.png', dpi=150, bbox_inches='tight')
 plt.close()
 
 print("✓ Figur 2: Bedömarstränghet skapad")
@@ -186,7 +193,7 @@ for bar, step in zip(bars, steps):
             f'{step:.2f}', ha='center', va='bottom', fontsize=9)
 
 plt.tight_layout()
-plt.savefig('/mnt/user-data/outputs/figur3_betygströsklar.png', dpi=150, bbox_inches='tight')
+plt.savefig(OUTPUT_DIR / 'figur3_betygströsklar.png', dpi=150, bbox_inches='tight')
 plt.close()
 
 print("✓ Figur 3: Betygströsklar skapad")
@@ -235,7 +242,7 @@ for x, count in zip(spread_counts.index, spread_counts.values):
             ha='center', va='bottom', fontsize=9)
 
 plt.tight_layout()
-plt.savefig('/mnt/user-data/outputs/figur4_bedömarspridning.png', dpi=150, bbox_inches='tight')
+plt.savefig(OUTPUT_DIR / 'figur4_bedömarspridning.png', dpi=150, bbox_inches='tight')
 plt.close()
 
 print("✓ Figur 4: Bedömarspridning skapad")
@@ -321,7 +328,7 @@ ax4.grid(axis='x', alpha=0.3)
 plt.suptitle('Sammanfattning: Kalibrering av ankaruppsatser', 
             fontsize=16, fontweight='bold', y=1.02)
 
-plt.savefig('/mnt/user-data/outputs/figur5_dashboard.png', dpi=150, bbox_inches='tight')
+plt.savefig(OUTPUT_DIR / 'figur5_dashboard.png', dpi=150, bbox_inches='tight')
 plt.close()
 
 print("✓ Figur 5: Dashboard skapad")

@@ -31,8 +31,8 @@ pdm run python scripts/converters/convert_html_to_pdf.py --check-backends
 ### Convert the Kalibrering Report
 ```bash
 pdm run python scripts/converters/convert_html_to_pdf.py \
-  rapport_till_kollegor/files/kalibrering_rapport_korrigerad.html \
-  -o rapport_till_kollegor/files/kalibrering_rapport_korrigerad.pdf
+  handout_templates/report_templates/kalibrering_rapport_a4_optimized.html \
+  -o build/pdf/report_templates/kalibrering_rapport_a4_optimized.pdf
 ```
 
 ### Batch Builds via Handout CLI

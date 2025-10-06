@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Handout build CLI.
 
-Coordinates Tailwind CSS builds and delegates to converter utilities in
-`scripts/converters` to produce PDF/Docx artefacts from the handout templates.
+Delegates to converter utilities in `scripts/converters` to produce PDF/Docx
+artefacts from the handout templates.
 """
 
 from __future__ import annotations
