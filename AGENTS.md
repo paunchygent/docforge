@@ -20,7 +20,7 @@ Contributors help convert Tailwind-powered HTML handouts into polished PDFs/Docx
 - `pnpm install` and `pdm install` set up Node + Python environments; rerun after dependency changes.
 - Let pnpm manage semantic versions (use caret ranges by default; avoid hard pins unless a regression requires it).
 - `pdm run build:css` wraps the Tailwind v4 CLI (`tailwindcss` via pnpm) and emits `styles/dist/tailwind.css`.
-- `pdm run build:pdf` / `pdm run build:docx` invoke the Typer builder (`scripts/handout_builder.py`). Use the CLI flags (`--template`, `--skip-css`, `--verbose`) instead of creating new entry points.
+- `pdm run build:pdf` / `pdm run build:docx` invoke the Typer builder (`scripts/handout_builder.py`). Use the CLI flags (`--template`, `--verbose`) instead of creating new entry points.
 - `pdm run lint`, `pdm run format`, and `pdm run typecheck` enforce Ruff and MyPy baselines.
 - `pdm run test` executes the pytest suite; add fixtures for new template families.
 

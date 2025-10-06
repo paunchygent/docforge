@@ -41,7 +41,6 @@ pdm run build:pdf --template kalibrering
 ```
 - Outputs land in `build/pdf/`, preserving the template directory structure.
 - Repeat `--template` flags to narrow builds, or omit them to process every template under `handout_templates/`.
-- Add `--skip-css` if Tailwind assets are already compiled locally.
 - If Fontconfig reports missing cache directories, run with `XDG_CACHE_HOME=$PWD/.cache` or pre-create `~/.cache/fontconfig`.
 
 ## Features
