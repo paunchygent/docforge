@@ -65,3 +65,6 @@ The generated PDF:
 - Images must be in the same directory as the HTML file or use absolute paths
 - WeasyPrint provides the best results for complex styled HTML
 - pypandoc fallback has limitations with Unicode symbols and image paths
+
+### Template-specific PDF options
+- Add `<meta name="handout:pdf:inject_supplementary_css" content="false">` inside `<head>` when your template already manages page size and break rules. Omit the tag (or set it to `true`) to keep the converter’s supplementary print CSS.

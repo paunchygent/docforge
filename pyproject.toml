@@ -10,14 +10,15 @@ requires-python = ">=3.11,<3.13"
 license = { text = "MIT" }
 dependencies = [
     "jinja2",
-    "typer>=0.12.3",
+    "typer",
     "rich",
     "python-frontmatter",
-    "weasyprint>=66.0",
+    "weasyprint",
     "pypandoc",
     "docxtpl",
     "watchfiles",
     "beautifulsoup4",
+    "pymupdf",
 ]
 
 [dependency-groups]

@@ -18,8 +18,10 @@ Features:
 import argparse
 import logging
 import sys
+from dataclasses import dataclass
+from html.parser import HTMLParser
 from pathlib import Path
-from typing import Optional, Tuple
+from typing import Dict, Optional, Tuple
 
 # Check for weasyprint availability (primary backend)
 try:
@@ -72,6 +74,61 @@ def validate_html_file(input_path: Path) -> None:
 
     if images_found:
         logging.info(f"Found {len(images_found)} image(s) in same directory: {', '.join(images_found)}")
+
+
+@dataclass(frozen=True)
+class TemplateBuildOptions:
+    """Configuration derived from template-level metadata."""
+
+    inject_supplementary_css: bool = True
+
+
+class _TemplateMetaParser(HTMLParser):
+    """Minimal HTML parser to collect meta tag values by name."""
+
+    def __init__(self) -> None:
+        super().__init__()
+        self._meta: Dict[str, str] = {}
+
+    def handle_starttag(self, tag: str, attrs):  # type: ignore[override]
+        if tag.lower() != "meta":
+            return
+        attr_map = {name.lower(): (value or "") for name, value in attrs}
+        name = attr_map.get("name")
+        content = attr_map.get("content")
+        if name and content is not None:
+            self._meta[name.lower()] = content
+
+    @property
+    def meta(self) -> Dict[str, str]:
+        return self._meta
+
+
+def _parse_bool(value: str, *, default: bool) -> bool:
+    """Understand common truthy/falsey strings while keeping a default."""
+
+    normalized = value.strip().lower()
+    if not normalized:
+        return default
+    if normalized in {"1", "true", "yes", "on", "enable", "enabled"}:
+        return True
+    if normalized in {"0", "false", "no", "off", "disable", "disabled"}:
+        return False
+    return default
+
+
+def extract_template_options(html_content: str) -> TemplateBuildOptions:
+    """Inspect template metadata to drive converter behaviour."""
+
+    parser = _TemplateMetaParser()
+    parser.feed(html_content)
+
+    inject_css_meta = parser.meta.get("handout:pdf:inject_supplementary_css")
+    inject_css = TemplateBuildOptions.inject_supplementary_css
+    if inject_css_meta is not None:
+        inject_css = _parse_bool(inject_css_meta, default=inject_css)
+
+    return TemplateBuildOptions(inject_supplementary_css=inject_css)
 
 
 def get_supplementary_css() -> str:
@@ -148,7 +205,8 @@ def get_supplementary_css() -> str:
 def convert_with_weasyprint(
     html_path: Path,
     output_path: Path,
-    add_supplementary_css: bool = True
+    add_supplementary_css: bool = True,
+    html_content: Optional[str] = None
 ) -> Path:
     """
     Convert HTML to PDF using WeasyPrint (best CSS support).
@@ -171,8 +229,9 @@ def convert_with_weasyprint(
         font_config = FontConfiguration()
 
         # Read HTML content with UTF-8 encoding
-        with open(html_path, "r", encoding="utf-8") as f:
-            html_content = f.read()
+        if html_content is None:
+            with open(html_path, "r", encoding="utf-8") as f:
+                html_content = f.read()
 
         # Create HTML object with proper base URL for relative image paths
         html_doc = HTML(
@@ -290,6 +349,16 @@ def convert_html_to_pdf(
     # Validate input
     validate_html_file(input_path)
 
+    # Read HTML content once and evaluate template-specific build options
+    with open(input_path, "r", encoding="utf-8") as html_file:
+        html_content = html_file.read()
+
+    template_options = extract_template_options(html_content)
+    if not template_options.inject_supplementary_css:
+        logging.info(
+            "Template disabled supplementary print CSS injection via meta tag."
+        )
+
     # Determine output path
     if output_path is None:
         output_path = input_path.with_suffix(".pdf")
@@ -302,7 +371,12 @@ def convert_html_to_pdf(
 
     if prefer_weasyprint and WEASYPRINT_AVAILABLE:
         try:
-            result = convert_with_weasyprint(input_path, output_path)
+            result = convert_with_weasyprint(
+                input_path,
+                output_path,
+                add_supplementary_css=template_options.inject_supplementary_css,
+                html_content=html_content,
+            )
             backend_used = "weasyprint"
             return result, backend_used
         except Exception as e:
