@@ -1,21 +1,40 @@
----
-source: Impulser 2 ss 108-123 Renässansen till och med Cervantes.pdf
-converted: convert_pdf_to_md.py
----
+--- source: Impulser 2 ss 108-123 Renässansen till och med Cervantes.pdf
+converted: convert_pdf_to_md.py ---
 
-Den unga renässanskvinnan heter Isabel de Requesens och var gift med vicekungen av Neapel. Ansiktet målades av mästaren Rafael medan resten av målningen färdigställdes av Giulio Romano, 1483.
 
 # Sanna renässansmänniskor
 
-— Land i sikte! hördes ropet från mastkorgen. Efter att skeppen hade seglat västerut över Atlanten oavbrutet i trettiosex dagar såg utkiken en ny och främmande kust. Det var den 12 oktober 1492 som Christofer Columbus och hans tre skepp nådde land. Columbus hade upptäckt Amerika utan att själv förstå vad han hade gjort — hela sitt liv trodde han att han hittat en ny väg till Indien.
+— Land i sikte! hördes ropet från mastkorgen. Efter att skeppen hade seglat
+västerut över Atlanten oavbrutet i trettiosex dagar såg utkiken en ny och
+främmande kust. Det var den 12 oktober 1492 som Christofer Columbus och hans tre
+skepp nådde land. Columbus hade upptäckt Amerika utan att själv förstå vad han
+hade gjort — hela sitt liv trodde han att han hittat en ny väg till Indien.
 
-Columbus tillhörde en ny tidsålder, renässansen. De senaste hundra åren hade lärda män intresserat sig allt mer för antikens författare och tänkare, och tidigare okända handskrifter från Grekland hade återfunnits. Den kanske viktigaste uppfinningen av alla, och som också skapade villkoren för den nya perioden, var boktryckarkonsten. Tekniken att trycka böcker gav världens första löpandebandprodukt och resulterade i att tillgången på litteratur ökade drastiskt. En av de författare vars böcker trycktes i stora upplagor var Erasmus av Rotterdam (1466-1536). Han var prästutbildad, men verksam som lärare och författare. Hans största intresse var den grekiska antiken.
+Columbus tillhörde en ny tidsålder, renässansen. De senaste hundra åren hade
+lärda män intresserat sig allt mer för antikens författare och tänkare, och
+tidigare okända handskrifter från Grekland hade återfunnits. Den kanske
+viktigaste uppfinningen av alla, och som också skapade villkoren för den nya
+perioden, var boktryckarkonsten. Tekniken att trycka böcker gav världens första
+löpandebandprodukt och resulterade i att tillgången på litteratur ökade
+drastiskt. En av de författare vars böcker trycktes i stora upplagor var Erasmus
+av Rotterdam (1466-1536). Han var prästutbildad, men verksam som lärare och
+författare. Hans största intresse var den grekiska antiken.
 
-I sitt verk Dårskapens lov låter han Dårskapen själv, personifierad av en kvinna, tala direkt till läsaren.
+I sitt verk Dårskapens lov låter han Dårskapen själv, personifierad av en
+kvinna, tala direkt till läsaren.
 
 ## Renässansen som epok
 
-Ordet renässans betyder pånyttfödelse och det är antikens litteratur, konst och arkitektur som föds på nytt. Renässansen, som var en typisk hov- och stadskultur, började i Norditalien redan på 1300-talet och spred sig sedan till länder som Frankrike, Spanien och England. I Sverige var det först under drottning Kristina på 1600-talet som renässansen gav avtryck i litteraturen. Under renässansen upptäcktes Amerika av Columbus och den katolska kyrkan splittrades genom uppkomsten av de protestantiska kyrkorna i norra Europa. Detta ledde till blodiga religionskrig i många länder. I flera europeiska stater utvecklades en stark furstemakt, där idealet var en stark härskare som kunde ge folket trygghet i oroliga tider. En viktig uppfinning var boktryckarkonsten.
+Ordet renässans betyder pånyttfödelse och det är antikens litteratur, konst och
+arkitektur som föds på nytt. Renässansen, som var en typisk hov- och
+stadskultur, började i Norditalien redan på 1300-talet och spred sig sedan till
+länder som Frankrike, Spanien och England. I Sverige var det först under
+drottning Kristina på 1600-talet som renässansen gav avtryck i litteraturen.
+Under renässansen upptäcktes Amerika av Columbus och den katolska kyrkan
+splittrades genom uppkomsten av de protestantiska kyrkorna i norra Europa. Detta
+ledde till blodiga religionskrig i många länder. I flera europeiska stater
+utvecklades en stark furstemakt, där idealet var en stark härskare som kunde ge
+folket trygghet i oroliga tider. En viktig uppfinning var boktryckarkonsten.
 
 > Vem vågar påstå att inte varje levnadsålder i det mänskliga livet blir sorgfylld, eländig, glädjelös och outhärdlig, om njutningen, dårskapens krydda, saknas? Jag skulle kunna som ett utmärkt bevis härför anföra de berömmande ord, som den store Sofokles fäller om mig i följande sentens: "Det är behagligaste livet består i att vara oförståndig."
 
@@ -23,152 +42,361 @@ Erasmus av Rotterdam, Dårskapens lov, 1511
 
 **sentens** = visdomsord
 
-Erasmus av Rotterdam var inte den enda som hade ett stort intresse för antiken. Också fransmannen François Rabelais (ca 1494-1553) hade kommit i kontakt med de nya tankar som flödade in från Norditalien. Precis som Erasmus hade Rabelais en bakgrund inom kyrkan. Han hade varit munk, men lämnade klosterlivet och började studera grekiska, juridik och medicin. Han bröt tidvis helt med den katolska kyrkan. Rabelais var en sann renässansmänniska som gick sin egen väg.
+Erasmus av Rotterdam var inte den enda som hade ett stort intresse för antiken.
+Också fransmannen François Rabelais (ca 1494-1553) hade kommit i kontakt med de
+nya tankar som flödade in från Norditalien. Precis som Erasmus hade Rabelais en
+bakgrund inom kyrkan. Han hade varit munk, men lämnade klosterlivet och började
+studera grekiska, juridik och medicin. Han bröt tidvis helt med den katolska
+kyrkan. Rabelais var en sann renässansmänniska som gick sin egen väg.
 
-I berättelsen om jätten Gargantuas märkliga öden och äventyr kunde Rabelais kritisera den föråldrade utbildning som drevs av kyrkan. Gargantua skulle nämligen läsa vid universitetet i Paris, vilket orsakade en del problem på grund av hans storlek. Sagoformatet gjorde det möjligt för Rabelais att få skrattarna på sin sida och på så sätt undvika censur. Efter många dråpliga äventyr slutar berättelsen med att Gargantua grundar en ny klosterorden som han kallar Thélème eller "Önskan". Den har en enda regel: Gör vad du vill!
+I berättelsen om jätten Gargantuas märkliga öden och äventyr kunde Rabelais
+kritisera den föråldrade utbildning som drevs av kyrkan. Gargantua skulle
+nämligen läsa vid universitetet i Paris, vilket orsakade en del problem på grund
+av hans storlek. Sagoformatet gjorde det möjligt för Rabelais att få skrattarna
+på sin sida och på så sätt undvika censur. Efter många dråpliga äventyr slutar
+berättelsen med att Gargantua grundar en ny klosterorden som han kallar Thélème
+eller "Önskan". Den har en enda regel: Gör vad du vill!
 
-”**... ty vi människor är alltid färdiga att göra det som är förbjudet och vi åtrår det som är oss nekat.
+”**... ty vi människor är alltid färdiga att göra det som är förbjudet och vi
+åtrår det som är oss nekat.
 
-Tack vare denna frihet uppstod mellan dem alla en berömvärd tävlan om att göra vad de såg behaga en enskild. Om en man eller kvinna sade: "Låt oss dricka", så drack alla. Om någon sade: "Låt oss spela", så spelade alla. Och om han eller hon sade: "Låt oss gå ut och ströva omkring i skog och mark", så följde alla med.**”
+Tack vare denna frihet uppstod mellan dem alla en berömvärd tävlan om att göra
+vad de såg behaga en enskild. Om en man eller kvinna sade: "Låt oss dricka", så
+drack alla. Om någon sade: "Låt oss spela", så spelade alla. Och om han eller
+hon sade: "Låt oss gå ut och ströva omkring i skog och mark", så följde alla
+med.**”
 
 François Rabelais, Den store Gargantuas förskräckliga leverne, 1534
 
+# ”Sjung o gudinna”
 
-Jätten Gargantua äter sin måltid.
+Samtala om texten
 
-Illustration av Gustav Doré.
+1. Vad förenar Erasmus av Rotterdam och Rabelais i de korta utdragen? Vad är det för livssyn de ger uttryck för?
+
+2. Vilken sanning tycker du det finns i Gargantuas resonemang om att vi
+människor dras till sådant som är förbjudet?
+
+3. Vad tänker du själv om principen ”Gör vad du vill”? Kan man verkligen göra
+allt man vill?
 
 ## Kyrkan kontrollerade vetenskapen
 
-Ännu under renässansen samlades all vetenskap inom kyrkan och dess läroinstitutioner.
+Ännu under renässansen samlades all vetenskap inom kyrkan och dess
+läroinstitutioner.
 
-Teologi var sedan universitetens tillkomst under medeltiden det viktigaste ämnet. Det var en polska astronom som tidvis vistats i Italien, Nicolaus Copernicus (1473-1543), som var den första att sammanställa all då tillgänglig kunskap om universum. Copernicus var den förste som med vetenskapliga observationer kunde ge stöd åt teorin om att jorden cirklade runt solen och inte tvärtom, vilket var den allmänna uppfattningen. Copernicus visste att hans insikt kunde vara farlig och förbjöd publicering så länge han var i livet.
+Teologi var sedan universitetens tillkomst under medeltiden det viktigaste
+ämnet. Det var en polska astronom som tidvis vistats i Italien, Nicolaus
+Copernicus (1473-1543), som var den första att sammanställa all då tillgänglig
+kunskap om universum. Copernicus var den förste som med vetenskapliga
+observationer kunde ge stöd åt teorin om att jorden cirklade runt solen och inte
+tvärtom, vilket var den allmänna uppfattningen. Copernicus visste att hans
+insikt kunde vara farlig och förbjöd publicering så länge han var i livet.
 
-Renässansen började i norra Italiens självständiga städer. Florens hade varit en mäktig stad redan under medeltiden och behöll sin ledande roll under de kommande århundradena.
+Renässansen började i norra Italiens självständiga städer. Florens hade varit en
+mäktig stad redan under medeltiden och behöll sin ledande roll under de kommande
+århundradena.
 
-Där skapade arkitekten Filippo Brunelleschi de främsta exemplen på renässansens byggnadsstil. När Florens byggde ett nytt fattigbarnshus använde Brunelleschi antika förebilder som inspiration. Antikens pelare fick en ny funktion genom att inte bara bära upp taket utan också förena höga valv. På det sättet skapade han en ny höjd åt byggnaden. Brunelleschi är också mannen bakom den mest kända byggnaden i staden, kupolen till stadens katedral som reste sig högre än något annat vid den tiden.
+Där skapade arkitekten Filippo Brunelleschi de främsta exemplen på renässansens
+byggnadsstil. När Florens byggde ett nytt fattigbarnshus använde Brunelleschi
+antika förebilder som inspiration. Antikens pelare fick en ny funktion genom att
+inte bara bära upp taket utan också förena höga valv. På det sättet skapade han
+en ny höjd åt byggnaden. Brunelleschi är också mannen bakom den mest kända
+byggnaden i staden, kupolen till stadens katedral som reste sig högre än något
+annat vid den tiden.
 
-Till Florens kom också den konstnär som mer än alla andra brukar knytas till begreppet renässansmänniska, nämligen Leonardo da Vinci. Den svenske 1900-talsförfattaren Pär Lagerkvist låter Bernardo, en av karaktärerna i romanen Dvärgen, likna Leonardo.
+Till Florens kom också den konstnär som mer än alla andra brukar knytas till
+begreppet renässansmänniska, nämligen Leonardo da Vinci. Den svenske
+1900-talsförfattaren Pär Lagerkvist låter Bernardo, en av karaktärerna i romanen
+Dvärgen, likna Leonardo.
 
-**Han är otroligt nyfiken. Han snokar i allting, allt ska han ha reda på och fråga om. Han frågar ut arbetarna om deras verktyg och arbetsmetoder och anmärker och rättar på dem.
+**Han är otroligt nyfiken. Han snokar i allting, allt ska han ha reda på och
+fråga om. Han frågar ut arbetarna om deras verktyg och arbetsmetoder och
+anmärker och rättar på dem.
 
-Han kommer hem med blommor från sina vandringar utanför staden och sätter sig och plockar sönder dem för att se hur de ser ut inuti. Och han kan stå i timtal och iaktta fåglarnas flykt, som om det också vore någonting märkvärdigt. Till och med huvuden av mördare och tjuvar som sitter spetsade utanför slottsporten och som är så gamla att ingen gitter se åt dem mer, kan han stå länge och begrunda som märkvärdiga gåtor, och rita av dem med ett silverstift. Och när Fransesco hängdes för några dagar sen på torget här utanför var han med och tittade på, allra längst fram bland barnungarna, för att se riktigt. Om nätterna står han och ser på stjärnorna. Hans nyfikenhet omfattar allting.**
-
-**Är verkligen vad som helst av intresse?**
+Han kommer hem med blommor från sina vandringar utanför staden och sätter sig
+och plockar sönder dem för att se hur de ser ut inuti. Och han kan stå i timtal
+och iaktta fåglarnas flykt, som om det också vore någonting märkvärdigt. Till
+och med huvuden av mördare och tjuvar som sitter spetsade utanför slottsporten
+och som är så gamla att ingen gitter se åt dem mer, kan han stå länge och
+begrunda som märkvärdiga gåtor, och rita av dem med ett silverstift. Och när
+Fransesco hängdes för några dagar sen på torget här utanför var han med och
+tittade på, allra längst fram bland barnungarna, för att se riktigt. Om nätterna
+står han och ser på stjärnorna. Hans nyfikenhet omfattar allting.**
 
 Pär Lagerkvist, Dvärgen, 1944
 
-# ”Sjung o gudinna”
+Många av de norditalienska städerna var centrum för små självständiga stater, så
+kallade stadsstater. Italien enades inte som land förrän 1861.
 
-Brunelleschis kupol till katedralen har dominerat stadsbilden sedan den byggdes på 1400-talet.
+### Samtala om texten
 
-Många av de norditalienska städerna var centrum för små självständiga stater, så kallade stadsstater. Italien enades inte som land förrän 1861.
+1. Vad kännetecknar Bernardo?
+
+2. Vilka olika ämnen är Bernardo intresserad av?
+
+3. Vilka arbetsmetoder använder han sig av?
+
+4. Finns det några spår av Leonardos arbetssätt i gymnasiets ämnen och
+arbetsmetoder? Ge exempel!
 
 ## Leonardo — konstnär, vetenskapsman, universalgeni
 
-Leonardo da Vincis Den vitruvianske mannen grundar sig på den romerske vetenskapsmannen Vitruvius teori om kroppens byggnad.
+Leonardo da Vincis Den vitruvianske mannen grundar sig på den romerske
+vetenskapsmannen Vitruvius teori om kroppens byggnad.
 
-Leonardo da Vinci (1452-1519) föddes i Toscana som då lydde under Florens i Italien. Han var en italiensk målare och tecknare som bättre än någon annan förkroppsligade renässansens syn på universalgeniet eller den nya människan. Leonardo da Vinci var en multibegåvning: konstnär, arkitekt, konstruktör, uppfinnare och vetenskapsman. Under sitt långa kringflyttande liv arbetade han bland annat för ledningen i Florens, Venedig och Milano. Han är mest känd för tavlan Mona Lisa som du kan se på Louvren i Paris och Nattvarden som finns målad direkt på väggen i en byggnad i Milano. Leonardo da Vincis teckning Den vitruvianske mannen beskriver den moderna människans proportioner och används ofta som en symbol för perfekt harmoni, vilket var ett renässansideal. Leonardo da Vinci levde sina sista år vid det kungliga hovet i Amboise i Frankrike.
+Leonardo da Vinci (1452-1519) föddes i Toscana som då lydde under Florens i
+Italien. Han var en italiensk målare och tecknare som bättre än någon annan
+förkroppsligade renässansens syn på universalgeniet eller den nya människan.
+Leonardo da Vinci var en multibegåvning: konstnär, arkitekt, konstruktör,
+uppfinnare och vetenskapsman. Under sitt långa kringflyttande liv arbetade han
+bland annat för ledningen i Florens, Venedig och Milano. Han är mest känd för
+tavlan Mona Lisa som du kan se på Louvren i Paris och Nattvarden som finns målad
+direkt på väggen i en byggnad i Milano. Leonardo da Vincis teckning Den
+vitruvianske mannen beskriver den moderna människans proportioner och används
+ofta som en symbol för perfekt harmoni, vilket var ett renässansideal. Leonardo
+da Vinci levde sina sista år vid det kungliga hovet i Amboise i Frankrike.
 
 # Den nya furstemakten
 
-En furste i en italiensk stadsstat under 1400-talet tävlade med andra furstar i sin omgivning om allt. Det gällde att ha den rikaste handeln, den vackraste katedralen och de skickligaste konstnärerna i sin tjänst. Kriget var aldrig längre bort än ett brutet fredsavtal. Det kunde vara fred den ena dagen och krig den andra. Länge hade det funnits olika handböcker, eller furstespeglar, som kunde användas när en ung kung fick sin uppfostran. Men det var ingen självklarhet hur en stadsstat skulle styras för att bli stark och rik. Många människor i de italienska stadsstaterna hade en stark önskan att få slut på krigen och splittringen. Det var antagligen det som fick Niccolò Machiavelli (1468-1527) att skriva sin bok Fursten.
+En furste i en italiensk stadsstat under 1400-talet tävlade med andra furstar i
+sin omgivning om allt. Det gällde att ha den rikaste handeln, den vackraste
+katedralen och de skickligaste konstnärerna i sin tjänst. Kriget var aldrig
+längre bort än ett brutet fredsavtal. Det kunde vara fred den ena dagen och krig
+den andra. Länge hade det funnits olika handböcker, eller furstespeglar, som
+kunde användas när en ung kung fick sin uppfostran. Men det var ingen
+självklarhet hur en stadsstat skulle styras för att bli stark och rik. Många
+människor i de italienska stadsstaterna hade en stark önskan att få slut på
+krigen och splittringen. Det var antagligen det som fick Niccolò Machiavelli
+(1468-1527) att skriva sin bok Fursten.
 
-Machiavelli, som var jurist, statsman och diplomat för Florens räkning, hade sett vilka förskräckliga följder splittringen bland de italienska småstaterna fick. I Fursten förespråkar han en stark och enväldig härskare som slår ner allt motstånd för att skapa fred. Offren på vägen dit är oväsentliga eftersom den starka staten är bäst för vanliga medborgare.
+Machiavelli, som var jurist, statsman och diplomat för Florens räkning, hade
+sett vilka förskräckliga följder splittringen bland de italienska småstaterna
+fick. I Fursten förespråkar han en stark och enväldig härskare som slår ner allt
+motstånd för att skapa fred. Offren på vägen dit är oväsentliga eftersom den
+starka staten är bäst för vanliga medborgare.
 
-När Machiavelli skrev om hur en furste bör hålla sina löften, gjorde han det med egna erfarenheter av de politiska motsättningarna mellan de italienska stadsstaterna. Sedan boken trycktes och spreds efter Machiavellis död har den fortsatt att väcka uppmärksamhet och förargelse.
+När Machiavelli skrev om hur en furste bör hålla sina löften, gjorde han det med
+egna erfarenheter av de politiska motsättningarna mellan de italienska
+stadsstaterna. Sedan boken trycktes och spreds efter Machiavellis död har den
+fortsatt att väcka uppmärksamhet och förargelse.
 
 Niccolò Machiavelli målad av Santi di Tito i mitten av 1500-talet.
 
 **Hur en furste bör hålla sina löften**
 
-Att en furste bör ha en läromästare som till hälften är djur och till hälften människa betyder att en furste måste kunna använda sig av både människans och djurets natur och att den ena inte kan bestå utan den andra.
+Att en furste bör ha en läromästare som till hälften är djur och till hälften
+människa betyder att en furste måste kunna använda sig av både människans och
+djurets natur och att den ena inte kan bestå utan den andra.
 
-En furste måste alltå väl kunna använda sig av djurets natur och han bör välja räven och lejonet som sina förebilder, ty lejonet kan inte försvara sig mot fällor och räven kan inte försvara sig mot vargar. Man är alltså tvungen att vara räv för att se fällorna och lejon för att skrämma vargarna. Den som i all enkelhet förlitar sig på lejonets natur förstår inte detta. En klok furste kan följaktligen inte och bör inte hålla ord, när detta är till skada för honom och när de skäl som förorsakade hans löften inte längre är för handen. Om alla människor var goda skulle denna föreskrift inte vara riktig, men eftersom människorna är onda och inte är ordhålliga mot dig behöver du inte vara ordhållig mot dem. Det fattas heller aldrig legitima skäl för en furste när han söker motiv till att inte hålla sitt ord. På detta skulle man kunna ge ett otal exempel och påvisa hur många fredslut och hur många löften som inte har uppfyllts och som har varit värdelösa på grund av furstarnas trolöshet. Den som bäst har förstått att utnyttja rävens egenskaper har lyckats bäst. Men man måste kunna förkläda rävnaturen väl och vara en stor hycklare och skrymtare. Människorna är så enfaldiga och så villiga att lyda det som ögonblicket bjuder, att den som bedrar alltid finner dem som låter sig bedras.**
+En furste måste alltå väl kunna använda sig av djurets natur och han bör välja
+räven och lejonet som sina förebilder, ty lejonet kan inte försvara sig mot
+fällor och räven kan inte försvara sig mot vargar. Man är alltså tvungen att
+vara räv för att se fällorna och lejon för att skrämma vargarna. Den som i all
+enkelhet förlitar sig på lejonets natur förstår inte detta. En klok furste kan
+följaktligen inte och bör inte hålla ord, när detta är till skada för honom och
+när de skäl som förorsakade hans löften inte längre är för handen. Om alla
+människor var goda skulle denna föreskrift inte vara riktig, men eftersom
+människorna är onda och inte är ordhålliga mot dig behöver du inte vara
+ordhållig mot dem. Det fattas heller aldrig legitima skäl för en furste när han
+söker motiv till att inte hålla sitt ord. På detta skulle man kunna ge ett otal
+exempel och påvisa hur många fredslut och hur många löften som inte har
+uppfyllts och som har varit värdelösa på grund av furstarnas trolöshet. Den som
+bäst har förstått att utnyttja rävens egenskaper har lyckats bäst. Men man måste
+kunna förkläda rävnaturen väl och vara en stor hycklare och skrymtare.
+Människorna är så enfaldiga och så villiga att lyda det som ögonblicket bjuder,
+att den som bedrar alltid finner dem som låter sig bedras.**
 
 Niccolò Machiavelli, Fursten, 1532
 
 Översättning av Karin Hybinette
 
-# "Sjung o gudinna”
+### Samtala om texten
+
+1. Varför är lejonet och räven så bra förebilder för den som vill vara en framgångsrik furste?
+
+2. Vilket är skälet till att en furste inte behöver hålla sitt ord?
+
+3. Vilken människosyn tycker du att Machiavelli ger uttryck för i utdraget?
+
+Machiavelli hade läst och kände till den antika litteraturen om statskonsten.
+Naturligtvis beundrade han de antika hjältarna. Läs hans lilla bok fursten och
+ta reda på hur idén om att "en furste bör ha en läromästare som till hälften är
+djur och till hälften människa" styrks med antika exempel.
+
+### Gutenberg och boktryckarkonsten
+
+Genom boktryckarkonsten blev det billigare och snabbare att producera böcker.
+Vanligtvis knyts denna viktiga uppfinning till tysken Johann Gutenberg (ca
+1399-1468) som någon gång på 1450-talet tryckte Bibeln i två praktfulla band.
+
+"I begynnelsen skapade Gud himmel och jord..." Första sidan i Gutenbergs Bibel
+från 1455.
 
 # Cervantes och romankonsten
 
-Spanjoren Miguel Cervantes (1547-1616) var en författare med vad man i dag skulle kalla brokig livserfarenhet. Han stred på den kristna sidan mot turkarna, sårades svårt i sin vänstra hand och togs tillfånga av slavhandlare. Efter fem år som slav i Alger i Nordafrika kom han hem till Spanien, men arbetsmarknaden var inte den allra bästa för en 33-årig man med obrukbar vänsterhand. Han slog sig på att skriva för teatern, men framgångarna lät vänta på sig.
+Spanjoren Miguel Cervantes (1547-1616) var en författare med vad man i dag
+skulle kalla brokig livserfarenhet. Han stred på den kristna sidan mot turkarna,
+sårades svårt i sin vänstra hand och togs tillfånga av slavhandlare. Efter fem
+år som slav i Alger i Nordafrika kom han hem till Spanien, men arbetsmarknaden
+var inte den allra bästa för en 33-årig man med obrukbar vänsterhand. Han slog
+sig på att skriva för teatern, men framgångarna lät vänta på sig.
 
-På 1580-talet fick han arbete som uppköpare av förråd när Spaniens anfall mot England med den stora armadan skulle förberedas. Men Cervantes var lite av en olycksfågel och hamnade i fängelse på grund av trassel med ekonomin. Det var antagligen under en sådan fängelsevistelse som han skapade sina odödliga romanfigurer Don Quijote och Sancho Panza. Romanen Don Quijote är fylld av humor och allvar, fantasi och verklighetsskildring. Huvudpersonerna är en spansk man från fattigadeln, som läst för många riddarromaner, och hans enkla granne som han övertalar att bli hans trogne följeslagare.
+På 1580-talet fick han arbete som uppköpare av förråd när Spaniens anfall mot
+England med den stora armadan skulle förberedas. Men Cervantes var lite av en
+olycksfågel och hamnade i fängelse på grund av trassel med ekonomin. Det var
+antagligen under en sådan fängelsevistelse som han skapade sina odödliga
+romanfigurer Don Quijote och Sancho Panza. Romanen Don Quijote är fylld av humor
+och allvar, fantasi och verklighetsskildring. Huvudpersonerna är en spansk man
+från fattigadeln, som läst för många riddarromaner, och hans enkla granne som
+han övertalar att bli hans trogne följeslagare.
 
 ## Don Quijote — idealisten och drömmaren
 
-Cervantes hjälte i boken Don Quijote är en fattig, adlig man nära femtio "som äger en lans i ett gediget ställ, en gammal lädersköld, ett ök och en vinthund". Som riddare tar han sig namnet Don Quijote de La Mancha. Efter några utflykter i sin närmaste omgivning väljer han sin granne till följeslagare, en enkel bonde som heter Sancho Panza. De två kommer att bli urtypen för ett komiskt radarpar som möter tillvarons utmaningar på olika sätt. Don Quijote är idealist och drömmare medan Sancho Panza är realist med ett enkelt och nära förhållande till verkligheten. Det är också den bilden man får i ett av de mest kända avsnitten ur boken. Någon som "slåss med väderkvarnar" ger i dagligt tal namn åt en galenpanna som har liten kontakt med verkligheten och ger sig på överlägsna inbillade eller verkliga motståndare. Motsatsen är en människa med båda fötterna på jorden, starkt förankrad i verkligheten — en Sancho Panza.
+Cervantes hjälte i boken Don Quijote är en fattig, adlig man nära femtio "som
+äger en lans i ett gediget ställ, en gammal lädersköld, ett ök och en vinthund".
+Som riddare tar han sig namnet Don Quijote de La Mancha. Efter några utflykter i
+sin närmaste omgivning väljer han sin granne till följeslagare, en enkel bonde
+som heter Sancho Panza. De två kommer att bli urtypen för ett komiskt radarpar
+som möter tillvarons utmaningar på olika sätt. Don Quijote är idealist och
+drömmare medan Sancho Panza är realist med ett enkelt och nära förhållande till
+verkligheten. Det är också den bilden man får i ett av de mest kända avsnitten
+ur boken. Någon som "slåss med väderkvarnar" ger i dagligt tal namn åt en
+galenpanna som har liten kontakt med verkligheten och ger sig på överlägsna
+inbillade eller verkliga motståndare. Motsatsen är en människa med båda fötterna
+på jorden, starkt förankrad i verkligheten — en Sancho Panza.
 
 **ök** = en gammal uttjänt häst
 
-**Medan de så red och samtalade om framtiden, blev de varse trettio, fyrtio väderkvarnar, som stod på en slätt och så fort Don Quijote fick syn på dem, sa han till sin vapendragare:
-— Lyckan är med oss, käre Sancho, ty därborta kan du se trettio eller fler av de förskräckligaste jättar som finns. Jag ämnar ge mig i strid med dem, och med det byte jag erövrar från dem ska jag grundlägga vår kommande rikedom. Och märk väl att det är ett för himlen behagligt krig jag tänker företa, då jag befriar jorden från detta onda släkte!
+**Medan de så red och samtalade om framtiden, blev de varse trettio, fyrtio
+väderkvarnar, som stod på en slätt och så fort Don Quijote fick syn på dem, sa
+han till sin vapendragare: — Lyckan är med oss, käre Sancho, ty därborta kan du
+se trettio eller fler av de förskräckligaste jättar som finns. Jag ämnar ge mig
+i strid med dem, och med det byte jag erövrar från dem ska jag grundlägga vår
+kommande rikedom. Och märk väl att det är ett för himlen behagligt krig jag
+tänker företa, då jag befriar jorden från detta onda släkte!
 
 — Men ers nåd, invände Sancho Panza, jag ser inga jättar!
 
-— Jo, det är dem du ser därborta, pekade Don Quijote. De har långa armar — ibland ända till två mil långa.
+— Jo, det är dem du ser därborta, pekade Don Quijote. De har långa armar —
+ibland ända till två mil långa.
 
-— Men ers nåd, invände Sancho Panza, det där som syns därborta är ju inga jättar utan väderkvarnar, och när de rör armarna är det vinden som vrider runt med deras vingar och drar kvarnstenarna.
+— Men ers nåd, invände Sancho Panza, det där som syns därborta är ju inga jättar
+utan väderkvarnar, och när de rör armarna är det vinden som vrider runt med
+deras vingar och drar kvarnstenarna.
 
-— Man kan lätt se, svarade Don Quijote, att du inte läst några riddarromaner — de därborta är jättar, och om du är rädd så dra dig undan och bed för din själ, medan jag ger mig in i denna vidunderliga och ojämna strid!
+— Man kan lätt se, svarade Don Quijote, att du inte läst några riddarromaner —
+de därborta är jättar, och om du är rädd så dra dig undan och bed för din själ,
+medan jag ger mig in i denna vidunderliga och ojämna strid!
 
-Och sedan han sagt detta gav han Rosinante sporrarna utan att lyssna till Sancho Panzas rop att det bara var väderkvarnar och inga jättar. Han ropade istället då han nalkades kvarnarna:
+Och sedan han sagt detta gav han Rosinante sporrarna utan att lyssna till Sancho
+Panzas rop att det bara var väderkvarnar och inga jättar. Han ropade istället då
+han nalkades kvarnarna:
 
 — Fly inte era fega stackare, det är ju bara en ensam riddare som anfaller!
 
-Vinden blev nu starkare och de stora vingarna rörde sig fortare och då Don Quijote såg detta ropade han:
+Vinden blev nu starkare och de stora vingarna rörde sig fortare och då Don
+Quijote såg detta ropade han:
 
-— Även om ni har flera armar än jätten Briareus, så ska jag inte låta mig skrämmas!
+— Även om ni har flera armar än jätten Briareus, så ska jag inte låta mig
+skrämmas!
 
-Med dessa ord anbefallde han sig i sin Dulcineas beskydd och sprängde så med lyftad lans, betäckt med sin sköld, rakt mot den första väderkvarnen. Hans lans träffade en av vingarna som hade en sådan fart att den bröt sönder lansen
+Med dessa ord anbefallde han sig i sin Dulcineas beskydd och sprängde så med
+lyftad lans, betäckt med sin sköld, rakt mot den första väderkvarnen. Hans lans
+träffade en av vingarna som hade en sådan fart att den bröt sönder lansen
 
 **bli varse** = upptäcka
 
-**Briareus** = barn till Uranos och Gaia i den allra äldsta grekiska mytologin. Briareus hade femtio huvuden och hundra armar.
+**Briareus** = barn till Uranos och Gaia i den allra äldsta grekiska mytologin.
+Briareus hade femtio huvuden och hundra armar.
 
 **Dulcinea** = Don Quijotes hjärtedam
 
-**Freston** = Don Quijote tror att hans böcker trollats bort av en trollkarl som heter Freston.
+**Freston** = Don Quijote tror att hans böcker trollats bort av en trollkarl som
+heter Freston.
 
 i många bitar och kastade både ryttare och häst ett långt stycke utåt fältet.
 
-Så fort hans åsna kunde springa skyndade Sancho Panza till sin herres undsättning och fann då han kom fram att Don Quijote knappast kunde röra sig efter det svåra fallet med Rosinante.
+Så fort hans åsna kunde springa skyndade Sancho Panza till sin herres
+undsättning och fann då han kom fram att Don Quijote knappast kunde röra sig
+efter det svåra fallet med Rosinante.
 
-— Må Herren vara er nådig, utropade vapendragaren förskräckt, jag sa ju att ers nåd skulle se sig för och att det bara var fråga om väderkvarnar!
+— Må Herren vara er nådig, utropade vapendragaren förskräckt, jag sa ju att ers
+nåd skulle se sig för och att det bara var fråga om väderkvarnar!
 
-— Tyst, min vän, svarade Don Quijote, krigslyckan är föränderlig och dessutom tror jag fullt och fast att det var trollkarlen Freston, han som stulit hela min bokkammare, som förvandlat jättarna till väderkvarnar för att beröva mig äran av att ha besegrat dem. Men till slut ska i alla fall hans trollkonster inte kunna uträtta något mot mitt goda svärd!
+— Tyst, min vän, svarade Don Quijote, krigslyckan är föränderlig och dessutom
+tror jag fullt och fast att det var trollkarlen Freston, han som stulit hela min
+bokkammare, som förvandlat jättarna till väderkvarnar för att beröva mig äran av
+att ha besegrat dem. Men till slut ska i alla fall hans trollkonster inte kunna
+uträtta något mot mitt goda svärd!
 
-— Ja, det give Gud! utropade Sancho och hjälpte sin herre att åter sitta upp på Rosinante, som också var alldeles ledbruten.
+— Ja, det give Gud! utropade Sancho och hjälpte sin herre att åter sitta upp på
+Rosinante, som också var alldeles ledbruten.
 
 Miguel Cervantes, Don Quijote, 1605
 
 Översättning Edvard Lidforss
 
+### Samtala om texten
+
+1. Ge exempel från utdraget på att Don Quijote är förvirrad och Sancho Panza är verklighetsanknuten och trygg i sig själv.
+
+2. Vad är det egentligen som driver Don Quijote? Hur ser han på sig själv och
+sin uppgift?
+
+3. Fallet med Rosinante gör att Don Quijote får lite bättre grepp om
+verkligheten — men inte helt! Förklara.
+
+4. Hur visar Sancho Panza sin respekt för Don Quijote, trots att denne är helt
+förvirrad?
+
+### Om romanen Don Quijote
+
+- Don Quijote anses vara den första moderna romanen. Det som är nytt är det starka realistiska draget i berättelsen. När Don Quijote manar på sin stackars häst Rosinante ute på den spanska landsbygden är det det verkliga Spanien på 1500-talet som läsaren möter.
+
+- Cervantes karaktärer är inte en gång för alla klara som personer, som i tidigare berättarkonst, utan både Don Quijote och Sancho Panza utvecklas hela tiden medan romanen fortskrider.
+
+- Som kontrast eller motpol till verklighetsskildringen står alla komiska avsnitt där Cervantes som berättare driver med sin stackars huvudperson och hans överdrivna intresse för riddarlivet. De komiska inslagen gör att texten är ganska lättläst, trots att den är över fyrahundra år gammal.
+
 ---
-source: Impulser 2 Shakespeare (ss 124-133).pdf
-converted: convert_pdf_to_md.py
+
+source: Impulser 2 Shakespeare (ss 124-133).pdf converted: convert_pdf_to_md.py
 ---
 
 ### Gåtan Shakespeare
 
-Det har kommit en ny författare till staden, en man som inte skyr några medel för att nå framgång: ”som en kråka har han flaxat upp ur sitt skrå och prytt sig med fjädrar som han har tagit från de riktiga författarna”, skrev en bitter konkurrent som ansåg att en ny författare stulit hans idéer.
+Det har kommit en ny författare till staden, en man som inte skyr några medel
+för att nå framgång: ”som en kråka har han flaxat upp ur sitt skrå och prytt sig
+med fjädrar som han har tagit från de riktiga författarna”, skrev en bitter
+konkurrent som ansåg att en ny författare stulit hans idéer.
 
-Året var 1592, platsen var London och mannen som orsakade de upprörda känslorna var William Shakespeare (1564–1616).
+Året var 1592, platsen var London och mannen som orsakade de upprörda känslorna
+var William Shakespeare (1564–1616).
 
-Varför den då 28-årige Shakespeare lämnade sin familj i Stratford-upon-Avon och sökte sig till Londons teatervärld vet vi inte. Inte heller vet vi varför inte en enda av Shakespeares pjäser bär hans egen signatur. Vad som däremot är obestridligt är att William Shakespeare numera anses som världens främste dramatiker. Ryktbarheten vilar på de 37 pjäser som finns bevarade. Pjäserna samlades och skrevs ner av hans vänner vid teatern efter hans död. Kollegorna insåg Shakespeares snille och skrev helt enkelt ner sina roller som de kom ihåg dem.
+Varför den då 28-årige Shakespeare lämnade sin familj i Stratford-upon-Avon och
+sökte sig till Londons teatervärld vet vi inte. Inte heller vet vi varför inte
+en enda av Shakespeares pjäser bär hans egen signatur. Vad som däremot är
+obestridligt är att William Shakespeare numera anses som världens främste
+dramatiker. Ryktbarheten vilar på de 37 pjäser som finns bevarade. Pjäserna
+samlades och skrevs ner av hans vänner vid teatern efter hans död. Kollegorna
+insåg Shakespeares snille och skrev helt enkelt ner sina roller som de kom ihåg
+dem.
 
-Under sin livstid gav Shakespeare däremot ut en samling med inte mindre än 154 sonetter. Sonettsamlingen gavs ut 1609, men skrevs troligen i början av 1590-talet. I sonetterna kommer läsaren personen Shakespeare lite närmare. En av de mest kända är sonett nummer 18:
+Under sin livstid gav Shakespeare däremot ut en samling med inte mindre än 154
+sonetter. Sonettsamlingen gavs ut 1609, men skrevs troligen i början av
+1590-talet. I sonetterna kommer läsaren personen Shakespeare lite närmare. En av
+de mest kända är sonett nummer 18:
 
 Evig sommar
 
-Skall jag dig likna vid en sommardag? Mig synes sommarens kontrakt för kort, ty du har mer av måtta och behag än Maj, vars knoppar slits av stormen bort.
+Skall jag dig likna vid en sommardag? Mig synes sommarens kontrakt för kort, ty
+du har mer av måtta och behag än Maj, vars knoppar slits av stormen bort.
 
-Än strålar solens öga alltför klart, än har dess gyllne sken i skyar gömts, och allting skönt skall skövlas alltför snart, som därtill av natur och öde dömts.
+Än strålar solens öga alltför klart, än har dess gyllne sken i skyar gömts, och
+allting skönt skall skövlas alltför snart, som därtill av natur och öde dömts.
 
-I evig sommar dock din skönhet står och Döden skall ej yvas någonsin, att vissnande du i hans skugga går, då i evärdlig sång du slutits in.
+I evig sommar dock din skönhet står och Döden skall ej yvas någonsin, att
+vissnande du i hans skugga går, då i evärdlig sång du slutits in.
 
 Så länge bröst kan andas, ögon se, skall dikten leva och sitt liv dig ge.
 
@@ -182,45 +410,141 @@ William Shakespeare, 1609 Översättning av Erik Blomberg
 - Shakespeare återvände till sin hemstad i slutet av sitt liv som en förmögen man. Han gravsattes i samma kyrka som han döptes i.
 - Inom forskningen har det länge pågått en diskussion om den lågutbildade Shakespeare, som aldrig var ute och reste i världen, verkligen kan ha skrivit de pjäser som bär hans namn. Vissa menar att pjäserna måste vara skrivna av någon annan, med högre bildning, men ännu har ingen sådan teori kunnat styrkas.
 
-William Cousins porträtt av William Shakespeare tros likna verklighetens Shakespeare, men det finns ingen säker kunskap om hans utseende.
+William Cousins porträtt av William Shakespeare tros likna verklighetens
+Shakespeare, men det finns ingen säker kunskap om hans utseende.
 
-I Upplev litteraturen 2 hittar du sonetter av Francesco Petrarca (s. 96) och Malte Persson (s. 98).
+### Samtala om texten
+
+1. Sonetten inleds med en fråga, som resten av dikten sedan besvarar. Hur lyder egentligen svaret?
+2. Varför heter dikten Evig sommar, tror du? 3. Sonett nummer 18 anses vara den
+vackraste av Shakespeares alla sonetter. Vissa anser den vara en av de vackraste
+dikter som skrivits. Hur berörs du av dikten?
+
+### Undersök
+
+Sonetten är ett av renässansens vanligaste versmått. En sonett består av 14
+rader som skrivs i grupper om 4 + 4 + 3 + 3 rader men det finns andra sätt att
+skriva sonetter också. Rimflätningen håller ihop stroferna men är ibland
+komplicerad. Slutraden ska överraska eller sammanfatta sonetten. Undersök hur
+väl Evig sommar stämmer överens med hur sonetter vanligen skrivs.
+
+I Upplev litteraturen 2 hittar du sonetter av Francesco Petrarca (s. 96) och
+Malte Persson (s. 98).
 
 ### Teater under hovets beskydd
 
-Pjäsförfattarens och skådespelarens verklighet i Elisabeth I:s (1533–1603) England var hård. Skådespelaryrket ansågs mycket tvivelaktigt och bekämpades av de troende på grund av några ord i Moseböckerna i Bibeln om att en man inte ska klä sig som en kvinna och en kvinna inte ska bete sig som en man.
+Pjäsförfattarens och skådespelarens verklighet i Elisabeth I:s (1533–1603)
+England var hård. Skådespelaryrket ansågs mycket tvivelaktigt och bekämpades av
+de troende på grund av några ord i Moseböckerna i Bibeln om att en man inte ska
+klä sig som en kvinna och en kvinna inte ska bete sig som en man.
 
-Fast all misstro mot teatern kanske inte enbart berodde på att de kvinnliga rollerna spelades av unga pojkar på Shakespeares tid. Det ibland kringflackande livet utanför London, och den osäkra inkomsten, gjorde skådespelarens liv hårt. Knappast några föräldrar önskade detta yrke som en framtid för sina barn. Teaterpubliken måste alltid vinnas, men den var så blandad att det kunde vara en svår uppgift. Den enkla ståplatspubliken måste överröstas och fångades ofta bäst av grova sexskämt och anspelningar på aktuella händelser. Den bättre betalande publiken måste vinnas med högtidliga utläggningar, som anspelade på deras bakgrund och utbildning.
+Fast all misstro mot teatern kanske inte enbart berodde på att de kvinnliga
+rollerna spelades av unga pojkar på Shakespeares tid. Det ibland kringflackande
+livet utanför London, och den osäkra inkomsten, gjorde skådespelarens liv hårt.
+Knappast några föräldrar önskade detta yrke som en framtid för sina barn.
+Teaterpubliken måste alltid vinnas, men den var så blandad att det kunde vara en
+svår uppgift. Den enkla ståplatspubliken måste överröstas och fångades ofta bäst
+av grova sexskämt och anspelningar på aktuella händelser. Den bättre betalande
+publiken måste vinnas med högtidliga utläggningar, som anspelade på deras
+bakgrund och utbildning.
 
-Lösningen för skådespelartruppen var att ha många pjäser på repertoaren, att ibland improvisera och ständigt hitta nya pjäser. Att spionera på konkurrerande teatertrupper och helst kopiera deras framgångar hörde till vardagen.
+Lösningen för skådespelartruppen var att ha många pjäser på repertoaren, att
+ibland improvisera och ständigt hitta nya pjäser. Att spionera på konkurrerande
+teatertrupper och helst kopiera deras framgångar hörde till vardagen.
 
-Trots att det gått mer än fyrahundra år sedan Shakespeares pjäser mötte publiken första gången berör de fortfarande människor världen över. En pjäs som ständigt kommer i nya uppsättningar är Köpmannen i Venedig.
+Trots att det gått mer än fyrahundra år sedan Shakespeares pjäser mötte publiken
+första gången berör de fortfarande människor världen över. En pjäs som ständigt
+kommer i nya uppsättningar är Köpmannen i Venedig.
 
 ### Globe Theatre – Shakespeares teater
 
-Det finns bara en bevarad teckning av Globe Theatre. Teatern brann ner 1613, men en rekonstruktion av Globe Theatre uppfördes 1997. Från början spelade man teater på gårdarna utanför värdshusen. Spåren av detta märks i det som kom att bli renässansens teaterhus, som Globe Theatre är ett exempel på.
+Det finns bara en bevarad teckning av Globe Theatre. Teatern brann ner 1613, men
+en rekonstruktion av Globe Theatre uppfördes 1997. Från början spelade man
+teater på gårdarna utanför värdshusen. Spåren av detta märks i det som kom att
+bli renässansens teaterhus, som Globe Theatre är ett exempel på.
 
-Scenen var högt belägen och sköt ut över den enklare ståplatspubliken som höll till nedanför. Bakom scenen reste sig en byggnad som kunde tjäna som en borg med torn och rum, och där övervåningen till exempel kunde föreställa Julias balkong i pjäsen Romeo och Julia. Runt om teaterns gård och i anslutning till scenbyggnaden reste sig en rund byggnad med bättre platser för sittande publik i så kallade gallerier.
+Scenen var högt belägen och sköt ut över den enklare ståplatspubliken som höll
+till nedanför. Bakom scenen reste sig en byggnad som kunde tjäna som en borg med
+torn och rum, och där övervåningen till exempel kunde föreställa Julias balkong
+i pjäsen Romeo och Julia. Runt om teaterns gård och i anslutning till
+scenbyggnaden reste sig en rund byggnad med bättre platser för sittande publik i
+så kallade gallerier.
 
 Cate Blanchett spelar drottningen av England i filmen Elizabeth: The Golden Age.
 
-Elisabeth I:s tid vid makten kallades ”den gyllene eran” och har en höjdpunkt i samband med att det spanska hotet avvärjs, när den stora armadan förstörs 1588.
+Elisabeth I:s tid vid makten kallades ”den gyllene eran” och har en höjdpunkt i
+samband med att det spanska hotet avvärjs, när den stora armadan förstörs 1588.
 
-En av Shakespeares mest spelade pjäser i moderna uppsättningar är Köpmannen i Venedig. Den handlar om affärsmannen Antonio som lånar ut pengar till sin vän Bassanio. Bassanio behöver pengar för att kunna fria till den vackra arvtagerskan Portia. Vänskapen mellan de två männen är så stark, att Antonio inte kan neka Bassanio någonting, trots att inte heller han är stadd vid kassa. Antonios kapital är bundet i fartyg som väntas i hamn vilken dag som helst. Vad ska de två vännerna göra?
+En av Shakespeares mest spelade pjäser i moderna uppsättningar är Köpmannen i
+Venedig. Den handlar om affärsmannen Antonio som lånar ut pengar till sin vän
+Bassanio. Bassanio behöver pengar för att kunna fria till den vackra
+arvtagerskan Portia. Vänskapen mellan de två männen är så stark, att Antonio
+inte kan neka Bassanio någonting, trots att inte heller han är stadd vid kassa.
+Antonios kapital är bundet i fartyg som väntas i hamn vilken dag som helst. Vad
+ska de två vännerna göra?
 
-När inte någon av dem har pengar får de vända sig till den som har: Shylock. Som så ofta i Shakespeares pjäser är rollen som den judiske penningutlånaren fylld av dubbeltydighet. Den tar dels fasta på publikens judehat i Elisabeth I:s England, dels väcker den åskådarens osäkerhet om inte Shylock ändå är värd sympati, trots sitt olyckliga öde att vara avskydd och förföljd.
+När inte någon av dem har pengar får de vända sig till den som har: Shylock. Som
+så ofta i Shakespeares pjäser är rollen som den judiske penningutlånaren fylld
+av dubbeltydighet. Den tar dels fasta på publikens judehat i Elisabeth I:s
+England, dels väcker den åskådarens osäkerhet om inte Shylock ändå är värd
+sympati, trots sitt olyckliga öde att vara avskydd och förföljd.
 
 ### Möt Shylock – en människa som alla andra
 
-Shylock är jude och därmed i motsats till de kristna inte förhindrad av sin tro att låna ut pengar mot ränta. Han kan göra det möjligt för Antonio att vara den gode vännen och för Bassanio att vara den flotte friaren så att allt kan gå enligt ritningarna. Men tänker Shylock ställa upp på det?
+Shylock är jude och därmed i motsats till de kristna inte förhindrad av sin tro
+att låna ut pengar mot ränta. Han kan göra det möjligt för Antonio att vara den
+gode vännen och för Bassanio att vara den flotte friaren så att allt kan gå
+enligt ritningarna. Men tänker Shylock ställa upp på det?
 
-ANTONIO: Nå, Shylock, får vi räkna på er hjälp? SHYLOCK: Signor Antonio, hur många gånger har ni ej förebått mig på Rialto för mina penningar och mina räntor. Jag utstod det med tålig axelryckning, ty man får tåla är ett arv för vår nation. Ni skällde mig för hedning och för blodhund, och på min judedräkt ni spottade, blott därför att jag nyttjar vad jag äger. Nåväl, nu syns det, att ni mig behöver. Jo jo! Ni kommer till mig, och ni säger: ”Shylock, jag vill ha mynt!” Så säger ni, ni som förut har spottat mig i skägget och sparkat mig, liksom man sparkar bort en hundracka från dörrn. Ni vill ha mynt. Vad bör jag svara er? Bör jag ej säga: ”Har hundar mynt? Och tror ni, att en hund kan låna ut tre tusende dukater?” Kanske jag skulle buga mig i stoftet och viska underdånigt som en slav och säga: ”Nådig herre, sista onsdag täcktes ni spotta på mig, sparka mig, och häromdagen fick jag heta hund; för dessa artigheter vill jag nu så mycket penningar er ge till låns.”
+ANTONIO: Nå, Shylock, får vi räkna på er hjälp? SHYLOCK: Signor Antonio, hur
+många gånger har ni ej förebått mig på Rialto för mina penningar och mina
+räntor. Jag utstod det med tålig axelryckning, ty man får tåla är ett arv för
+vår nation. Ni skällde mig för hedning och för blodhund, och på min judedräkt ni
+spottade, blott därför att jag nyttjar vad jag äger. Nåväl, nu syns det, att ni
+mig behöver. Jo jo! Ni kommer till mig, och ni säger: ”Shylock, jag vill ha
+mynt!” Så säger ni, ni som förut har spottat mig i skägget och sparkat mig,
+liksom man sparkar bort en hundracka från dörrn. Ni vill ha mynt. Vad bör jag
+svara er? Bör jag ej säga: ”Har hundar mynt? Och tror ni, att en hund kan låna
+ut tre tusende dukater?” Kanske jag skulle buga mig i stoftet och viska
+underdånigt som en slav och säga: ”Nådig herre, sista onsdag täcktes ni spotta
+på mig, sparka mig, och häromdagen fick jag heta hund; för dessa artigheter vill
+jag nu så mycket penningar er ge till låns.”
 
-ANTONIO: Jag kunde kalla dig så än en gång och spotta på dig, även sparka dig. Om du vill låna oss den nämnda summan, så giv oss den, men icke som åt vänner, ty vänskap tog ej någonsin en skörd av ofruktbar metall ifrån sin vän; nej, låna hellre åt din fiende: är han ej punktlig, så kan du helt lugnt straffränta ta.
+ANTONIO: Jag kunde kalla dig så än en gång och spotta på dig, även sparka dig.
+Om du vill låna oss den nämnda summan, så giv oss den, men icke som åt vänner,
+ty vänskap tog ej någonsin en skörd av ofruktbar metall ifrån sin vän; nej, låna
+hellre åt din fiende: är han ej punktlig, så kan du helt lugnt straffränta ta.
 
-SHYLOCK: Nej, hör man, hur ni stormar! Jag vill stå väl med er och bli er vän, förgäta all den smälek ni har gjort mig, förhjälpa er ur nöden och ej taga ett öres ränta; men ni vill ej höra. – Det är ju mänskligt? BASSANIO: Ja, det vore mänskligt. SHYLOCK: Och denna mänsklighet vill jag er visa. Följ med mig till notarius publicus och giv mig er revers. Sätt upp för ro skull – ifall ni ej betalar mig tillbaka på dag och ort den summan eller den, allt efter sedelns lydelse – det vitet, att jag får skära ut ett skålpund kött utur er kropp, varhelst det lyster mig. ANTONIO: Nå topp! Jag skriver under den reversen och prisar judens mänsklighet på köpet! BASSANIO: För min skull får ej sådant vite sättas, då blir jag hellre i förlägenhet. ANTONIO: Var obekymrad, det försittes icke. Om tvenne månader – en månad förrän sedeln är förfallen – väntar jag tre gånger tre den sedelns fulla värde. SHYLOCK: O, fader Abraham! Se dessa kristna: hur deras eget hårda handlingssätt lär dem att missförstå andras tankar! – Säg, om han försummar sig, vad vinner jag, ifall jag skulle kräva ut mitt vite? Ett skålpund karlkött, skuret ur en karl, är det så mycket värt, så användbart som kött av får och nöt? Ännu en gång: jag söker blott hans vänskap med min väntjänst. Vill han ta mot den – gott! Om ej – farväl! Men låt mig ej bli skymfad för min godhet.
+SHYLOCK: Nej, hör man, hur ni stormar! Jag vill stå väl med er och bli er vän,
+förgäta all den smälek ni har gjort mig, förhjälpa er ur nöden och ej taga ett
+öres ränta; men ni vill ej höra. – Det är ju mänskligt? BASSANIO: Ja, det vore
+mänskligt. SHYLOCK: Och denna mänsklighet vill jag er visa. Följ med mig till
+notarius publicus och giv mig er revers. Sätt upp för ro skull – ifall ni ej
+betalar mig tillbaka på dag och ort den summan eller den, allt efter sedelns
+lydelse – det vitet, att jag får skära ut ett skålpund kött utur er kropp,
+varhelst det lyster mig. ANTONIO: Nå topp! Jag skriver under den reversen och
+prisar judens mänsklighet på köpet! BASSANIO: För min skull får ej sådant vite
+sättas, då blir jag hellre i förlägenhet. ANTONIO: Var obekymrad, det försittes
+icke. Om tvenne månader – en månad förrän sedeln är förfallen – väntar jag tre
+gånger tre den sedelns fulla värde. SHYLOCK: O, fader Abraham! Se dessa kristna:
+hur deras eget hårda handlingssätt lär dem att missförstå andras tankar! – Säg,
+om han försummar sig, vad vinner jag, ifall jag skulle kräva ut mitt vite? Ett
+skålpund karlkött, skuret ur en karl, är det så mycket värt, så användbart som
+kött av får och nöt? Ännu en gång: jag söker blott hans vänskap med min
+väntjänst. Vill han ta mot den – gott! Om ej – farväl! Men låt mig ej bli
+skymfad för min godhet.
 
-ANTONIO: Ja, Shylock, du skall få en sådan sedel. SHYLOCK: Nå, möt mig genast hos notarien då; låt sätta upp vårt lustiga kontrakt, jag går och samlar in dukaterna, ser om mitt hus, som är i dålig hand och vaktas av en opålitlig slyngel. Jag kommer genast. ANTONIO: Gode jude, skynda! (Shylock går.)
+ANTONIO: Ja, Shylock, du skall få en sådan sedel. SHYLOCK: Nå, möt mig genast
+hos notarien då; låt sätta upp vårt lustiga kontrakt, jag går och samlar in
+dukaterna, ser om mitt hus, som är i dålig hand och vaktas av en opålitlig
+slyngel. Jag kommer genast. ANTONIO: Gode jude, skynda! (Shylock går.)
+
+### Samtala om texten
+
+1. Varför är Shylock tveksam till att låna ut pengar till Antonio?
+2. Ge exempel på trakasserier som Shylock fått utstå för att han är jude. 3.
+Varför menar Antonio att Shylocks verksamhet trots allt kan kritiseras? 4. Vad
+känner Bassanio inför lånevillkoren?
 
 ### Shakespeares sätt att berätta
 
@@ -236,34 +560,73 @@ Här får du handlingen sammanfattad i några av Shakespeares pjäser.
 
 #### En midsommarnattsdröm
 
-Med lätt och genialisk hand varierar Shakespeare förälskelsens och kärlekens tema med flera olika handlingar. Komedin En midsommarnattsdröm skildrar ett adelsbröllop i Aten. Människornas kärleksbekymmer i staden är bara en spegelbild av gudarnas och alla naturväsens kärleksspel i den fria naturen. Det är en lek med ”skuggor i en dröm”, säger Shakespeare med egna ord. Naturligtvis slutar spelet med att rätt älskande får varandra.
+Med lätt och genialisk hand varierar Shakespeare förälskelsens och kärlekens
+tema med flera olika handlingar. Komedin En midsommarnattsdröm skildrar ett
+adelsbröllop i Aten. Människornas kärleksbekymmer i staden är bara en spegelbild
+av gudarnas och alla naturväsens kärleksspel i den fria naturen. Det är en lek
+med ”skuggor i en dröm”, säger Shakespeare med egna ord. Naturligtvis slutar
+spelet med att rätt älskande får varandra.
 
 > "Bra vrålat lejon."
 
 #### Macbeth
 
-I tragedin Macbeth hotar kaos redan från första början: "Rätt är fel, och fel är rätt". Kampen om kungamakten förblindar Macbeth och hans hustru så att de släpper loss alla inneboende krafter att vilja förstöra. När de mördar sin kung Duncan drar de olycka över sig själva. Pjäsen är relativt sen i Shakespeares produktion och återspeglar ett nytt och oroligare politiskt läge efter Elizabeth I:s död och Jakob I:s tronillträde.
+I tragedin Macbeth hotar kaos redan från första början: "Rätt är fel, och fel är
+rätt". Kampen om kungamakten förblindar Macbeth och hans hustru så att de
+släpper loss alla inneboende krafter att vilja förstöra. När de mördar sin kung
+Duncan drar de olycka över sig själva. Pjäsen är relativt sen i Shakespeares
+produktion och återspeglar ett nytt och oroligare politiskt läge efter Elizabeth
+I:s död och Jakob I:s tronillträde.
 
 > "Ske vad som helst! En dag kan vara svår, men genom värsta dag dock timmen går."
 
 #### Hamlet
 
-Världens mest kända pjäs och Shakespeares första riktigt stora tragedi. Hamlets far dör och hans mor gifter om sig med den döde makens bror. Prins Hamlets spelade galenskap och hans mors otillåtna kärlek till sin svåger binder samman två gamla motiv – Shakespeare kombinerar de två. Den springande punkten är just om Hamlet är galen eller bara spelar galen. Det är användandet av Hamlets far som driver handlingen framåt genom prinsens osäkerhet på om han ska lita på vad vålnaden säger eller ej. Shakespeare använder en av medeltidens favoritankar – den om den givna världsordningen. Om den störs riskerar hela skapelsen att störtas i kaos.
+Världens mest kända pjäs och Shakespeares första riktigt stora tragedi. Hamlets
+far dör och hans mor gifter om sig med den döde makens bror. Prins Hamlets
+spelade galenskap och hans mors otillåtna kärlek till sin svåger binder samman
+två gamla motiv – Shakespeare kombinerar de två. Den springande punkten är just
+om Hamlet är galen eller bara spelar galen. Det är användandet av Hamlets far
+som driver handlingen framåt genom prinsens osäkerhet på om han ska lita på vad
+vålnaden säger eller ej. Shakespeare använder en av medeltidens favoritankar –
+den om den givna världsordningen. Om den störs riskerar hela skapelsen att
+störtas i kaos.
 
 > "Vad läser ni, min prins? Ord, ord, ord!"
 
 #### Romeo och Julia
 
-Pojke möter flicka, men deras familjer är dödsfiender och så drabbar de två släkterna samman i något som i dag skulle rubriceras som gängbråk och ungdomsvåld. Romeos och Julias kärlek är vacker, sårbar och hopplös. De dör på grund av ett missförstånd i varandras armar och sensmoralen är att det är bäst att försöka lösa sina konflikter med fredliga medel. Storfilmen Titanic och musikalen West Side Story är varianter av det elisabethanska kärleksdramat som även har en antik förebild i berättelsen om Pyramus och Thisbe i Ovidius Förvandlingar (se s. 70).
+Pojke möter flicka, men deras familjer är dödsfiender och så drabbar de två
+släkterna samman i något som i dag skulle rubriceras som gängbråk och
+ungdomsvåld. Romeos och Julias kärlek är vacker, sårbar och hopplös. De dör på
+grund av ett missförstånd i varandras armar och sensmoralen är att det är bäst
+att försöka lösa sina konflikter med fredliga medel. Storfilmen Titanic och
+musikalen West Side Story är varianter av det elisabethanska kärleksdramat som
+även har en antik förebild i berättelsen om Pyramus och Thisbe i Ovidius
+Förvandlingar (se s. 70).
 
 > "Vad strålar genom fönstret där? Det östern är, och Julia är solen."
 
+---
+
+source: Impulser 2 ss 134-139 Renässansen Svensk stormaktstid och Stiernhielms
+Hercules.pdf converted: convert_pdf_to_md.py ---
 
 # En gång i Stockholm
 
-I Sverige sammanfaller den egentliga renässanslitteraturen med stormaktstiden. Eftersom landet ständigt var i krig under denna period blev det lite tid över för kultur och litteratur. Situationen förbättrades dock när drottning Kristina (1626-1689) blev regent 1644.
+I Sverige sammanfaller den egentliga renässanslitteraturen med stormaktstiden.
+Eftersom landet ständigt var i krig under denna period blev det lite tid över
+för kultur och litteratur. Situationen förbättrades dock när drottning Kristina
+(1626-1689) blev regent 1644.
 
-Efter det att hennes far Gustav II Adolf lämnat landet för det trettioåriga kriget i Tyskland skulle far och dotter aldrig mer återses. Snart skulle modern också fråntas vårdnaden om Kristina. En rad lärare, och till sist rikskanslern, tog över Kristinas uppfostran och utbildning till tronföljare. Kristina besteg tronen som artonåring och hade starka kulturella intressen. Rikets råd ville mest av allt att Kristina skulle gifta sig och säkra tronföljden genom att föda en son. Men en sak förefaller helt klar — Kristina hade inga som helst avsikter att gifta sig. Hur hon såg på äktenskapet framgår tydligt i följande tänkespråk:
+Efter det att hennes far Gustav II Adolf lämnat landet för det trettioåriga
+kriget i Tyskland skulle far och dotter aldrig mer återses. Snart skulle modern
+också fråntas vårdnaden om Kristina. En rad lärare, och till sist rikskanslern,
+tog över Kristinas uppfostran och utbildning till tronföljare. Kristina besteg
+tronen som artonåring och hade starka kulturella intressen. Rikets råd ville
+mest av allt att Kristina skulle gifta sig och säkra tronföljden genom att föda
+en son. Men en sak förefaller helt klar — Kristina hade inga som helst avsikter
+att gifta sig. Hur hon såg på äktenskapet framgår tydligt i följande tänkespråk:
 
 > Det fordras större mod att gifta sig än att draga i fält.
 >
@@ -271,33 +634,83 @@ Efter det att hennes far Gustav II Adolf lämnat landet för det trettioåriga k
 
 ## Agneta Horn
 
-Inte grann en samma andas barn var Agneta Horn (1629-1672), som levde under samma tid som drottning Kristina. Hon hade om möjligt en ännu större erfarenhet av att vara övergiven. Familjen tillhörde högadeln och den dagbok Agneta Horn skriver i sjuttonårsåldern ger en unik inblick i 1600-talets förhållanden. Fadern hade varit upptagen av att kriga i Tyskland eftersom han var en av de ledande fältherrarna i det trettioåriga kriget. Hustrun var med i Tyskland, och där föddes Agneta och hennes bror Axel. Modern dog när Agneta Horn var bara två och hennes bror ett år. Den återstående tiden i Tyskland var en katastrof, med vanvård och svält för de två barnen. När Agneta som femåring kunde resa till Sverige var både moderns och broderns kistor med på fartyget. Uppväxttiden hos en ganska elak faster i Sverige var inte heller någon dans på rosor, men Agneta Horn var en sann överlevare. Inte ens när drottning Kristina bjuder till dans på slottet är livet bekymmersfritt. Agneta Horn är nämligen tvångsförlovad med Erik Sparre, men uppvaktas av en annan man.
+Inte grann en samma andas barn var Agneta Horn (1629-1672), som levde under
+samma tid som drottning Kristina. Hon hade om möjligt en ännu större erfarenhet
+av att vara övergiven. Familjen tillhörde högadeln och den dagbok Agneta Horn
+skriver i sjuttonårsåldern ger en unik inblick i 1600-talets förhållanden.
+Fadern hade varit upptagen av att kriga i Tyskland eftersom han var en av de
+ledande fältherrarna i det trettioåriga kriget. Hustrun var med i Tyskland, och
+där föddes Agneta och hennes bror Axel. Modern dog när Agneta Horn var bara två
+och hennes bror ett år. Den återstående tiden i Tyskland var en katastrof, med
+vanvård och svält för de två barnen. När Agneta som femåring kunde resa till
+Sverige var både moderns och broderns kistor med på fartyget. Uppväxttiden hos
+en ganska elak faster i Sverige var inte heller någon dans på rosor, men Agneta
+Horn var en sann överlevare. Inte ens när drottning Kristina bjuder till dans på
+slottet är livet bekymmersfritt. Agneta Horn är nämligen tvångsförlovad med Erik
+Sparre, men uppvaktas av en annan man.
 
 Agneta Horn målad av David Klöcker Ehrenstrahl.
 
-Det trettioåriga kriget (1618-1648) var en kraftmätning mellan de katolska och protestantiska staterna i de tysktalande länderna i Europa.
+Det trettioåriga kriget (1618-1648) var en kraftmätning mellan de katolska och
+protestantiska staterna i de tysktalande länderna i Europa.
 
 > ... Sedan gick vi upp till slottet på en dans. Och han (Erik Sparre) skulle dansa. Men de stal hans svärdsskida så att han dansade med bara värjan. Då skrattade de åt honom och sade åt mig: "Min goda vän, se hur de gör narr av din fästman." Och det gjorde mig så arg att jag nästan sprack, för jag måste bekänna att jag var en rätt självmedveten ung kvinna och noga med det som var mitt, att den som vill ha mig ska inte låta göra narr av sig. Och från den dagen märkte han väl vart det lutade i samma stund som han bjöd upp mig till dans. Och jag ville inte gå med honom utan bad honom att skämmas för att han lät göra narr av sig. Och om han kan tåla det så kan han väl stå ut med mer. Jag kände inte för att dansa med någon sådan som han var. Därefter svarade han mig: "Jag tror, att ni är galen." Och jag svarade: "En av oss båda är det. Men sörj inte för det. Ni kommer aldrig att få den sorgen att behöva hålla någon som är galen." Och så kom en annan som jag strax gick med. Då tänker jag: "Om han tar det här så tar han väl ännu mer." Men han sade inget mer...
 >
 > "Är det vackert att inte vilja dansa med mig?" "Jag dansar inte med er, så länge det finns någon bättre." Och drottningen sade: "Kan ni tåla, att någon annan dansar med er fästmö, och att hon inte vill dansa med er?" Och han gick till min styvmor och frågade henne, om jag var klok i kväll eller hur jag var. Men när vi gick hem på natten, började min mor (styvmodern) att berömma den andre, som jag dansade med, att han var en sådan vacker man. Men jag anade genast oråd, ty jag var så klok att de inte kunde lura ur mig, vad jag tänkte, så jag teg. Men syftet var att ta reda på vad jag tyckte om honom.
 
-Agneta Horn, Beskrivning över min eländiga och mycket vedervärdiga vandringstid, 1657
+Agneta Horn, Beskrivning över min eländiga och mycket vedervärdiga vandringstid,
+1657
+
+### Samtala om texten
+
+1. Varför vill inte Agneta dansa med Erik?
+
+2. Hur visar hon sitt missnöje?
+
+3. Vilka karaktärsdrag visar Agneta i sina dagboksanteckningar om dansen på
+slottet?
 
 ## Stiernhielm — den svenska skaldekonstens fader
 
-Jöran Lilja (1598-1672) kom från en bergsmannasläkt i Kopparberg och ställde sitt eget horoskop som ett ”Lejonets barn”, eftersom solen stod i Lejonets tecken när han föddes.
+Jöran Lilja (1598-1672) kom från en bergsmannasläkt i Kopparberg och ställde
+sitt eget horoskop som ett ”Lejonets barn”, eftersom solen stod i Lejonets
+tecken när han föddes.
 
-I sitt horoskop kunde han se att framtiden var ljus. Och mycket riktigt hade den unge mannen många framgångar i livet. 1631 adlades han till Georg Stiernhielm. Hans mångsidighet som ämbetsman, jurist och diktare gjorde honom till en väl sedd gäst vid hovet under drottning Kristinas tid.
+I sitt horoskop kunde han se att framtiden var ljus. Och mycket riktigt hade den
+unge mannen många framgångar i livet. 1631 adlades han till Georg Stiernhielm.
+Hans mångsidighet som ämbetsman, jurist och diktare gjorde honom till en väl
+sedd gäst vid hovet under drottning Kristinas tid.
 
-I dag vilar hans berömmelse främst på hexameterdikten Hercules som trycktes 1658 och som gett honom epitetet ”den svenska skaldekonstens fader”. Dikten har hämtat namn och motiv från den grekiska mytologin om den unge Hercules, men skrevs med det bestämda syftet att få de unga svenska adelsmännen att leva mindre utsvävande och tänka mer på studier och arbete.
+I dag vilar hans berömmelse främst på hexameterdikten Hercules som trycktes 1658
+och som gett honom epitetet ”den svenska skaldekonstens fader”. Dikten har
+hämtat namn och motiv från den grekiska mytologin om den unge Hercules, men
+skrevs med det bestämda syftet att få de unga svenska adelsmännen att leva
+mindre utsvävande och tänka mer på studier och arbete.
 
 ### Hercules — i valet och kvalet
 
-Den nordiske Hercules som du möter i Stiernhielms dikt är osäker på hur livet ska levas. Han står i valet och kvalet om han ska välja mellan nöjen och allvar i livet. Valet är svårt för det finns mycket som lockar. Den för framtiden viktigaste frågan är om han ”pris kunna vinna, med tiden, och ära.” När han går där och funderar dyker ett underligt följe upp. Det är fru Lusta och hennes tre döttrar och ende son. Lättja, som är slarvigt klädd, lockar med kortspel och andra tidsfördriv. Kättja är sexigt klädd och ger gärna Hercules en lektion i kärlekens fröjder. Den tredje systern, Flättja, ger person och gestalt åt fäfängan. I sitt sällskap har de sin bror, den levnadsglade Ruus. Han utlovar sällskap och kamratskap med "kannor och krus". Men det är deras mor Fru Lusta som först tar till orda:
+Den nordiske Hercules som du möter i Stiernhielms dikt är osäker på hur livet
+ska levas. Han står i valet och kvalet om han ska välja mellan nöjen och allvar
+i livet. Valet är svårt för det finns mycket som lockar. Den för framtiden
+viktigaste frågan är om han ”pris kunna vinna, med tiden, och ära.” När han går
+där och funderar dyker ett underligt följe upp. Det är fru Lusta och hennes tre
+döttrar och ende son. Lättja, som är slarvigt klädd, lockar med kortspel och
+andra tidsfördriv. Kättja är sexigt klädd och ger gärna Hercules en lektion i
+kärlekens fröjder. Den tredje systern, Flättja, ger person och gestalt åt
+fäfängan. I sitt sällskap har de sin bror, den levnadsglade Ruus. Han utlovar
+sällskap och kamratskap med "kannor och krus". Men det är deras mor Fru Lusta
+som först tar till orda:
 
 **twijkan** = tvekan
 
-Vad för tvekan är i din håg? Beskydda dina ungdomsblomster, och år; din färg, din hy, dina lysande kinder; Pröva dina ögons makt, din oförlikneliga fägring, Älskad, och önskad utav de vänaste jungfrur i landet. Tag dina gåvor i akt, medan åren, och dagarna lida; Sätt dina krafter i bruk, förrän åldern, och gråhåren yppas. Tänk; här är inte bestånd i världen; och allt är i loppet: Såsom en eld, en ström, ett glas, ett gräs, och en blomma; Brinner, och rinner, och skiner, och grönskas och blomstras, om afton; Men finns släckt, stilla, bräckt, och torkat, och vissnat, om morgon:
+Vad för tvekan är i din håg? Beskydda dina ungdomsblomster, och år; din färg,
+din hy, dina lysande kinder; Pröva dina ögons makt, din oförlikneliga fägring,
+Älskad, och önskad utav de vänaste jungfrur i landet. Tag dina gåvor i akt,
+medan åren, och dagarna lida; Sätt dina krafter i bruk, förrän åldern, och
+gråhåren yppas. Tänk; här är inte bestånd i världen; och allt är i loppet: Såsom
+en eld, en ström, ett glas, ett gräs, och en blomma; Brinner, och rinner, och
+skiner, och grönskas och blomstras, om afton; Men finns släckt, stilla, bräckt,
+och torkat, och vissnat, om morgon:
 
 **bestånd** = varaktighet
 
@@ -305,9 +718,13 @@ Vad för tvekan är i din håg? Beskydda dina ungdomsblomster, och år; din fär
 
 Alltså människoliv, som rök försvinner i vädret.
 
-Hel, i dag, och sund; frisk, lustig, fager, och röder; Morgon är kall i mun, stock-stelnad, och död.
+Hel, i dag, och sund; frisk, lustig, fager, och röder; Morgon är kall i mun,
+stock-stelnad, och död.
 
-Den lättledde Hercules är beredd att följa fru Lusta och hennes följe, men så sker ett scenbyte. Ut ur den grönskande skogen kommer en mer seriös skepnad, en trogen gudinna som vill Hercules allt väl, men på ett annat sätt. Hon stakar ut vägen mot en annan framtid.
+Den lättledde Hercules är beredd att följa fru Lusta och hennes följe, men så
+sker ett scenbyte. Ut ur den grönskande skogen kommer en mer seriös skepnad, en
+trogen gudinna som vill Hercules allt väl, men på ett annat sätt. Hon stakar ut
+vägen mot en annan framtid.
 
 **brunst** = sexuell lust
 
@@ -323,8 +740,28 @@ Den lättledde Hercules är beredd att följa fru Lusta och hennes följe, men s
 
 **dövemässlor** = vitplister (nässelliknande växt)
 
-Ungdomens år uti brunst rasa fort, som en ilande virvel, Åldren i mjugg, omärkt, sakt-smilande, smyger i ställe. Varför ge god akt på glaset, att tiden i hwimsku, Ej löper hän: men lär, och gör vad gott är i tida. Tänk vad ett osnyggt djur, en gammal, och dygdelös man är. Åldern har sin vank; när stöd, och stolparna bågna, Gafflarna luta fram ut, och väggarna slå sig i rämnor, Taket gistnar i dropp, och huset börjar att braka; kvarnen har ingen gång, eller gny, och fönstrena mörkna; Malört uti var knut, döve nässlor i springorne växa.
+Ungdomens år uti brunst rasa fort, som en ilande virvel, Åldren i mjugg, omärkt,
+sakt-smilande, smyger i ställe. Varför ge god akt på glaset, att tiden i
+hwimsku, Ej löper hän: men lär, och gör vad gott är i tida. Tänk vad ett osnyggt
+djur, en gammal, och dygdelös man är. Åldern har sin vank; när stöd, och
+stolparna bågna, Gafflarna luta fram ut, och väggarna slå sig i rämnor, Taket
+gistnar i dropp, och huset börjar att braka; kvarnen har ingen gång, eller gny,
+och fönstrena mörkna; Malört uti var knut, döve nässlor i springorne växa.
 
 Georg Stiernhielm, Hercules, 1658
 
-Titelbladet till Georg Stiernhielms Hercules, 1658. Bladet är gjort av diktarens son Georg Otto Stiernhielm.
+Titelbladet till Georg Stiernhielms Hercules, 1658. Bladet är gjort av diktarens
+son Georg Otto Stiernhielm.
+
+### Samtala om texten
+
+1. Vad är Fru Lusta och gudinnan i de två utdragen ense om?
+
+2. Vilka liknelser använder Stiernhielm för ungdomen respektive ålderdomen?
+
+3. Hur bör en ung man leva, enligt Fru Lusta och hennes barn?
+
+4. Varför är det så viktigt att använda ungdomsåren till att studera och
+förbättra sina möjligheter, enligt gudinnan?
+
+5. På vilket sätt märks renässansidealen i Stiernhielms dikt?

@@ -3,6 +3,100 @@ source: Impulser 2 Medeltiden inskannat s 82 till 102.pdf
 converted: convert_pdf_to_md.py
 ---
 
+# Den medeltida världen
+
+Medeltiden brukar delas in i tre grova perioder. Den äldre medeltiden varade från västromerska rikets upplösning 476 till omkring år 1000. Det är i slutet av den perioden som vikingatiden infaller i Norden, omkring 800–1050. Den mest expansiva perioden är högmedeltiden mellan omkring 1000 och 1300. Århundradena i slutet av medeltiden brukar kallas senmedeltiden. Denna pågår under varierande tid i olika delar av Europa. I Italien övergår senmedeltiden strax före 1400 i renässansen. Dantes Den gudomliga komedin utgör en höjdpunkt för den medeltida litteraturen i Europa. I Norden räknas de isländska sagorna och Heliga Birgittas Uppenbarelser som den främsta litteraturen.
+
+Under medeltiden var religionens inflytande över människornas liv stort och för de flesta var det självklart att högre makter kunde ha ett finger med i spelet i det mesta som hände.
+
+Under medeltiden skrivs också de flesta böckerna inom den katolska kyrkan. I många av de texter från medeltiden som vi fortfarande läser i dag är det just kampen mellan det goda och det onda som är det centrala. I *Den gudomliga komedin* berättar italienaren Dante Alighieri om en lång resa han gör genom helvetet och skärselden upp till paradiset. I Sverige skriver Heliga Birgitta ner sina uppenbarelser, som hon ofta får direkt från Jesus mor, Jungfru Maria.
+
+Såväl Dantes som Heliga Birgittas texter gav vägledning till många människor för hur livet borde levas så att de skulle försäkra sig om ett evigt liv i paradiset. Men efter 1300-talets mitt väcktes även ett allt starkare intresse för religionen hos författare i Europa. Också sådana författare får du möta i det här kapitlet.
+
+Men vår medeltidsresa börjar mycket tidigare än så, redan på 900-talet, i utkanten av civilisationen i Europa.
+
+Här på Island, mitt ute i Atlanten, uppstod under medeltiden en helt unik litteratur i världsklass.
+
+Island — nybyggarland i Nordatlanten
+
+På 1600-talet gjorde en biskop på Island ett sensationellt fynd. Biskopen hette Brynjölfur Sveinsson och det var under ett besök på en gammal bondgård som han råkade på en bunt med inte mindre än 45 handskrivna ark med dikter av mycket gammalt nordiskt ursprung.
+
+Innehållet i dikterna berättar om världens och människornas ursprung och går i dag under namnet *Den poetiska Eddan* eller *Den äldre Eddan*. Handskrifterna, som är avskrifter av äldre original, avslöjar bland annat hur islänningarna såg på världen före kristendomen. Det är faktiskt mycket tack vare dessa dikter som kunskaperna om asatron har bevarats för eftervärlden.
+
+En del av dikterna som biskopen fann var så gamla att de troligen bevarats genom muntlig tradition och härstammade från Norge, alltså från tiden före islänningarnas utvandring.
+
+Koloniseringen av Island började i slutet av 800-talet då de första norska skeppen lämnade den norska västkusten i jakten på ett nytt hem mitt i Nordatlanten. Sammanlagt var det cirka 3 000 personer som lämnade Norge vid den här tiden.
+
+De norska hövdingar som flyttade från Norge till Island hade kunskaper både om den gamla asatron och den nya läran som spreds från Europa — läran om Vite Krist. Kristendomen antogs på Island genom ett riksdagsbeslut år 1000, men det stod var och en fritt att fortsätta dyrka de gamla gudarna, bara man inte skyltade med det.
+
+När islänningarna antog kristendomen fick de det latinska alfabetet på köpet. Med alfabetet blev det lättare att skriva ner längre sammanhängande berättelser. Först då kunde också de gamla hedniska berättelserna skrivas ner och bevaras på isländska.
+
+Fyndet av *Den poetiska Eddan* gav nya kunskaper om den nordiska gudavärlden. Diktverket inleds av en völva som under trans berättar om världens tillkomst och förstörelse. Völvorna var kringvandrande spåkvinnor som fanns i Norden under förkristen tid. Den första dikten ”Völvans spådom” i *Den poetiska Eddan* börjar så här:
+
+> Arla i urtid fanns ingenting,
+> ej sand, ej hav, ej svala vågor;
+> jord fanns icke, ingen himmel,
+> där fanns omätligt gap — gräs fanns icke.
+
+Ur detta kaos uppstår en ordnad värld där världsträdet Yggdrasil är den fornnordiska världsbildens centrum: ”En ask vet jag stå, Yggdrasil heter den”, berättar völvan i sin spådom. Världen befolkas av gudar som skapar ordning i skapelsen och jättar som är oberäkneliga och tjänar de onda krafterna. Som en lustig men illasinnad figur mellan gudar och jättar finns Loke. Å ena sidan är han en kreativ kraft som bland annat skänker Oden hans åttafotade springare Sleipner, men å andra sidan sätter han hela skapelsen på spel genom att lura Höder att skjuta en dödlig pil mot sin bror Balder. Det är ingen ljus bild spåkvinnan i dikten ger av tillståndet i världen. Brodermordet leder till att alla regler sätts ur spel.
+
+> Bröder skola slåss och bli varandras bane,
+> och barn utav systrar bryta mot seden,
+> det är hårt i världen, hordom mycken,
+> yxi, knivtid, kluvna sköldar,
+> stormtid, vargtid, förrn värden störtar —
+> ingen man skall den andre skona.
+
+Så slutar berättelsen med världens undergång. Men innan völvan tystnar visar hon på möjligheterna med en ny och underbar värld.
+
+> Upp ser hon komma för andra gången
+> jorden ur havet, ljuvligt grönskande;
+> forsar falla, där flyger örnen,
+> som far och fångar fisk i fjället.
+
+**bane** = mördare  
+**hordom** = otrohet, sexuell lössläppthet  
+**fõrn** = förrän, tills
+
+I den andra dikten i *Den poetiska Eddan* är Oden själv berättare. Dikten bär namnet *Hávamál* eller ”Den höges sång” och där möter läsaren en skiftande samling levnadsregler och myter. Genomgående teman är släktens betydelse och att inget är viktigare än en mans heder och rykte efter döden.
+
+> En son är bättre fast han sent blev född,
+> när mannen ej längre levde;
+> sällan står där vid stigen en bautasten,
+> om ej frände har rest den över frände.
+>
+> Fänaden dör, fränder dö,
+> själv dör du likaledes;
+> men han dör man vunnit ett hedrat namn,
+> och kan det aldrig dö.
+>
+> Fänaden dör, fränder dö,
+> själv dör du likaledes;
+> ett vet jag som aldrig dör:
+> domen som fälls om den döde.
+
+**bautasten** = minnessten utan runor eller bildristningar  
+**frände** = släkting  
+**fänad** = boskap
+
+## Asagudarna
+
+Oden främst bland asarna. Oden var kunskapens gud och bestämde över liv och död. Han var enögd eftersom han offrat sitt ena öga i Mimers brunn för att kunna se allt i världen. Han rider på sin åttafotade häst Sleipner. Hans korpar Munin och Hugin spanar på allt och rapporterar till honom. Han har gett namn till onsdag.
+
+Frigg Odens hustru. Beskyddar äktenskapet och alla mödrar. Frigg har gett namn till fredag.
+
+Balder och Höder Odens söner med Frigg. Både Balder och Höder representerar det godas princip. Den ängslige Höder är blind. Balder är fredsstiftare.
+
+Tor dras runt i sin stridsvagn av två bockar. Ljudet som uppstår kallas tordön och är hans. Tor är den starkaste guden som skapar ordning i kaos i världen som finns i form av jättar och andra onda makter. Tor slåss mot Midgårdsormen och slår med sin hammare Mjölner. Tor har gett namn till torsdag.
+
+Frej leder folk till fred och välstånd. Han är den som håller i skördefesten och är alltid beredd att älska och hans skepp Skidbladner seglar över himlen. Han har gett namn till fredag. Freja är Frejs syster.
+
+Freja är fruktbarhetsgud och kärlekens gudinna. Hon heter också Vanadis. Hon gråter ibland tårar av guld och bär det vackra smycket Brisingamen.
+
+Loke kan förvandla sig till vad han vill. Han är den som har fött Odens häst Sleipner.
+
+Nornorna är de tre ödesgudinnorna Urd, Verdandi och Skuld. De spinner livets tråd och vakar troget över Yggdrasil, världsträdet och vattnar dess rötter.
+
 # Släktsagornas värld
 
 I de isländska sagorna, som utspelar sig mellan 900- och 1200-talen, möter du vikingatidens Island. I sagornas värld är sammanhållningen inom släkten och kampen för överlevnad det allra viktigaste. Tvister avgörs med svärdet och lagt ord ligger — har man sagt något så är det det som gäller.
@@ -33,6 +127,64 @@ I samma stund sprang Torbrand Torleiksson upp på taket och högg sönder Gunnar
 Njals saga, 1200-talet
 
 Översättning av Lars Lönnroth
+
+### Samtala om texten
+
+1. Gunnar och de anfallande uppfattar situationen med pilen på taket på olika sätt. Förklara hur.
+
+2. Vad blir effekten av att utdraget ur Njals saga inte ger någon information om vad personerna tänker och känner? Hur påverkar det din upplevelse av texten?
+
+3. Både Gunnar och de anfallande har sina uppfattningar om vad som är ett hedersamt uppträdande i striden. Ge exempel!
+
+4. Välj ut några citat ur utdraget som visar på den dokumentära och korthuggna stil som utmärker den isländska sagan (se "Sagalitteraturens sätt att berätta" här intill.)
+
+### Sagalitteraturens sätt att berätta och isbergstekniken
+
+- Berättaren i den isländska sagan är objektiv. Likt en utanförstående rapportör återger han endast vad han ser. Berättelsen flyter på snabbt och är full med detaljer vilket ger sagan ett dokumentärt intryck.
+
+- Ordknappheten är regel och texten är fylld med underdrifter. Den sortens berättarstil kallas för lakonisk. Ett exempel är Gunnars yttrande när han vaknar av att hans hund ylar i dödsögonblicket: "Sam, min pojke, de har gått hårt åt dig".
+
+- Sagorna innehåller många brutala stridsskildringar där grymheten förstärks av det sakliga språket. Vad personerna i sagorna tänker eller känner framgår sällan; det är genom deras handlingar och sätt att tala som läsaren får en bild av vilka de är.
+
+- I början av 1900-talet utvecklades en liknande berättarstil, som kallas isbergsteknik, inom romankonsten. Liksom isberget bara är synligt en liten del ovanför vattenytan strävade en författare som Ernest Hemingway med sin hårdkokta stil att låta en stark konflikt bara avslöjas av en eller ett par rader i förbigående. I romanen Och solen har sin gång berör han huvudpersonen Jakes problem, med en krigsskada som lett till att han är impotent, med bara en halv rad: "'Också ett ställe att bli skadad på', suckar Jake när han ser sig själv i spegeln." (Läs mer om Hemingway och isbergstekniken på s. 288-289.)
+
+### Medeltiden
+
+Sagaberättarnas kallhamrade stil, som Njals saga visar prov på, har också framgångsrikt använts i amerikanska deckare. En av de första författarna i den så kallade hårdkokta deckarstilen var Raymond Chandler (1888-1959) som skrev böcker om privatdetektiven Philip Marlowe. Livet som privatdetektiv var inte lätt i 1930-talets Los Angeles. Precis som på sagans Island måste varje man utkräva sin egen rätt bland korrumperade poliser och våldsamma kriminella. I textutdraget har Chandlers huvudperson Marlowe kvällen innan bevittnat ett mord. Så ringer telefonen och fallet blir ännu mer komplicerat och brutalt.
+
+Nästa morgon var ljus, klar och solig. Jag vaknade med en tunga som en boxhandske, drack två koppar kaffe och gick igenom morgontidningarna. Jag hittade ingenting om mr Arthur Gwynn Geiger i nån av dem. Jag försökte just släta ut vecken på min våta kostym när det ringde på telefon. Det var Bernie Ohls, allmänne åklagarens chefsdetektiv, han som hade gett mig vinken om general Sternwood.
+
+— Hur står det till med ponken i dag då? började han. Han lät som en som har sovit gott och inte är skyldig alltför mycket pengar.
+
+— Baksmälla, sa jag.
+
+— O oj oj då. Han skrattade förstrött och så blev hans röst en aning för likgiltig, en slug bylingsröst.
+
+— Träffat general Sternwood än?
+
+— Mmmm.
+
+— Gjort nånting för honom?
+
+— Regnat för mycket, svarade jag, om det nu var ett svar.
+
+— Det tycks vara en familj där det händer saker. En stor Buick som en av dom rår om ligger och plaskar i vågorna vid Lido-piren.
+
+Jag kramade telefonluren så hårt att jag höll på att krossa den. Och så höll jag andan.
+
+— Javisst, tusan, sa Ohls glatt. En ny fin Buick, alldeles nersmetad av sand och havsvatten... och så, det höll jag på att glömma. Det var en kille inuti.
+
+Jag kände hur luften sakta pyste ur mig.
+
+Raymond Chandler, Den stora sömnen, 1939 Översättning av Mårten Edlund
+
+### Samtala om texten
+
+1. Medan Philip Marlowe talar i telefon avslöjas hans känslor. Ge exempel ur textutdraget som förklarar vad han känner.
+
+2. Vad tycker Marlowe egentligen om Bernie Ohls, tror du?
+
+3. Den knappa dialogen är utmärkande för den hårdkokta stilen. Vilka exempel kan du hitta på detta i utdragen ur Njals saga (s. 84-86) och Den stora sömnen?
 
 ## Riddarromaner
 
@@ -81,6 +233,18 @@ Djävulen skrek högt, han röt och tjöt och sade: "Ve mig! Allt mitt minne är
 
 Heliga Birgitta, Uppenbarelser, ca 1370
 
+### Samtala om texten
+
+1. Med vilka ord anger Birgitta att hennes röst kommer från Jungfru Maria?
+
+2. Vilka likheter finns det, enligt uppenbarelsen, mellan födelse- och dödsögonblicket?
+
+3. Vad är det som skyddar Karl Ulfsson från djävulen när hans själ står inför domen?
+
+4. Hur tolkar du ängelns sista uttalande i det andra textutdraget?
+
+**ingivelse** = en plötslig idé
+
 ## Stadskulturens diktare
 
 I Norditalien utvecklades under högmedeltiden en blomstrande stadskultur i stadsstater som Florens, Pisa, Bologna och Lucca. Ekonomin hade länge varit på uppåtgående genom handeln som dessa städer bedrev med Västeuropa och Asien. Den katolska kyrkan fick så småningom minska sina anspråk på total makt över alla sina undersåtar genom de framgångar köpmännen eller borgarna i städerna hade. Men som en höjdpunkt och sammanfattning av medeltidens världsbild skrev Dante Alighieri (1265-1321) Den gudomliga komedin. Dante Alighieri tillbringade tjugo år av sitt liv i landsflykt från sitt älskade Florens.
@@ -111,3 +275,9 @@ Alla som så förfört går där med honom; detta är nog att veta om den först
 ### Helvetet, skärselden och paradiset
 
 Enligt kyrkans lära och folktron fanns en himmel och ett helvete dit de dödas själar förpassades beroende på hur väl de levt sina liv. Själar som inte omedelbart blev saliga kunde förberedas i skärselden. De förlorade själarna däremot störtades rakt ned i helvetet, som man föreställde sig ligga i underjorden. Som en motsats till helvetet höjde sig enligt Dante skärseldsberget på andra sidan jordklotet. Runt jorden cirklade månen och solen och stjärnorna i perfekta sfärer som markerar olika nivåer av himmelsk fulländning. Helvetet återgivet i en medeltida målning.
+
+Läs mer om Jason och Medea på s. 63-68.
+
+Den amerikanska thrillern Seven handlar om de sju dödssynderna. Den är extremt otäck. Det finns gott om intressanta paralleller i filmen till Dante och medeltidens världsbild att vara uppmärksam på.
+
+Att litteraturen lever vidare i nya former vittnar Dantes inferno om — ett datorspel, baserat på Dantes resa genom infernos nio kretsar.

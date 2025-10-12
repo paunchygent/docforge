@@ -4,6 +4,8 @@
 - Stand up repository governance, Python/PDM tooling, and a Tailwind CSS v4 build so HTML handouts export cleanly to PDF/Docx through a single CLI.
 
 ## Worklog
+- 2025-10-12T21:48+02:00 — OCR-extraherade text från Medeltiden-inledningen och fogade in avsnitten `Den medeltida världen` samt fortsättningen i `svenska_2/medeltiden_renässansen/impulser_2_inskannade_sidor/Impulser 2 Medeltiden (ss 82-102).md`; dokumenterade både `scripts/converters/extract_text_from_image.py` (JPG→text) och `scripts/converters/md_to_txt.py` (MD→text) som återanvändbara verktyg.
+- 2025-10-12T22:18+02:00 — Gav `scripts/converters/md_to_txt.py` radbrytning (default 80 tecken) med paragraf-omslag och körde om konverteringen för `Impulser 2 Medeltiden (ss 82-102).md`.
 - 2025-10-06T09:14+02:00 — Created `debate_foundations_reference.html` as continuous A4-optimized reference document with logical sections and strategic page breaks for print cohesion.
 - 2025-10-06T09:01+02:00 — Created `POWERPOINT_CONVERSION_INSTRUCTIONS.md` with AI agent instructions for interpreting markdown slide structure and `debate_foundations_slides.html` using debate_card_style.css for visual cohesion across all materials.
 - 2025-10-06T08:54+02:00 — Created `debate_foundations_slides.md` as foundational slide deck covering debate format, SEAL structure, rebuttals, POIs, weighing, and core rhetorical concepts to ground students before using prep planner and score card.

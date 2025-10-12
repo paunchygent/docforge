@@ -3,7 +3,6 @@ source: Impulser 2 ss 108-123 Renässansen till och med Cervantes.pdf
 converted: convert_pdf_to_md.py
 ---
 
-Den unga renässanskvinnan heter Isabel de Requesens och var gift med vicekungen av Neapel. Ansiktet målades av mästaren Rafael medan resten av målningen färdigställdes av Giulio Romano, 1483.
 
 # Sanna renässansmänniskor
 
@@ -43,16 +42,6 @@ Samtala om texten
 
 3. Vad tänker du själv om principen ”Gör vad du vill”? Kan man verkligen göra allt man vill?
 
-Diskutera
-
-1. Vilken uppfinning är mest banbrytande för forskning och kunskapsspridning — skrivkonsten, boktryckarkonsten eller internet? Motivera!
-
-2. I inledningen på det här kapitlet fick du läsa att Columbus visserligen kan uppfattas som en renässansmänniska, men att han sannolikt aldrig var medveten om det själv. Erasmus av Rotterdam, Rabelais och Copernicus kanske mera kände att de stod på tröskeln till en ny tid. Vad är det som kännetecknar din egen tid? Hur kommer människor att se på den i framtiden, tror du?
-
-Jätten Gargantua äter sin måltid.
-
-Illustration av Gustav Doré.
-
 ## Kyrkan kontrollerade vetenskapen
 
 Ännu under renässansen samlades all vetenskap inom kyrkan och dess läroinstitutioner.
@@ -69,13 +58,7 @@ Till Florens kom också den konstnär som mer än alla andra brukar knytas till 
 
 Han kommer hem med blommor från sina vandringar utanför staden och sätter sig och plockar sönder dem för att se hur de ser ut inuti. Och han kan stå i timtal och iaktta fåglarnas flykt, som om det också vore någonting märkvärdigt. Till och med huvuden av mördare och tjuvar som sitter spetsade utanför slottsporten och som är så gamla att ingen gitter se åt dem mer, kan han stå länge och begrunda som märkvärdiga gåtor, och rita av dem med ett silverstift. Och när Fransesco hängdes för några dagar sen på torget här utanför var han med och tittade på, allra längst fram bland barnungarna, för att se riktigt. Om nätterna står han och ser på stjärnorna. Hans nyfikenhet omfattar allting.**
 
-**Är verkligen vad som helst av intresse?**
-
 Pär Lagerkvist, Dvärgen, 1944
-
-# ”Sjung o gudinna”
-
-Brunelleschis kupol till katedralen har dominerat stadsbilden sedan den byggdes på 1400-talet.
 
 Många av de norditalienska städerna var centrum för små självständiga stater, så kallade stadsstater. Italien enades inte som land förrän 1861.
 
@@ -88,10 +71,6 @@ Många av de norditalienska städerna var centrum för små självständiga stat
 3. Vilka arbetsmetoder använder han sig av?
 
 4. Finns det några spår av Leonardos arbetssätt i gymnasiets ämnen och arbetsmetoder? Ge exempel!
-
-### Diskutera
-
-Bernardos arbetssätt kan sägas vara kännetecknande för renässansmänniskans nyfikenhet. Hon ville själv ta reda på hur saker och ting verkligen var istället för att få allting beskrivet för sig. Hurdan är du? Vad motiverar dig att lära dig nya saker? Vad väcker din nyfikenhet och kreativitet? Kort sagt, vad krävs för att du ska lyckas med dina studier? Jämför dina tankar med en kamrat.
 
 ## Leonardo — konstnär, vetenskapsman, universalgeni
 
@@ -127,19 +106,9 @@ Niccolò Machiavelli, Fursten, 1532
 
 3. Vilken människosyn tycker du att Machiavelli ger uttryck för i utdraget?
 
-# "Sjung o gudinna”
-
-Diskutera
-
-Hur bör en ledare i dag vara? Gör en lista över några egenskaper som alla ledare bör ha. Hittar ni några av dessa egenskaper hos Machiavellis furste? Bryter några av de egenskaper ni valt helt mot Machiavellis råd?
-
-### Tala
-
-Många, både i politiken och i affärsvärlden, fascineras än i dag av Machiavellis Fursten. Föreställ dig att du är en företagsledare som måste övertala dina anställda att arbeta mer tid för samma lön för att konkurrensen i branschen är så hård. Om satsningen lyckas kommer du att kunna höja lönerna senare. Hur skulle en demokratisk respektive en auktoritär ledare föra fram informationen? Arbeta i par. Välj en ledartyp var och skriv ett kort tal till företagets anställda. Framför era tal för varandra.
-
 Machiavelli hade läst och kände till den antika litteraturen om statskonsten. Naturligtvis beundrade han de antika hjältarna. Läs hans lilla bok fursten och ta reda på hur idén om att "en furste bör ha en läromästare som till hälften är djur och till hälften människa" styrks med antika exempel.
 
-### Undersök
+### Gutenberg och boktryckarkonsten
 
 Genom boktryckarkonsten blev det billigare och snabbare att producera böcker. Vanligtvis knyts denna viktiga uppfinning till tysken Johann Gutenberg (ca 1399-1468) som någon gång på 1450-talet tryckte Bibeln i två praktfulla band.
 
@@ -210,8 +179,6 @@ Miguel Cervantes, Don Quijote, 1605
 
 4. Hur visar Sancho Panza sin respekt för Don Quijote, trots att denne är helt förvirrad?
 
-Väderkvarnar i det spanska landskapet La Mancha. I förgrunden typiska föremål som man kan tänka sig att Don Quijote var utrustad med.
-
 ### Om romanen Don Quijote
 
 - Don Quijote anses vara den första moderna romanen. Det som är nytt är det starka realistiska draget i berättelsen. När Don Quijote manar på sin stackars häst Rosinante ute på den spanska landsbygden är det det verkliga Spanien på 1500-talet som läsaren möter.
@@ -220,33 +187,8 @@ Väderkvarnar i det spanska landskapet La Mancha. I förgrunden typiska föremå
 
 - Som kontrast eller motpol till verklighetsskildringen står alla komiska avsnitt där Cervantes som berättare driver med sin stackars huvudperson och hans överdrivna intresse för riddarlivet. De komiska inslagen gör att texten är ganska lättläst, trots att den är över fyrahundra år gammal.
 
-Naturligtvis har det diskuterats hur mycket Cervantes har lagt in av sig själv i Don Quijote. Svaret är säkert en hel del, men ingen är säker på vad. Så är det inte i serien Rocky av Martin Kellerman. Kellerman berättar att han efter en svår period i livet hade lärt sig att "använda livets svackor som en spark i röven att göra något åt eländet. Jag ritade mig själv som en hund." Metoden att fånga livets svårigheter och glädjeämnen i en seriestripp har nu pågått länge. Huvudpersonen Rocky och hans bästis är ett verkligt radarpar som på olika sätt belyser tillvarons alla sidor med humor, känsla och gränslös ironi. Läsaren får ofta en känsla av att Rocky räcker ut tungan åt sin egen spegelbild.
-
-VÄLDIGT SPÄNNANDE ATT VÄLTA! VEM SKULLE INTE VILJA HÖRA OM DEN... MEN MIN BÄSTA AFFÄRSIDÉ, GRÄVSKOPEGLADIATOR SPEL! DET SKULLE VARA PRECIS SOM VET DU VAD DET ÄR? EN GRÄVSKOPA MOT EN BULLDOZER! JO! MED FORMEL 1, MED OLIKA POWER! EN SKOGSAVVERKNINGSMASKIN MOT ETT PARÄNG! STALL + SCANIA, CATERPILLAR; NEJ, MEN DET SKA BLI VAD FINNS DET MER...? VEM HADE GU TÄNKT SKULLE KÖRA DE HÄR FORDONEN? JAJUST DET... DET SKULLE STÅTT VARA VÄLDIGT FARLIGT ATT SITTA I FÖRARHYTTEN NÄR MAN SLÅSS MED GRÄVSKOPOR! JAG TROR DET ÄR TRE TVÅ. GIVE UP YOUR DAY JOB!
-
-Martin Kellerman, Rocky 10 år
-
-### Samtala om texten
-
-1. Vad går Rockys "bästa affärsidé” ut på?
-
-2. Vilka likheter kan du se mellan Rocky och hans kompis och Don Quijote och Sancho Panza?
-
-3. Hur tolkar du avslutningsrepliken i Rocky?
-
-### Tala
-
-Vem är idealist och optimist, och vem är realist och pessimist? Arbeta i par. Kom överens om vem av er som ska spela respektive roll. Den som har idealistens roll får argumentera som om det alltid finns positiva möjligheter och den som är realist får nyktert ta ner det hela på jorden.
-
-Hitta på ett ämne i stil med privatbilismens positiva och negativa effekter, läxornas nytta och besvär, goda kravmärkta livsmedel eller dyra onödiga produkter. Förbered en kort debatt och spela upp för klassen.
-
-### Undersök
-
-Medievärlden är full av radarpar som kompletterar varandra på olika sätt. Tänk bara på Helan och Halvan, Mia och Klara, Tom och Jerry, Thelma och Louise, Rocky och hans vapendragare. Arbeta med en kamrat och välj en sådan parrelation. Försök att förklara varför den fungerar så bra. Finns det rent av en Don Quijote och en Sancho Panza till liten del i varje sådant radarpar? Redovisa för varandra i klassen.
-
-Vilka väderkvarnar finns det att kämpa mot i dag? En modern Don Quijote kanske skulle ta sig an reklam riktad mot barn, nedskräpningen i samhället eller biltrafiken i bostadsområdet. Skriv om Cervantes text så att den handlar om en modern Don Quijote, som i sällskap med en vän går i strid mot en ”väderkvarn” och som läsare av i dag kan känna igen.
-
 ---
+
 source: Impulser 2 Shakespeare (ss 124-133).pdf
 converted: convert_pdf_to_md.py
 ---
@@ -338,15 +280,6 @@ ANTONIO: Ja, Shylock, du skall få en sådan sedel. SHYLOCK: Nå, möt mig genas
 3. Varför menar Antonio att Shylocks verksamhet trots allt kan kritiseras?
 4. Vad känner Bassanio inför lånevillkoren?
 
-### Diskutera
-
-1. Hurdana är egentligen huvudpersonerna i Köpmannen i Venedig? Är Antonios inställning till Shylock försvarbar? Och hur ska man förstå Shylocks krav på Antonio, ifall inte lånet betalas tillbaka på utsatt tid?
-2. Jämför Antonios lån med våra dagars sms-lån: Långivarens etik, tillgängligheten, nyttan för låntagaren, riskerna med skuldsättningen.
-
-### Undersök
-
-Som alla pjäser spelas Köpmannen i Venedig med en regi som lyfter fram olika sidor i Shakespeares text. Olika uppsättningar har betonat olika saker i Shakespeares pjäs och fått skiftande mottagande. Gör en undersökning på nätet och ta reda på hur några uppmärksammade uppsättningar i Sverige av Köpmannen i Venedig mottogs och vilka reaktioner pjäserna mötte. Välj till exempel några av Dramatens uppsättningar av pjäsen: Alf Sjöbergs 1944 och 1962 samt Mats Eks 2004.
-
 ### Shakespeares sätt att berätta
 
 - Shakespeare skrev krönikespel, sagospel, komedier och tragedier. Han hämtade ofta motiv och stoff från antiken och medeltiden.
@@ -384,6 +317,7 @@ Pojke möter flicka, men deras familjer är dödsfiender och så drabbar de två
 > "Vad strålar genom fönstret där? Det östern är, och Julia är solen."
 
 ---
+
 source: Impulser 2 ss 134-139 Renässansen Svensk stormaktstid och Stiernhielms Hercules.pdf
 converted: convert_pdf_to_md.py
 ---
@@ -477,11 +411,3 @@ Titelbladet till Georg Stiernhielms Hercules, 1658. Bladet är gjort av diktaren
 4. Varför är det så viktigt att använda ungdomsåren till att studera och förbättra sina möjligheter, enligt gudinnan?
 
 5. På vilket sätt märks renässansidealen i Stiernhielms dikt?
-
-### Diskutera
-
-I utdraget ur Stiernhielms Hercules är det olika lockelser som står i vägen för en seriös satsning på studier, personlig utveckling och val av utbildning. Hur är det för ungdomar i dag? Är vägvalet lika dramatiskt som dikten Hercules får det att verka, eller går det att kombinera nöjen och studier på ett bra sätt? Vilka är vår tids frestelser och fallgropar?
-
-### Samtala om bilden
-
-Vilka karaktärer ur dikten Hercules kan du identifiera på titelbladet? Hercules står i mitten — men vilka är de andra?
