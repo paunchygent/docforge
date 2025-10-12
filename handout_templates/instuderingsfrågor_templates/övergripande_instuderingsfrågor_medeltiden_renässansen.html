@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Övergripande instuderingsfrågor: Medeltiden och Renässansen</title>
+<style>
+/* --- Print & page setup --- */
+@page {
+  size: A4 portrait;
+  margin: 14mm 18mm;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Palatino", "Georgia", "Times New Roman", serif;
+  color: #1a1a1a;
+  line-height: 1.5;
+  font-size: 10.5pt;
+  background-color: #ffffff;
+}
+
+/* --- Layout --- */
+.container {
+  width: 100%;
+  max-width: 174mm;
+  margin: 0 auto;
+}
+
+/* --- Header --- */
+header {
+  margin-bottom: 4mm;
+  border-bottom: 0.8mm solid #2c3e50;
+  padding-bottom: 3mm;
+  break-after: avoid;
+  page-break-after: avoid;
+}
+
+h1 {
+  font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif;
+  font-size: 18pt;
+  margin: 0 0 2mm 0;
+  font-weight: 600;
+  color: #2c3e50;
+  letter-spacing: -0.01em;
+}
+
+.intro-section {
+  background: #f5f7f9;
+  border-left: 2.5mm solid #5a7a9b;
+  padding: 4mm 5mm;
+  margin-bottom: 4mm;
+  border-radius: 1mm;
+}
+
+.intro-section p {
+  margin: 0 0 2.5mm 0;
+  line-height: 1.4;
+}
+
+.intro-section p:last-child {
+  margin-bottom: 0;
+}
+
+.intro-section strong {
+  color: #2c3e50;
+  font-weight: 700;
+}
+
+.intro-section ul {
+  margin: 1.5mm 0 2.5mm 0;
+  padding-left: 6mm;
+  list-style: none;
+}
+
+.intro-section li {
+  margin-bottom: 1mm;
+  line-height: 1.35;
+  position: relative;
+}
+
+.intro-section li::before {
+  content: "•";
+  position: absolute;
+  left: -6mm;
+  color: #5a7a9b;
+  font-weight: bold;
+}
+
+/* --- Antiken reference box --- */
+.antiken-reference {
+  background: #f0f4f8;
+  border: 0.4mm solid #7a9ab8;
+  border-radius: 2mm;
+  padding: 4mm 5mm;
+  margin-top: 8mm;
+  margin-bottom: 4mm;
+}
+
+.antiken-reference .reference-title {
+  font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif;
+  font-size: 12pt;
+  margin: 0 0 2.5mm 0;
+  font-weight: 600;
+  color: #4a5f7a;
+}
+
+.antiken-reference p {
+  margin: 0 0 2mm 0;
+  line-height: 1.4;
+  font-size: 10.5pt;
+}
+
+.antiken-reference ul {
+  margin: 1.5mm 0 2mm 0;
+  padding-left: 6mm;
+  list-style: none;
+}
+
+.antiken-reference li {
+  margin-bottom: 1mm;
+  line-height: 1.35;
+  position: relative;
+}
+
+.antiken-reference li::before {
+  content: "•";
+  position: absolute;
+  left: -6mm;
+  color: #7a9ab8;
+  font-weight: bold;
+}
+
+.antiken-reference .reference-note {
+  margin-top: 2mm;
+  margin-bottom: 0;
+  font-size: 10pt;
+  color: #555;
+  font-style: italic;
+}
+
+/* --- Section headers --- */
+.section-divider {
+  border-top: 0.5mm solid #95a5a6;
+  margin: 6mm 0 5mm 0;
+  break-after: avoid;
+  page-break-after: avoid;
+}
+
+h2 {
+  font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif;
+  font-size: 14pt;
+  margin: 5mm 0 4mm 0;
+  font-weight: 600;
+  color: #2c3e50;
+  break-after: avoid;
+  page-break-after: avoid;
+}
+
+h3 {
+  font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif;
+  font-size: 11.5pt;
+  margin: 4mm 0 3mm 0;
+  font-weight: 600;
+  color: #4a5f7a;
+  break-after: avoid;
+  page-break-after: avoid;
+}
+
+/* --- Question blocks --- */
+.question-block {
+  margin-bottom: 4mm;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+.question-block p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+.question-number {
+  font-weight: 700;
+  color: #5a7a9b;
+  margin-right: 1mm;
+}
+
+/* --- Tips section --- */
+.tips-section {
+  background: #fef9f0;
+  border: 0.4mm solid #d4a574;
+  border-radius: 2mm;
+  padding: 5mm 6mm;
+  margin-top: 5mm;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+.tips-section h2 {
+  margin-top: 0;
+  color: #b8864f;
+  font-size: 12.5pt;
+  font-weight: 600;
+}
+
+.tips-section ul {
+  margin: 2mm 0 0 0;
+  padding-left: 6mm;
+}
+
+.tips-section li {
+  margin-bottom: 2mm;
+  line-height: 1.5;
+}
+
+/* --- Footer --- */
+.footer {
+  text-align: center;
+  margin-top: 6mm;
+  padding-top: 4mm;
+  border-top: 0.4mm solid #bdc3c7;
+  font-weight: 600;
+  font-size: 11pt;
+  color: #5a8a6f;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+/* --- Utilities --- */
+.page-break {
+  page-break-before: always;
+}
+
+strong {
+  font-weight: 700;
+}
+
+em {
+  font-style: italic;
+}
+
+</style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Övergripande instuderingsfrågor: Medeltiden och Renässansen</h1>
+    </header>
+
+    <!-- Inledning -->
+    <div class="intro-section">
+      <p>Dessa frågor är utformade för att hjälpa dig förbereda dig inför provet genom att fokusera på de viktigaste temana, verken och författarna från medeltiden och renässansen.</p>
+      
+      <p><strong>Viktigt att notera:</strong></p>
+      
+      <p><strong>Författare och verk:</strong> Utöver att kunna besvara frågorna nedan förväntas du kunna <strong>namnen på de författare</strong> som vi har behandlat under lektioner och föreläsningar och som tar plats i läroboken och de tidigare instuderingsfrågorna. Detta inkluderar i huvudsak:</p>
+      
+      <ul>
+        <li><strong>Medeltiden:</strong> Dante Alighieri, Heliga Birgitta</li>
+        <li><strong>Renässansen:</strong> Niccolò Machiavelli, Miguel Cervantes, William Shakespeare (mindre viktiga men inte oviktiga: Erasmus av Rotterdam, François Rabelais, Leonardo da Vinci)</li>
+        <li><strong>Svensk stormaktstid:</strong> Georg Stiernhielm, Drottning Kristina (mindre viktiga: Agneta Horn)</li>
+      </ul>
+      
+      <p>Du ska kunna koppla varje <em>viktig</em> författare till deras viktigaste verk och de idéer de representerar.</p>
+      
+      <p><strong>Jämförelser mellan epoker:</strong> Du förväntas kunna <strong>jämföra medeltiden och renässansen</strong> som litterära och kulturella epoker. Fokusera på skillnader i:</p>
+      
+      <ul>
+        <li>Människosyn (religionscentrerad vs människocentrerad)</li>
+        <li>Kunskapssyn (kyrkans auktoritet vs undersökande humanism)</li>
+        <li>Litterära ideal (statiska hjältar vs komplexa karaktärer)</li>
+        <li>Förhållande till antiken</li>
+      </ul>
+      
+      <p><strong>Kopplingar till antiken:</strong> Du ska kunna göra <strong>kopplingar till antiken</strong> som epok och förklara hur både medeltiden och renässansen förhåller sig till den antika kulturen:</p>
+      
+      <ul>
+        <li>Medeltiden: använder antika författare (Vergilius) men underordnar dem den kristna världsbilden</li>
+        <li>Renässansen: återupptäcker och imiterar antiken som ideal och inspirationskälla</li>
+        <li>Antikens inflytande på form (hexameter, blankvers) och innehåll (mytologi, tragiska hjältar)</li>
+      </ul>
+    </div>
+
+    <!-- Antiken reference box -->
+    <div class="antiken-reference">
+      <h3 class="reference-title">Återuppväck dina kunskaper om antiken</h3>
+      <p>Innan du börjar med frågorna nedan rekommenderas du att läsa kapitlet om <strong>antiken i Impulser 2</strong>. Där kan du återuppväcka dina kunskaper om:</p>
+      <ul>
+        <li>Antikens kultur och mytologi</li>
+        <li>De kända tragedierna <em>Medea</em> och <em>Kung Oidipus</em></li>
+        <li>Hur dessa klassiska tragedier kopplar till renässansens tragiska hjältar</li>
+      </ul>
+      <p class="reference-note">Denna bakgrund hjälper dig att förstå hur både medeltiden och renässansen förhåller sig till den antika kulturen.</p>
+    </div>
+
+    <div class="section-divider"></div>
+
+    <!-- Del 1: Medeltiden -->
+    <h2>Del 1: Medeltiden</h2>
+
+    <h3>Isländska sagor och berättarteknik</h3>
+
+    <div class="question-block">
+      <p><span class="question-number">1.</span> <strong>Beskriv de isländska sagornas kontext och teman.</strong> När utspelar de sig och vad handlar de om? Varför ledde Islands samhällsstruktur till blodsfejder?</p>
+    </div>
+
+    <div class="question-block">
+      <p><span class="question-number">2.</span> <strong>Förklara berättartekniken i de isländska sagorna.</strong> Vad menas med lakonisk stil och isbergstekniken? Ge exempel från <em>Njals saga</em>.</p>
+    </div>
+
+    <div class="question-block">
+      <p><span class="question-number">3.</span> <strong>Analysera Gunnars öde i <em>Njals saga</em>.</strong> Hur förkroppsligar han sagornas ideal om heder och ära? Varför vägrar han lämna Lidarände?</p>
+    </div>
+
+    <h3>Riddarromaner och hövisk kärlek</h3>
+
+    <div class="question-block">
+      <p><span class="question-number">1.</span> <strong>Vad kännetecknar riddarromanerna och den höviska kärleken?</strong> Hur skiljer sig detta ideal från de isländska sagornas hederskultur? Använd <em>Tristan och Isolde</em> som exempel.</p>
+    </div>
+
+    <h3>Medeltida religion och allegori</h3>
+
+    <div class="question-block">
+      <p><span class="question-number">1.</span> <strong>Redogör för Heliga Birgittas betydelse.</strong> Vad är uppenbarelser och vem använder hon som språkrör? Varför skrev hon på svenska?</p>
+    </div>
+
+    <div class="question-block">
+      <p><span class="question-number">2.</span> <strong>Analysera Dantes <em>Den gudomliga komedin</em> som allegori.</strong> Beskriv verkets struktur (helvetet, skärselden, paradiset) och förklara vad resan symboliserar. Vilken roll spelar Vergilius och Beatrice?</p>
+    </div>
+
+    <div class="question-block">
+      <p><span class="question-number">3.</span> <strong>Förklara helvetets uppbyggnad i Dantes verk.</strong> Hur kopplas de nio kretsarna till de sju dödssynderna? Ge exempel på hur synder straffas.</p>
+    </div>
+
+    <div class="question-block">
+      <p><span class="question-number">4.</span> <strong>Varför var det revolutionerande att Dante skrev på italienska istället för latin?</strong> Vad säger detta om språkets roll under medeltiden?</p>
+    </div>
+
+    <div class="section-divider"></div>
+
+    <!-- Del 2: Renässansen -->
+    <h2>Del 2: Renässansen</h2>
+
+    <h3>Renässansens grundidéer</h3>
+
+    <div class="question-block">
+      <p><span class="question-number">1.</span> <strong>Förklara vad "renässans" betyder och vad som föds på nytt.</strong> Var och när började renässansen och hur spred den sig till Sverige?</p>
+    </div>
+
+    <div class="question-block">
+      <p><span class="question-number">2.</span> <strong>Vad är humanism?</strong> Hur skiljer sig renässansens syn på kunskap och människan från medeltidens?</p>
+    </div>
+
+    <div class="question-block">
+      <p><span class="question-number">3.</span> <strong>Beskriv renässansmänniskan som ideal.</strong> Använd Leonardo da Vinci som exempel och förklara varför han anses vara den perfekta renässansmänniskan.</p>
+    </div>
+
+    <h3>Renässansens författare och idéer</h3>
+
+    <div class="question-block">
+      <p><span class="question-number">1.</span> <strong>Jämför Erasmus <em>Dårskapens lov</em> och Rabelais <em>Gargantua</em>.</strong> Hur kritiserar de kyrkan och samhället? Vad representerar klostret Thélèmes regel "Gör vad du vill"?</p>
+    </div>
+
+    <div class="question-block">
+      <p><span class="question-number">2.</span> <strong>Analysera Machiavellis <em>Fursten</em> och hans syn på politik.</strong> Förklara djurmetaforen (räv och lejon) och hans människosyn. Hur skiljer sig detta från medeltidens syn på härskaren?</p>
+    </div>
+
+    <div class="question-block">
+      <p><span class="question-number">3.</span> <strong>Redogör för Cervantes liv och hur det påverkade <em>Don Quijote</em>.</strong> Varför anses romanen vara den första moderna romanen?</p>
+    </div>
+
+    <div class="question-block">
+      <p><span class="question-number">4.</span> <strong>Analysera väderkvarnsepisoden i <em>Don Quijote</em>.</strong> Vad ser Don Quijote och vad ser Sancho Panza? Vad symboliserar denna konflikt? Hur förklarar Don Quijote sitt misslyckande?</p>
+    </div>
+
+    <div class="question-block">
+      <p><span class="question-number">5.</span> <strong>Diskutera Don Quijote som tragisk hjälte.</strong> Hur är hans idealism både hans styrka och svaghet?</p>
+    </div>
+
+    <h3>Shakespeare och renässansens teater</h3>
+
+    <div class="question-block">
+      <p><span class="question-number">1.</span> <strong>Beskriv Globe Theatre som kosmos.</strong> Förklara teaterns tre nivåer (himlen, jorden, helvetet) och hur de två publikgrupperna (groundlings och galleriet) påverkade pjäsernas innehåll.</p>
+    </div>
+
+    <div class="question-block">
+      <p><span class="question-number">2.</span> <strong>Vad är blankvers och varför använde Shakespeare det?</strong> Hur kan rytmen avslöja karaktärernas inre tillstånd?</p>
+    </div>
+
+    <div class="question-block">
+      <p><span class="question-number">3.</span> <strong>Förklara konceptet "tragiska hjältar" i Shakespeares pjäser.</strong> Hur blir hjältarnas största styrka deras undergång? Ge exempel från Romeo, Othello, Macbeth eller Hamlet.</p>
+    </div>
+
+    <div class="question-block">
+      <p><span class="question-number">4.</span> <strong>Analysera <em>Köpmannen i Venedig</em> och de dubbla rollerna.</strong> Hur framställs Antonio och Shylock som både goda och onda? Vad säger detta om Shakespeares människosyn?</p>
+    </div>
+
+    <div class="question-block">
+      <p><span class="question-number">5.</span> <strong>Vad är budskapet i Shakespeares sonett 18 ("Evig sommar")?</strong> Hur ger poesin odödlighet?</p>
+    </div>
+
+    <h3>Svensk renässans</h3>
+
+    <div class="question-block">
+      <p><span class="question-number">1.</span> <strong>Varför nådde renässansen Sverige sent och vad ledde till dess genomslag?</strong> Vilken roll spelade drottning Kristina och stormaktstiden?</p>
+    </div>
+
+    <div class="question-block">
+      <p><span class="question-number">2.</span> <strong>Analysera Stiernhielms <em>Hercules</em> som didaktisk dikt.</strong> Vem talar texten till och vad är dess syfte? Beskriv valet mellan Fru Lusta och den trogna gudinnan.</p>
+    </div>
+
+    <div class="question-block">
+      <p><span class="question-number">3.</span> <strong>Hur fungerar <em>Hercules</em> som allegori?</strong> Vad symboliserar de olika gestalterna och valen?</p>
+    </div>
+
+    <div class="question-block">
+      <p><span class="question-number">4.</span> <strong>Förklara antikens roll i <em>Hercules</em>.</strong> Hur märks det i form (hexameter) och innehåll (mytologi)? Vad signalerar detta i en svensk 1600-talsmiljö?</p>
+    </div>
+
+    <div class="section-divider"></div>
+
+    <!-- Del 3: Jämförelser och kopplingar -->
+    <h2>Del 3: Jämförelser och kopplingar</h2>
+
+    <h3>Jämförelser mellan medeltiden och renässansen</h3>
+
+    <div class="question-block">
+      <p><span class="question-number">1.</span> <strong>Jämför medeltidens och renässansens människosyn.</strong> Hur skiftar fokus från Gud till människan? Ge konkreta exempel från texterna.</p>
+    </div>
+
+    <div class="question-block">
+      <p><span class="question-number">2.</span> <strong>Jämför medeltidens och renässansens syn på kunskap.</strong> Hur förändras synen på auktoritet, ifrågasättande och experiment?</p>
+    </div>
+
+    <div class="question-block">
+      <p><span class="question-number">3.</span> <strong>Jämför berättartekniken i medeltida och renässansens verk.</strong> Hur skiljer sig statiska hjältar (Gunnar, Tristan) från komplexa, utvecklande karaktärer (Don Quijote, Hamlet)?</p>
+    </div>
+
+    <div class="question-block">
+      <p><span class="question-number">4.</span> <strong>Jämför Dantes och Machiavellis syn på moral och makt.</strong> Hur representerar de olika världsbilder?</p>
+    </div>
+
+    <h3>Kopplingar till antiken</h3>
+
+    <div class="question-block">
+      <p><span class="question-number">1.</span> <strong>Hur förhåller sig medeltiden till antiken?</strong> Ge exempel från Dantes användning av Vergilius och antika figurer i helvetet.</p>
+    </div>
+
+    <div class="question-block">
+      <p><span class="question-number">2.</span> <strong>Hur förhåller sig renässansen till antiken?</strong> Förklara hur renässansen "återfödde" antikens ideal. Ge exempel från Leonardo, Stiernhielm och Shakespeares tragiska hjältar.</p>
+    </div>
+
+    <div class="question-block">
+      <p><span class="question-number">3.</span> <strong>Jämför antikens, medeltidens och renässansens syn på den tragiska hjälten.</strong> Hur utvecklas konceptet genom epokerna?</p>
+    </div>
+
+    <div class="question-block">
+      <p><span class="question-number">4.</span> <strong>Analysera hur antika versformer används i renässansen.</strong> Vad signalerar hexameter (Stiernhielm) och blankvers (Shakespeare)?</p>
+    </div>
+
+    <div class="section-divider"></div>
+
+    <!-- Avslutande reflektion -->
+    <h2>Avslutande reflektion</h2>
+
+    <div class="question-block">
+      <p><span class="question-number">1.</span> <strong>Diskutera hur litteraturen förändras från medeltid till renässans.</strong> Vilka är de viktigaste förändringarna i form, innehåll och syfte?</p>
+    </div>
+
+    <div class="question-block">
+      <p><span class="question-number">2.</span> <strong>Reflektera över varför vi studerar dessa epoker idag.</strong> Vilka idéer och frågor från medeltiden och renässansen är fortfarande relevanta?</p>
+    </div>
+
+    <!-- Tips section -->
+    <div class="tips-section">
+      <h2>Tips för att förbereda dig</h2>
+      <ul>
+        <li><strong>Skapa en tidslinje</strong> med författare, verk och viktiga händelser från medeltiden och renässansen</li>
+        <li><strong>Gör begreppskartor</strong> som visar kopplingar mellan författare, verk och idéer</li>
+        <li><strong>Öva på att jämföra</strong> genom att skapa tabeller med medeltid vs renässans</li>
+        <li><strong>Skriv korta sammanfattningar</strong> av varje författare och deras viktigaste verk</li>
+        <li><strong>Använd konkreta exempel</strong> från texterna när du besvarar frågorna</li>
+      </ul>
+    </div>
+
+    <div class="footer">
+      Lycka till med provplugget!
+    </div>
+  </div>
+</body>
+</html>
