@@ -87,7 +87,9 @@ Du ska kunna koppla varje *viktig* författare till deras viktigaste verk och de
 
 4. **Analysera *Köpmannen i Venedig* och de dubbla rollerna.** Hur framställs Antonio och Shylock som både goda och onda? Vad säger detta om Shakespeares människosyn?
 
-5. **Vad är budskapet i Shakespeares sonett 18 ("Evig sommar")?** Hur ger poesin odödlighet?
+5. **Analysera konflikten mellan individ och kollektiv i *Romeo och Julia*.** Hur representerar Romeo och Julias kärlek individens frihet, medan släktfejden representerar kollektivets makt? Vad är betydelsen av balkongscenen och vad säger den om kärlekens förmåga att överskrida sociala barriärer?
+
+6. **Vad är budskapet i Shakespeares sonett 18 ("Evig sommar")?** Hur ger poesin odödlighet?
 
 ### Svensk renässans
 

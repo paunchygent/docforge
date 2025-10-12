@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Inför provet: Medeltiden och Renässansen</title>
+<style>
+/* --- Print & page setup --- */
+@page {
+  size: A4 portrait;
+  margin: 14mm 18mm;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Palatino", "Georgia", "Times New Roman", serif;
+  color: #1a1a1a;
+  line-height: 1.5;
+  font-size: 10.5pt;
+  background-color: #ffffff;
+}
+
+/* --- Layout --- */
+.container {
+  width: 100%;
+  max-width: 174mm;
+  margin: 0 auto;
+}
+
+/* --- Header --- */
+header {
+  margin-bottom: 4mm;
+  border-bottom: 0.8mm solid #2c3e50;
+  padding-bottom: 3mm;
+  break-after: avoid;
+  page-break-after: avoid;
+}
+
+h1 {
+  font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif;
+  font-size: 18pt;
+  margin: 0 0 2mm 0;
+  font-weight: 600;
+  color: #2c3e50;
+  letter-spacing: -0.01em;
+}
+
+.intro-section {
+  background: #f5f7f9;
+  border-left: 2.5mm solid #5a7a9b;
+  padding: 4mm 5mm;
+  margin-bottom: 4mm;
+  border-radius: 1mm;
+}
+
+.intro-section p {
+  margin: 0 0 2.5mm 0;
+  line-height: 1.4;
+}
+
+.intro-section p:last-child {
+  margin-bottom: 0;
+}
+
+/* --- Section headers --- */
+.section-divider {
+  border-top: 0.5mm solid #95a5a6;
+  margin: 6mm 0 5mm 0;
+  break-after: avoid;
+  page-break-after: avoid;
+}
+
+h2 {
+  font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif;
+  font-size: 14pt;
+  margin: 5mm 0 4mm 0;
+  font-weight: 600;
+  color: #2c3e50;
+  break-after: avoid;
+  page-break-after: avoid;
+}
+
+h3 {
+  font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif;
+  font-size: 11.5pt;
+  margin: 4mm 0 3mm 0;
+  font-weight: 600;
+  color: #4a5f7a;
+  break-after: avoid;
+  page-break-after: avoid;
+}
+
+/* --- Content blocks --- */
+.content-block {
+  margin-bottom: 3.5mm;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+.content-block p {
+  margin: 0 0 2mm 0;
+  line-height: 1.5;
+}
+
+.content-block p:last-child {
+  margin-bottom: 0;
+}
+
+.content-block strong {
+  font-weight: 700;
+  color: #2c3e50;
+}
+
+.content-block em {
+  font-style: italic;
+}
+
+/* --- Lists --- */
+ul {
+  margin: 1.5mm 0 2.5mm 0;
+  padding-left: 6mm;
+  list-style: none;
+}
+
+li {
+  margin-bottom: 1mm;
+  line-height: 1.4;
+  position: relative;
+}
+
+li::before {
+  content: "•";
+  position: absolute;
+  left: -6mm;
+  color: #5a7a9b;
+  font-weight: bold;
+}
+
+/* --- Highlight boxes --- */
+.highlight-box {
+  background: #fef9f0;
+  border-left: 2.5mm solid #d4a574;
+  padding: 4mm 5mm;
+  margin: 3mm 0;
+  border-radius: 1mm;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+.highlight-box p {
+  margin: 0 0 2mm 0;
+  line-height: 1.4;
+}
+
+.highlight-box p:last-child {
+  margin-bottom: 0;
+}
+
+.highlight-box strong {
+  color: #b8864f;
+}
+
+.highlight-box ul {
+  margin-top: 2mm;
+}
+
+/* --- Reference box --- */
+.reference-box {
+  background: #f0f4f8;
+  border: 0.4mm solid #7a9ab8;
+  border-radius: 2mm;
+  padding: 4mm 5mm;
+  margin: 3mm 0;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+.reference-box .box-title {
+  font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif;
+  font-size: 11pt;
+  margin: 0 0 2mm 0;
+  font-weight: 600;
+  color: #4a5f7a;
+}
+
+.reference-box p {
+  margin: 0 0 1.5mm 0;
+  line-height: 1.4;
+  font-size: 10pt;
+}
+
+.reference-box p:last-child {
+  margin-bottom: 0;
+}
+
+.reference-box ul {
+  margin: 1mm 0 0 0;
+}
+
+/* --- Checklist section --- */
+.checklist-section {
+  background: #e8f5e9;
+  border: 0.4mm solid #81c784;
+  border-radius: 2mm;
+  padding: 5mm 6mm;
+  margin-top: 5mm;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+.checklist-section h2 {
+  margin-top: 0;
+  color: #4caf50;
+  font-size: 12.5pt;
+  font-weight: 600;
+}
+
+.checklist-section p {
+  margin: 2mm 0 0 0;
+  line-height: 1.5;
+  font-size: 10.5pt;
+}
+
+/* --- Footer --- */
+.footer {
+  text-align: center;
+  margin-top: 6mm;
+  padding-top: 4mm;
+  border-top: 0.4mm solid #bdc3c7;
+  font-weight: 600;
+  font-size: 11pt;
+  color: #5a8a6f;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+/* --- Utilities --- */
+.page-break {
+  page-break-before: always;
+}
+
+strong {
+  font-weight: 700;
+}
+
+em {
+  font-style: italic;
+}
+
+</style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Inför provet: Medeltiden och Renässansen</h1>
+    </header>
+
+    <!-- Översikt -->
+    <div class="intro-section">
+      <p>Medeltiden handlar om släktsagor, heder och öde, och kyrkans världsbild. Renässansen betyder "pånyttfödelse" av antiken – humanism, tryckpressen, upptäckter och starka furstar. I övergången mellan epokerna går vi från en gudscentrerad till en människocentrerad världsbild, även om religion och makt fortfarande spelar en viktig roll.</p>
+    </div>
+
+    <div class="section-divider"></div>
+
+    <!-- Medeltiden -->
+    <h2>Medeltiden</h2>
+
+    <div class="content-block">
+      <p><strong>Tidsperiod:</strong> Ca 500–1500. Tre delar: äldre medeltid (500–1000), högmedeltid (1000–1300), senmedeltid (1300–1500).</p>
+    </div>
+
+    <div class="content-block">
+      <p><strong>Gemensamt:</strong> Religionens betydelse, kampen mellan öde och vilja, heder och ära. Vi börjar på Island men tittar också på Europa: Frankrike, Italien och senare staden som kulturellt centrum.</p>
+    </div>
+
+    <h3>Island – myt och saga</h3>
+
+    <div class="content-block">
+      <p><strong>Asatron:</strong> Den fornnordiska religionen med gudar som Oden, Tor och Freja. Hederskulturen var central – ditt rykte efter döden var det viktigaste.</p>
+    </div>
+
+    <div class="content-block">
+      <p><strong>Den poetiska Eddan:</strong> Samling av fornnordiska dikter om världens skapelse, undergång och människans plats.</p>
+      <ul>
+        <li><strong>Völvans spådom</strong> – profetia om världens undergång (Ragnarök) och återfödelse</li>
+        <li><strong>Hávamál</strong> – "Den höges tal", visdomsord om hur man ska leva och bete sig</li>
+      </ul>
+    </div>
+
+    <h3>Isländska släktsagor</h3>
+
+    <div class="content-block">
+      <p><strong>När?</strong> Ca 900–1200 (nedtecknade 1200–1300). Island saknade ordningsmakt, vilket ledde till långa blodsfejder.</p>
+    </div>
+
+    <div class="content-block">
+      <p><strong>Vad handlar de om?</strong> Släktens heder, blodshämnd, öde och ära. Ditt rykte efter döden är det viktigaste.</p>
+    </div>
+
+    <div class="content-block">
+      <p><strong>Stil:</strong> Objektiv och ordknapp berättare. Handlingen visar vem karaktärerna är – inga långa känsloutgjutelser. Strider skildras brutalt och rakt på sak.</p>
+    </div>
+
+    <div class="highlight-box">
+      <p><strong>Exempel:</strong> <em>Njals saga</em> – Gunnar blir fredlös men vägrar lämna sin gård Lidarände. När fiender anfaller nekar hans fru Hallgerd att ge honom sitt hår till en ny bågsträng. Gunnar dör.</p>
+    </div>
+
+    <div class="reference-box">
+      <p class="box-title">Berättarteknik:</p>
+      <ul>
+        <li><strong>Lakonisk stil</strong> – kort och kärnfull, underdrift istället för överdrift</li>
+        <li><strong>Isbergstekniken</strong> – det viktiga sägs inte rakt ut utan antyds (jämför Hemingway på 1900-talet)</li>
+      </ul>
+    </div>
+
+    <h3>Riddarromaner och hövisk kärlek</h3>
+
+    <div class="content-block">
+      <p>Från Bretagne och Frankrike. Riddaren tjänar sin dam, och kärleken kan bli så stark att den bryter mot eder och plikt.</p>
+    </div>
+
+    <div class="highlight-box">
+      <p><strong>Exempel:</strong> <em>Tristan och Isolde</em> – förbjuden kärlek efter en trolldryck. Ett ödebundet band som inte går att bryta.</p>
+    </div>
+
+    <h3>Religion och helgonkult</h3>
+
+    <div class="content-block">
+      <p>Vallfärder till Santiago de Compostela och Jerusalem var viktiga. Reliker dyrkades.</p>
+    </div>
+
+    <div class="content-block">
+      <p><strong>Heliga Birgitta (1303–1373):</strong> Svensk helgon med över 600 uppenbarelser. Skrev på svenska, spreds på latin. I hennes texter talar ofta Jungfru Maria – till exempel när hon skyddar Karl Ulfssons själ vid den yttersta domen.</p>
+    </div>
+
+    <h3>Dante Alighieri (1265–1321) – <em>Den gudomliga komedin</em></h3>
+
+    <div class="content-block">
+      <p><strong>Vad är det?</strong> En allegori om själens resa från vilsenhet till Gud.</p>
+    </div>
+
+    <div class="content-block">
+      <p><strong>Handlingen:</strong> Dante vandrar genom helvetet, skärselden och paradiset. Vergilius (den antika poeten) leder honom genom helvetet och skärselden. Beatrice (Dantes ungdomskärlek) tar vid i paradiset.</p>
+    </div>
+
+    <div class="content-block">
+      <p><strong>Helvetet:</strong> Nio kretsar. Längst ner sitter Satan och tuggar på Brutus, Cassius och Judas – de värsta förrädarna.</p>
+    </div>
+
+    <div class="content-block">
+      <p><strong>Syfte:</strong> Moralisk vägledning enligt kristen etik. Olika synder straffas på olika sätt. Exempel: Jason straffas för att ha svikit Hypsipyle och Medea.</p>
+    </div>
+
+    <div class="content-block">
+      <p><strong>Viktigt:</strong> Dante skrev på folkspråket italienska istället för latin – det gjorde texten tillgänglig för fler.</p>
+    </div>
+
+    <div class="reference-box">
+      <p class="box-title">Dödssynder och dygder</p>
+      <p><strong>Sju dödssynder:</strong> likgiltighet, vällust, frosseri, girighet, vrede, avund, högmod</p>
+      <p><strong>Sju dygder:</strong> vishet, tapperhet, måttfullhet, rättrådighet, tro, hopp, kärlek</p>
+    </div>
+
+    <div class="section-divider"></div>
+
+    <!-- Renässansen -->
+    <h2>Renässansen</h2>
+
+    <h3>Grundfakta</h3>
+
+    <div class="content-block">
+      <p><strong>När och var?</strong> Börjar i Norditalien på 1300-talet, sprids till Europa. I Sverige märks renässansen främst på 1600-talet.</p>
+    </div>
+
+    <div class="reference-box">
+      <p class="box-title">Viktiga händelser:</p>
+      <ul>
+        <li>Gutenbergs boktryckarkonst ca 1455 – gör kunskap tillgänglig för fler</li>
+        <li>Columbus upptäcker Amerika 1492</li>
+        <li>Reformationen</li>
+        <li>Starka furstar tar makten</li>
+      </ul>
+    </div>
+
+    <div class="content-block">
+      <p><strong>Humanism:</strong> Tillbaka till antikens källor. Människan, språk och historia i centrum istället för bara Gud och kyrkan.</p>
+    </div>
+
+    <h3>Erasmus av Rotterdam – <em>Dårskapens lov</em> (1511)</h3>
+
+    <div class="content-block">
+      <p>Erasmus låter "Dårskapen" själv hålla tal och avslöja mänsklig fåfänga. Han kritiserar kyrkan och samhället genom satir. Budskapet: människor behöver lek och njutning, inte bara allvar.</p>
+    </div>
+
+    <h3>François Rabelais – <em>Gargantua</em> (1534)</h3>
+
+    <div class="content-block">
+      <p>Berättelse om jätten Gargantua. Kritiserar skola och kyrka genom humor. I berättelsen grundas klostret Thélème med regeln: <strong>"Gör vad du vill"</strong> – en total motsats till medeltidens strikta klosterregler.</p>
+    </div>
+
+    <h3>Leonardo da Vinci (1452–1519)</h3>
+
+    <div class="content-block">
+      <p>Den perfekta renässansmänniskan – konstnär, uppfinnare och anatom. Verkade inom många områden.</p>
+    </div>
+
+    <div class="content-block">
+      <p><strong>Kända verk:</strong> <em>Mona Lisa</em>, <em>Nattvarden</em>, <em>Den vitruvianske mannen</em></p>
+    </div>
+
+    <div class="content-block">
+      <p><strong>Metod:</strong> Observation, skisser, dissektion av kroppar för att förstå anatomi.</p>
+    </div>
+
+    <h3>Niccolò Machiavelli – <em>Fursten</em> (1532)</h3>
+
+    <div class="content-block">
+      <p><strong>Bakgrund:</strong> Diplomat i Florens. Skrev <em>Fursten</em> för att ge råd om hur man skapar stabilitet genom en stark härskare.</p>
+    </div>
+
+    <div class="highlight-box">
+      <p><strong>Djurmetaforen:</strong> En furste måste vara både <strong>räv och lejon</strong>. Räven använder list mot fällor, lejonet använder kraft mot fiender.</p>
+    </div>
+
+    <div class="content-block">
+      <p><strong>Människosyn:</strong> Människor är inte alltid ordhålliga, så en furste behöver inte hålla sitt ord när villkoren ändras. Stabilitet är viktigare än moral.</p>
+    </div>
+
+    <h3>Miguel Cervantes – <em>Don Quijote</em> (1605)</h3>
+
+    <div class="content-block">
+      <p><strong>Cervantes liv:</strong> Hade levt hårt innan han skrev romanen. Som soldat förlorade han funktionen i vänsterhanden. Tillfångatogs av pirater och var slav i fem år. Misslyckades som teaterförfattare. Hamnade i fängelse för skulder. Där, som kantstött 50-plussare, skrev han <em>Don Quijote</em>.</p>
+    </div>
+
+    <div class="content-block">
+      <p><strong>Vad är det?</strong> Den första moderna romanen. Blandar realism med parodi på riddarromaner.</p>
+    </div>
+
+    <div class="reference-box">
+      <p class="box-title">Huvudpersonerna:</p>
+      <ul>
+        <li><strong>Don Quijote</strong> – fattig adelsman, nästan 50 år, har läst för många riddarromaner och tror han ÄR en riddare</li>
+        <li><strong>Sancho Panza</strong> – bondgranne som blir vapendragare, realist och jordnära</li>
+      </ul>
+    </div>
+
+    <div class="highlight-box">
+      <p><strong>Väderkvarnsscenen:</strong> Don Quijote ser "trettio förskräckliga jättar med långa armar" och attackerar dem. Sancho ser väderkvarnar. Scenen visar konflikten mellan fantasi och verklighet. Efter sitt fall förklarar Don Quijote att trollkarlen Freston förvandlat jättarna till väderkvarnar för att beröva honom äran.</p>
+    </div>
+
+    <div class="content-block">
+      <p><strong>Varför modern?</strong> Karaktärerna utvecklas över tid. Blandning av humor och allvar – vi skrattar ÅT Don Quijote men känner också MED honom. Komplexa, trovärdiga personer. Don Quijote är en tragisk hjälte: hans idealism är både hans styrka och svaghet.</p>
+    </div>
+
+    <h3>William Shakespeare (1564–1616)</h3>
+
+    <div class="content-block">
+      <p><strong>Bakgrund:</strong> Född i Stratford-upon-Avon, medelklass. Lämnade familjen och åkte till London för att bli skådespelare och dramatiker. Handskmakarsons som blev världens mest kända dramatiker.</p>
+    </div>
+
+    <div class="content-block">
+      <p><strong>Produktion:</strong> Ca 37 pjäser i fyra kategorier (krönikor, komedier, tragedier, romancer) + 154 sonetter (publicerade 1609).</p>
+    </div>
+
+    <div class="reference-box">
+      <p class="box-title">Globe Theatre – teatern som kosmos:</p>
+      <p>Teatern var byggd som en miniatyrvärld med tre nivåer:</p>
+      <ul>
+        <li><strong>Himlen</strong> – målat tak ovanför scenen med sol, måne och stjärnor</li>
+        <li><strong>Jorden</strong> – scenen med tre våningar (torn, balkonger, gatuplan)</li>
+        <li><strong>Helvetet</strong> – luckor under scengolvet för djävlar och vålnader</li>
+      </ul>
+    </div>
+
+    <div class="reference-box">
+      <p class="box-title">Två publikgrupper:</p>
+      <ul>
+        <li><strong>Groundlings</strong> – ståplatspublik för en penny, ville ha action och blod, kastade ruttna äpplen om de blev uttråkade</li>
+        <li><strong>Galleriet</strong> – dyrare platser, förväntade sig bildning och djupsinnighet</li>
+      </ul>
+      <p>Shakespeares lösning: dubbla nivåer i samma pjäs. Hamlet har både filosofiska grubblerier (för galleriet) och spöken med blodig fäktning (för groundlings).</p>
+    </div>
+
+    <div class="content-block">
+      <p><strong>Blankvers:</strong> Skriven på orimmad femtaktig jamb – fem hjärtslag per rad (ta-DUM, ta-DUM, ta-DUM, ta-DUM, ta-DUM). Rytmen avslöjar karaktärernas inre: normal puls när de är lugna, sönderbruten rytm när de är upprörda, upplöst takt vid galenskap.</p>
+    </div>
+
+    <div class="reference-box">
+      <p class="box-title">Tragiska hjältar – dygd blir last:</p>
+      <p>Shakespeare återupptäcker antikens idé om den tragiska hjälten. Enligt Aristoteles har varje dygd sin överdrift som blir en last – detta kallas <strong>hybris</strong> (överdrivet självförtroende eller stolthet). Hjältens största styrka förvandlas till hans undergång, precis som hos antikens Oidipus (vars strävan efter sanning förstör honom) och Medea (vars tro att hennes kärlek övervinner allt gör henne övermodig och oförmögen att hantera Jasons svek – kärlek blir till rasande hämnd).</p>
+      <p>Shakespeares hjältar faller på sitt eget grepp:</p>
+      <ul>
+        <li><strong>Romeo</strong> – passionen som gör honom till stor älskare gör honom också impulsiv (dödar Tybalt, tar giftet utan att tänka)</li>
+        <li><strong>Othello</strong> – älskar Desdemona djupt, samma intensitet förvandlas till svartsjuk besatthet</li>
+        <li><strong>Macbeth</strong> – modig general med ärelystnad, samma ärelystnad driver honom till kungamord</li>
+        <li><strong>Hamlet</strong> – vill förstå och handla rätt, men medan han grubblar dör Ofelia och Danmark ruttnar</li>
+      </ul>
+    </div>
+
+    <div class="highlight-box">
+      <p><strong>Köpmannen i Venedig – dubbla roller:</strong></p>
+      <p>Antonio måste låna pengar av Shylock. Men Antonio har i åratal spottat på Shylock, kallat honom "hund" och "hedning", sparkat honom från sin dörr. Nu vill han låna. Shylock ställer villkoret: inget ränta, men misslyckas Antonio får Shylock skära ut ett skålpund kött från hans kropp.</p>
+      <ul>
+        <li><strong>Antonio:</strong> god vän OCH förtryckare</li>
+        <li><strong>Shylock:</strong> skurk OCH offer</li>
+      </ul>
+      <p>Ingen är entydigt god eller ond. Dygd och last är sammanvävda.</p>
+    </div>
+
+    <h3>Romeo och Julia – individ mot kollektiv</h3>
+
+    <div class="content-block">
+      <p>Kärlekstragedi mellan två ungdomar från fientliga släkter (Montague och Capulet). Den centrala konflikten är mellan:</p>
+      <ul>
+        <li><strong>Individen</strong> – Romeo och Julias kärlek, deras rätt att välja själva</li>
+        <li><strong>Kollektivet</strong> – släkternas hämnd och heder, samhällets förväntningar</li>
+      </ul>
+    </div>
+
+    <div class="content-block">
+      <p><strong>Balkongscenen:</strong> Romeo smyger in i Capulets trädgård och hör Julia tala för sig själv på balkongen. Hon önskar att Romeo kunde byta namn så de kunde vara tillsammans. Romeo avslöjar sig och de lovar varandra evig kärlek. Scenen visar kärlekens makt att överskrida sociala barriärer – men också dess sårbarhet i en värld styrd av släktfejder.</p>
+    </div>
+
+    <div class="content-block">
+      <p><strong>Budskap:</strong> Kärleken övervinner allt – men till ett fruktansvärt pris. De två älskande dör, men deras död förenar slutligen de fientliga släkterna. Individens kärlek triumferar moraliskt, även om den krossas fysiskt.</p>
+    </div>
+
+    <div class="content-block">
+      <p><strong>Sonett 18 ("Evig sommar"):</strong> "Så länge bröst kan andas, ögon se, skall dikten leva och sitt liv dig ge." Poesin ger odödlighet – 400 år senare läser vi fortfarande sonetten.</p>
+    </div>
+
+    <h3>Svensk renässans (stormaktstiden)</h3>
+
+    <div class="content-block">
+      <p><strong>Varför sent?</strong> Sverige var en europeisk avkrok. Alla resurser gick till krig under stormaktstiden – ingen hovkultur där bildning belönas. Först under drottning Kristinas regenttid (1644) fick renssänsens idéer genomslag.</p>
+    </div>
+
+    <div class="content-block">
+      <p><strong>Drottning Kristina (regent 1644):</strong> Stort kulturintresse, förde lärda till hovet. Ogift. Kända tänkespråk om äktenskap och ensamhet.</p>
+    </div>
+
+    <h3>Georg Stiernhielm – <em>Hercules</em> (1658)</h3>
+
+    <div class="content-block">
+      <p><strong>Stiernhielm som renässansmänniska:</strong> Utmärkt exempel på renässansidealet – ämbetsman, vetenskapsman, författare och poet. Precis som Leonardo behärskade han flera områden.</p>
+    </div>
+
+    <div class="content-block">
+      <p><strong>Syfte:</strong> Talar till Sveriges unga adelsmän. Uppmanar dem att välja studier och dygd för att tjäna stormakten.</p>
+    </div>
+
+    <div class="content-block">
+      <p><strong>Form:</strong> Skriven på <strong>hexameter</strong> (sextaktsvers) – antik versform som visar renässansens inflytande.</p>
+    </div>
+
+    <div class="reference-box">
+      <p class="box-title">Handlingen:</p>
+      <p>Unge Hercules står vid en vägskäl och måste välja mellan två vägar:</p>
+      <ul>
+        <li><strong>Fru Lusta</strong> och hennes syskon (Lättja, Kättja, Flättja, brodern Ruus) – erbjuder njutning och bekvämlighet</li>
+        <li><strong>Fru Dygd</strong> – erbjuder dygdens väg med studier, flit och ära</li>
+      </ul>
+    </div>
+
+    <div class="content-block">
+      <p><strong>Budskap:</strong> Ungdomen är förgänglig. Välj studier, flit och karaktär för varaktig ära istället för kortvariga nöjen.</p>
+    </div>
+
+    <div class="content-block">
+      <p><strong>Liknelser:</strong> Ungdomen jämförs med eld, ström, glas, gräs och blomma – allt som snabbt försvinner. Ålderdomen som ett hus i förfall.</p>
+    </div>
+
+    <div class="content-block">
+      <p><strong>Allegori:</strong> Hela dikten är en allegori – berättelsen har en djupare innebörd om livets val.</p>
+    </div>
+
+    <div class="content-block">
+      <p><strong>Antikens roll:</strong> Använder antik mytologi (Hercules) och antik versform (hexameter) för att ge texten auktoritet och bildning.</p>
+    </div>
+
+    <div class="section-divider"></div>
+
+    <!-- Viktiga begrepp och tekniker -->
+    <h2>Viktiga begrepp och tekniker</h2>
+
+    <div class="reference-box">
+      <p class="box-title">Berättartekniker:</p>
+      <ul>
+        <li><strong>Lakonisk stil</strong> – kort, kärnfull, underdrift (isländska sagor)</li>
+        <li><strong>Isbergstekniken</strong> – det viktiga antyds istället för att sägas rakt ut (isländska sagor)</li>
+        <li><strong>Allegori</strong> – berättelse med djupare innebörd (Dante, Stiernhielm)</li>
+      </ul>
+    </div>
+
+    <div class="reference-box">
+      <p class="box-title">Versmått:</p>
+      <ul>
+        <li><strong>Blankvers</strong> – orimmad femtaktig jamb (Shakespeare)</li>
+        <li><strong>Hexameter</strong> – sextaktsvers (Stiernhielm)</li>
+      </ul>
+    </div>
+
+    <div class="reference-box">
+      <p class="box-title">Andra begrepp:</p>
+      <ul>
+        <li><strong>Blodshämnd</strong> – hämnd för mord på släkting</li>
+        <li><strong>Fredlös</strong> – utesluten från samhället, får dödas straffritt</li>
+        <li><strong>Hövisk kärlek</strong> – riddaren tjänar sin dam, kärleken kan bryta eder</li>
+        <li><strong>Helgon/relik</strong> – heliga personer och föremål som dyrkades</li>
+        <li><strong>Humanism</strong> – renässansens människosyn, antiken som förebild</li>
+        <li><strong>Heliocentrism</strong> – solen i centrum (Copernicus)</li>
+      </ul>
+    </div>
+
+    <div class="section-divider"></div>
+
+    <!-- Snabbguide -->
+    <h2>Snabbguide: Personer och verk</h2>
+
+    <h3>Medeltiden:</h3>
+    <ul>
+      <li><strong>Njals saga</strong> – Gunnar blir fredlös, dör vid Lidarände</li>
+      <li><strong>Tristan och Isolde</strong> – förbjuden kärlek efter trolldryck</li>
+      <li><strong>Heliga Birgitta (1303–1373)</strong> – <em>Uppenbarelser</em>, Jungfru Maria som språkrör</li>
+      <li><strong>Dante (1265–1321)</strong> – <em>Den gudomliga komedin</em>, resa genom helvetet/skärselden/paradiset med Vergilius och Beatrice</li>
+    </ul>
+
+    <h3>Renässansen:</h3>
+    <ul>
+      <li><strong>Gutenberg</strong> – boktryckarkonst ca 1455</li>
+      <li><strong>Columbus</strong> – upptäcker Amerika 1492</li>
+      <li><strong>Erasmus</strong> – <em>Dårskapens lov</em> (1511), satir mot kyrkan</li>
+      <li><strong>Rabelais</strong> – <em>Gargantua</em> (1534), klostret Thélème: "Gör vad du vill"</li>
+      <li><strong>Leonardo da Vinci (1452–1519)</strong> – <em>Mona Lisa</em>, <em>Nattvarden</em>, <em>Den vitruvianske mannen</em></li>
+      <li><strong>Machiavelli</strong> – <em>Fursten</em> (1532), fursten som räv och lejon</li>
+      <li><strong>Cervantes</strong> – <em>Don Quijote</em> (1605), första moderna romanen, väderkvarnsscenen</li>
+      <li><strong>Shakespeare (1564–1616)</strong> – ca 37 pjäser, 154 sonetter, Globe Theatre, blankvers</li>
+    </ul>
+
+    <h3>Svensk stormaktstid:</h3>
+    <ul>
+      <li><strong>Drottning Kristina</strong> – regent 1644, kulturintresse</li>
+      <li><strong>Georg Stiernhielm</strong> – <em>Hercules</em> (1658), hexameter, Fru Lusta vs Fru Dygd</li>
+    </ul>
+
+    <div class="section-divider"></div>
+
+    <!-- Viktiga jämförelser -->
+    <h2>Medeltid vs Renässans – en strukturerad jämförelse</h2>
+
+    <div class="content-block">
+      <p><strong>Viktigt:</strong> Renässansen är inte väsenskild från medeltiden. Övergången är gradvis och många författare (som Dante och Stiernhielm) står med ena foten i vardera epok.</p>
+    </div>
+
+    <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+      <thead>
+        <tr style="background-color: #2c3e50; color: white;">
+          <th style="padding: 12px; text-align: left; border: 1px solid #ddd;">Aspekt</th>
+          <th style="padding: 12px; text-align: left; border: 1px solid #ddd;">Medeltiden</th>
+          <th style="padding: 12px; text-align: left; border: 1px solid #ddd;">Renässansen</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="padding: 10px; border: 1px solid #ddd;"><strong>Fokus</strong></td>
+          <td style="padding: 10px; border: 1px solid #ddd;">Gud och frälsningen – människan som hon <em>borde</em> vara</td>
+          <td style="padding: 10px; border: 1px solid #ddd;">Människan och hennes möjligheter – människan som hon <em>verkligen är</em></td>
+        </tr>
+        <tr style="background-color: #f8f9fa;">
+          <td style="padding: 10px; border: 1px solid #ddd;"><strong>Kunskap</strong></td>
+          <td style="padding: 10px; border: 1px solid #ddd;">Kyrkan har svaren – ifrågasätt inte</td>
+          <td style="padding: 10px; border: 1px solid #ddd;">Undersök själv! Experimentera! Ifrågasätt!</td>
+        </tr>
+        <tr>
+          <td style="padding: 10px; border: 1px solid #ddd;"><strong>Ideal</strong></td>
+          <td style="padding: 10px; border: 1px solid #ddd;">Specialisten – munken, riddaren (behärskar ETT område)</td>
+          <td style="padding: 10px; border: 1px solid #ddd;">Universalgeniet – Leonardo (behärskar ALLT)</td>
+        </tr>
+        <tr style="background-color: #f8f9fa;">
+          <td style="padding: 10px; border: 1px solid #ddd;"><strong>Mål</strong></td>
+          <td style="padding: 10px; border: 1px solid #ddd;">Himmelriket efter döden</td>
+          <td style="padding: 10px; border: 1px solid #ddd;">Skapa, upptäcka och förstå DENNA värld</td>
+        </tr>
+        <tr>
+          <td style="padding: 10px; border: 1px solid #ddd;"><strong>Människosyn</strong></td>
+          <td style="padding: 10px; border: 1px solid #ddd;">Kollektivism – vi är syndare som behöver frälsning</td>
+          <td style="padding: 10px; border: 1px solid #ddd;">Individualism/Humanism – vi är skapande varelser med enorm potential</td>
+        </tr>
+        <tr style="background-color: #f8f9fa;">
+          <td style="padding: 10px; border: 1px solid #ddd;"><strong>Karaktärer</strong></td>
+          <td style="padding: 10px; border: 1px solid #ddd;">Oföränderliga idealtyper (Gunnar, Tristan)</td>
+          <td style="padding: 10px; border: 1px solid #ddd;">Komplexa, föränderliga karaktärer (Hamlet, Don Quijote)</td>
+        </tr>
+        <tr>
+          <td style="padding: 10px; border: 1px solid #ddd;"><strong>Politik</strong></td>
+          <td style="padding: 10px; border: 1px solid #ddd;">Härskaren som Guds ställföreträdare</td>
+          <td style="padding: 10px; border: 1px solid #ddd;">Politik som mänsklig strategi (Machiavelli)</td>
+        </tr>
+        <tr style="background-color: #f8f9fa;">
+          <td style="padding: 10px; border: 1px solid #ddd;"><strong>Förhållande till texter</strong></td>
+          <td style="padding: 10px; border: 1px solid #ddd;">Kopiera Guds ord – texten som evig sanning</td>
+          <td style="padding: 10px; border: 1px solid #ddd;">Omtolka mönster – sampla, remixa, förändra</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>Kontinuitet och brobyggare</h3>
+
+    <div class="highlight-box">
+      <p><strong>Dante (ca 1300):</strong> Står på gränsen mellan medeltid och renässans</p>
+      <ul>
+        <li><strong>Medeltida:</strong> Didaktisk allegori, kristen moral, Gud i centrum</li>
+        <li><strong>Renässans:</strong> Skriver på folkspråket (inte latin), förmänskligar syndarna i helvetet, använder antiken (Vergilius)</li>
+      </ul>
+    </div>
+
+    <div class="highlight-box">
+      <p><strong>Stiernhielm (1658):</strong> Svensk renässans med medeltida drag</p>
+      <ul>
+        <li><strong>Medeltida:</strong> Didaktisk allegori (precis som Dante), dygd och plikt, moralisk fostran</li>
+        <li><strong>Renässans:</strong> Antik form (hexameter), antika motiv (Hercules), omtolkar fritt, förmänskligar hjälten (Hercules tvekar och väljer)</li>
+      </ul>
+    </div>
+
+    <h3>Hovkulturens avgörande roll</h3>
+
+    <div class="content-block">
+      <p><strong>Varför började renässansen i Italien?</strong> Tre faktorer:</p>
+      <ul>
+        <li><strong>Rikedom från handel</strong> – gav tid att tänka på annat än överlevnad</li>
+        <li><strong>Gamla manuskript</strong> – bysantinska lärda flydde till Italien med antika texter</li>
+        <li><strong>Konkurrerande stadsstater</strong> – furstarna tävlade om att vara mest bildade</li>
+      </ul>
+    </div>
+
+    <div class="content-block">
+      <p><strong>Hovkultur = förutsättning för renässansen:</strong> I en hovmiljö bygger status inte på rikedom (alla är rika) utan på <em>bildning</em> och <em>klassisk skolning</em>. Därför frodas litteratur och lärdom vid hoven – det är så eliten särskiljer sig från borgare och bönder.</p>
+      <p><strong>Exempel:</strong> Drottning Kristinas hov i Sverige (1600-tal) – här belönas Stiernhielms kunskap om Homeros och antiken.</p>
+    </div>
+
+    <h3>Specifika jämförelser</h3>
+
+    <div class="reference-box">
+      <p class="box-title">Riddarideal vs hövisk kärlek:</p>
+      <ul>
+        <li>Plikt och trohet till härskaren → passion som bryter alla eder (Tristan och Isolde)</li>
+      </ul>
+    </div>
+
+    <div class="reference-box">
+      <p class="box-title">Dante vs Machiavelli:</p>
+      <ul>
+        <li>Kristen moralisk ordning → realpolitik utan Gud ("Fursten behöver inte hålla sitt ord")</li>
+      </ul>
+    </div>
+
+    <!-- Checklista -->
+    <div class="checklist-section">
+      <h2>Checklista inför provet</h2>
+      <p>Kan du förklara varje punkt med eget exempel och koppla ihop <strong>namn → verk → idé</strong>? Då är du redo.</p>
+    </div>
+
+    <div class="footer">
+      Lycka till med provplugget!
+    </div>
+  </div>
+</body>
+</html>

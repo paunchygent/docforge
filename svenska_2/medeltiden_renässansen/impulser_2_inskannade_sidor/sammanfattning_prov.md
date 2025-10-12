@@ -47,7 +47,7 @@ Vallfärder till Santiago de Compostela och Jerusalem var viktiga. Reliker dyrka
 
 **Viktigt:** Dante skrev på folkspråket italienska istället för latin – det gjorde texten tillgänglig för fler.
 
-### Etiska listor att kunna
+### Dödssynder och dygder
 
 **Sju dödssynder:** likgiltighet, vällust, frosseri, girighet, vrede, avund, högmod
 
@@ -149,6 +149,17 @@ Antonio måste låna pengar av Shylock. Men Antonio har i åratal spottat på Sh
 * **Shylock**: skurk OCH offer
 
 Ingen är entydigt god eller ond. Dygd och last är sammanvävda.
+
+**Romeo och Julia – individ mot kollektiv:**
+
+Kärlekstragedi mellan två ungdomar från fientliga släkter (Montague och Capulet). Den centrala konflikten är mellan:
+
+* **Individen** – Romeo och Julias kärlek, deras rätt att välja själva
+* **Kollektivet** – släkternas hämnd och heder, samhällets förväntningar
+
+**Balkongscenen:** Romeo smyger in i Capulets trädgård och hör Julia tala för sig själv på balkongen. Hon önskar att Romeo kunde byta namn så de kunde vara tillsammans. Romeo avslöjar sig och de lovar varandra evig kärlek. Scenen visar kärlekens makt att överskrida sociala barriärer – men också dess sårbarhet i en värld styrd av medeltida hederskultur och blodshämnd.
+
+**Budskap:** Kärleken övervinner allt – men till ett fruktansvärt pris. De två älskande dör, men deras död förenar slutligen de fientliga släkterna. Individens kärlek triumferar moraliskt, även om den krossas fysiskt.
 
 **Sonett 18 ("Evig sommar"):** "Så länge bröst kan andas, ögon se, skall dikten leva och sitt liv dig ge." Poesin ger odödlighet – 400 år senare läser vi fortfarande sonetten.
 
