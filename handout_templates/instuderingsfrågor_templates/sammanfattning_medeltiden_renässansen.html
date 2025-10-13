@@ -26,7 +26,7 @@ html, body {
 body {
   font-family: "Palatino", "Georgia", "Times New Roman", serif;
   color: #1a1a1a;
-  line-height: 1.5;
+  line-height: 1.45;
   font-size: 10.5pt;
   background-color: #ffffff;
 }
@@ -34,15 +34,15 @@ body {
 /* --- Layout --- */
 .container {
   width: 100%;
-  max-width: 174mm;
+  max-width: 170mm;
   margin: 0 auto;
+  padding: 0 2mm;
 }
 
 /* --- Header --- */
 header {
   margin-bottom: 4mm;
   border-bottom: 0.8mm solid #2c3e50;
-  padding-bottom: 3mm;
   break-after: avoid;
   page-break-after: avoid;
 }
@@ -65,8 +65,8 @@ h1 {
 }
 
 .intro-section p {
-  margin: 0 0 2.5mm 0;
-  line-height: 1.4;
+  margin: 0 0 2mm 0;
+  line-height: 1.35;
 }
 
 .intro-section p:last-child {
@@ -76,7 +76,7 @@ h1 {
 /* --- Section headers --- */
 .section-divider {
   border-top: 0.5mm solid #95a5a6;
-  margin: 6mm 0 5mm 0;
+  margin: 5mm 0 4mm 0;
   break-after: avoid;
   page-break-after: avoid;
 }
@@ -84,7 +84,7 @@ h1 {
 h2 {
   font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif;
   font-size: 14pt;
-  margin: 5mm 0 4mm 0;
+  margin: 3.5mm 0 2.5mm 0;
   font-weight: 600;
   color: #2c3e50;
   break-after: avoid;
@@ -94,7 +94,7 @@ h2 {
 h3 {
   font-family: "Avenir Next", "Helvetica Neue", Arial, sans-serif;
   font-size: 11.5pt;
-  margin: 4mm 0 3mm 0;
+  margin: 2.5mm 0 1.5mm 0;
   font-weight: 600;
   color: #4a5f7a;
   break-after: avoid;
@@ -103,14 +103,14 @@ h3 {
 
 /* --- Content blocks --- */
 .content-block {
-  margin-bottom: 3.5mm;
+  margin-bottom: 2.5mm;
   break-inside: avoid;
   page-break-inside: avoid;
 }
 
 .content-block p {
   margin: 0 0 2mm 0;
-  line-height: 1.5;
+  line-height: 1.45;
 }
 
 .content-block p:last-child {
@@ -128,21 +128,21 @@ h3 {
 
 /* --- Lists --- */
 ul {
-  margin: 1.5mm 0 2.5mm 0;
-  padding-left: 6mm;
+  margin: 1mm 0 2mm 0;
+  padding-left: 5mm;
   list-style: none;
 }
 
 li {
-  margin-bottom: 1mm;
-  line-height: 1.4;
+  margin-bottom: 0.8mm;
+  line-height: 1.35;
   position: relative;
 }
 
 li::before {
   content: "•";
   position: absolute;
-  left: -6mm;
+  left: -5mm;
   color: #5a7a9b;
   font-weight: bold;
 }
@@ -160,7 +160,7 @@ li::before {
 
 .highlight-box p {
   margin: 0 0 2mm 0;
-  line-height: 1.4;
+  line-height: 1.35;
 }
 
 .highlight-box p:last-child {
@@ -196,7 +196,7 @@ li::before {
 
 .reference-box p {
   margin: 0 0 1.5mm 0;
-  line-height: 1.4;
+  line-height: 1.35;
   font-size: 10pt;
 }
 
@@ -228,7 +228,7 @@ li::before {
 
 .checklist-section p {
   margin: 2mm 0 0 0;
-  line-height: 1.5;
+  line-height: 1.45;
   font-size: 10.5pt;
 }
 
@@ -327,11 +327,22 @@ em {
     <h3>Riddarromaner och hövisk kärlek</h3>
 
     <div class="content-block">
+      <p><strong>Riddaridealet:</strong> Riddaren ska vara stark, modig, bildad och hövlig. Han tjänar sin dam med samma hängivenhet som han tjänar Gud och sin furste. Karaktärerna är statiska idealtyper som inte förändras: alltid ädla, alltid trogna.</p>
+    </div>
+
+    <div class="content-block">
       <p>Från Bretagne och Frankrike. Riddaren tjänar sin dam, och kärleken kan bli så stark att den bryter mot eder och plikt.</p>
     </div>
 
     <div class="highlight-box">
       <p><strong>Exempel:</strong> <em>Tristan och Isolde</em> – förbjuden kärlek efter en trolldryck. Ett ödebundet band som inte går att bryta.</p>
+    </div>
+
+    <div class="reference-box">
+      <p class="box-title">Riddarideal vs hövisk kärlek:</p>
+      <ul>
+        <li>Plikt och trohet till härskaren → passion som bryter alla eder (Tristan och Isolde)</li>
+      </ul>
     </div>
 
     <h3>Religion och helgonkult</h3>
@@ -363,7 +374,11 @@ em {
     </div>
 
     <div class="content-block">
-      <p><strong>Viktigt:</strong> Dante skrev på folkspråket italienska istället för latin – det gjorde texten tillgänglig för fler.</p>
+      <p><strong>Språk och stil:</strong> Skriver på folkspråket italienska (toskanska) istället för latin – djärvt och tillgängligt för vanliga människor. Det revolutionerande: syndarna träder fram som konkreta personer med namn, röster och känslor. Läsaren dras in i samtalet och känner medlidande.</p>
+    </div>
+
+    <div class="content-block">
+      <p><strong>Humanism och antiken:</strong> Vergilius (romersk poet) leder Dante genom helvetet och skärselden – representerar förnuft och antik vishet. Hedningar som Aristoteles placeras i Limbo, inte bland helvetets plågor. Dante står med ett ben i medeltiden (kristen moral) och ett i renässansen (antiken som förebild, folkspråket, individen i centrum).</p>
     </div>
 
     <div class="reference-box">
@@ -380,7 +395,7 @@ em {
     <h3>Grundfakta</h3>
 
     <div class="content-block">
-      <p><strong>När och var?</strong> Börjar i Norditalien på 1300-talet, sprids till Europa. I Sverige märks renässansen främst på 1600-talet.</p>
+      <p><strong>När och var?</strong> Börjar i Norditalien på 1300-talet, sprids till Europa. I Sverige dröjer renässansen till 1600-talet.</p>
     </div>
 
     <div class="reference-box">
@@ -434,7 +449,14 @@ em {
     </div>
 
     <div class="content-block">
-      <p><strong>Människosyn:</strong> Människor är inte alltid ordhålliga, så en furste behöver inte hålla sitt ord när villkoren ändras. Stabilitet är viktigare än moral.</p>
+      <p><strong>Människosyn:</strong> Människor är inte alltid ordhålliga, så en furste bör inte hålla sitt ord när andra inte gör det. Stabilitet är viktigare än moral.</p>
+    </div>
+
+    <div class="reference-box">
+      <p class="box-title">Dante vs Machiavelli:</p>
+      <ul>
+        <li>Kristen moralisk ordning → realpolitik utan Gud ("Fursten behöver inte hålla sitt ord")</li>
+      </ul>
     </div>
 
     <h3>Miguel Cervantes – <em>Don Quijote</em> (1605)</h3>
@@ -466,7 +488,7 @@ em {
     <h3>William Shakespeare (1564–1616)</h3>
 
     <div class="content-block">
-      <p><strong>Bakgrund:</strong> Född i Stratford-upon-Avon, medelklass. Lämnade familjen och åkte till London för att bli skådespelare och dramatiker. Handskmakarsons som blev världens mest kända dramatiker.</p>
+      <p><strong>Bakgrund:</strong> Född i Stratford-upon-Avon, medelklass. Lämnade familjen och åkte till London för att bli skådespelare och dramatiker. Handskmakarson som blev världens mest kända dramatiker.</p>
     </div>
 
     <div class="content-block">
@@ -543,7 +565,7 @@ em {
     <h3>Svensk renässans (stormaktstiden)</h3>
 
     <div class="content-block">
-      <p><strong>Varför sent?</strong> Sverige var en europeisk avkrok. Alla resurser gick till krig under stormaktstiden – ingen hovkultur där bildning belönas. Först under drottning Kristinas regenttid (1644) fick renssänsens idéer genomslag.</p>
+      <p><strong>Varför sent?</strong> Sverige var en europeisk avkrok. Alla resurser gick till krig under stormaktstiden – ingen hovkultur där bildning belönas. Först under drottning Kristinas regenttid (1644) fick renässansens idéer genomslag.</p>
     </div>
 
     <div class="content-block">
@@ -553,7 +575,7 @@ em {
     <h3>Georg Stiernhielm – <em>Hercules</em> (1658)</h3>
 
     <div class="content-block">
-      <p><strong>Stiernhielm som renässansmänniska:</strong> Utmärkt exempel på renässansidealet – ämbetsman, vetenskapsman, författare och poet. Precis som Leonardo behärskade han flera områden.</p>
+      <p><strong>Stiernhielm som renässansmänniska:</strong> Utmärkt exempel på renässansidealet – ämbetsman, vetenskapsman, författare och poet. Precis som Leonardo var han kunnig och verksam inom flera olika områden.</p>
     </div>
 
     <div class="content-block">
@@ -660,7 +682,7 @@ em {
     <h2>Medeltid vs Renässans – en strukturerad jämförelse</h2>
 
     <div class="content-block">
-      <p><strong>Viktigt:</strong> Renässansen är inte väsenskild från medeltiden. Övergången är gradvis och många författare (som Dante och Stiernhielm) står med ena foten i vardera epok.</p>
+      <p><strong>Viktigt:</strong> Renässansen är inte väsensskild från medeltiden. Övergången är gradvis och många författare (som Dante och Stiernhielm) står med ena foten i vardera epok.</p>
     </div>
 
     <table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
@@ -749,21 +771,6 @@ em {
       <p><strong>Exempel:</strong> Drottning Kristinas hov i Sverige (1600-tal) – här belönas Stiernhielms kunskap om Homeros och antiken.</p>
     </div>
 
-    <h3>Specifika jämförelser</h3>
-
-    <div class="reference-box">
-      <p class="box-title">Riddarideal vs hövisk kärlek:</p>
-      <ul>
-        <li>Plikt och trohet till härskaren → passion som bryter alla eder (Tristan och Isolde)</li>
-      </ul>
-    </div>
-
-    <div class="reference-box">
-      <p class="box-title">Dante vs Machiavelli:</p>
-      <ul>
-        <li>Kristen moralisk ordning → realpolitik utan Gud ("Fursten behöver inte hålla sitt ord")</li>
-      </ul>
-    </div>
 
     <!-- Checklista -->
     <div class="checklist-section">
