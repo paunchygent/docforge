@@ -8,6 +8,19 @@ Medeltiden handlar om släktsagor, heder och öde, och kyrkans världsbild. Ren�
 
 ## Medeltiden
 
+**Tidsperiod:** Ca 500–1500. Tre delar: äldre medeltid (500–1000), högmedeltid (1000–1300), senmedeltid (1300–1500).
+
+**Gemensamt:** Religionens betydelse, kampen mellan öde och vilja, heder och ära. Vi börjar på Island men tittar också på Europa: Frankrike, Italien och senare staden som kulturellt centrum.
+
+### Island – myt och saga
+
+**Asatron:** Den fornnordiska religionen med gudar som Oden, Tor och Freja. Hederskulturen var central – ditt rykte efter döden var det viktigaste.
+
+**Den poetiska Eddan:** Samling av fornnordiska dikter om världens skapelse, undergång och människans plats.
+
+* **Völvans spådom** – profetia om världens undergång (Ragnarök) och återfödelse
+* **Hávamál** – "Den höges tal", visdomsord om hur man ska leva och bete sig
+
 ### Isländska släktsagor
 
 **När?** Ca 900–1200 (nedtecknade 1200–1300). Island saknade ordningsmakt, vilket ledde till långa blodsfejder.
@@ -25,9 +38,13 @@ Medeltiden handlar om släktsagor, heder och öde, och kyrkans världsbild. Ren�
 
 ### Riddarromaner och hövisk kärlek
 
+**Riddaridealet:** Riddaren ska vara stark, modig, bildad och hövlig. Han tjänar sin dam med samma hängivenhet som han tjänar Gud och sin furste. Karaktärerna är statiska idealtyper som inte förändras: alltid ädla, alltid trogna.
+
 Från Bretagne och Frankrike. Riddaren tjänar sin dam, och kärleken kan bli så stark att den bryter mot eder och plikt.
 
 **Exempel:** *Tristan och Isolde* – förbjuden kärlek efter en trolldryck. Ett ödebundet band som inte går att bryta.
+
+**Riddarideal vs hövisk kärlek:** Plikt och trohet till härskaren → passion som bryter alla eder (Tristan och Isolde).
 
 ### Religion och helgonkult
 
@@ -45,7 +62,7 @@ Vallfärder till Santiago de Compostela och Jerusalem var viktiga. Reliker dyrka
 
 **Syfte:** Moralisk vägledning enligt kristen etik. Olika synder straffas på olika sätt. Exempel: Jason straffas för att ha svikit Hypsipyle och Medea.
 
-**Viktigt:** Dante skrev på folkspråket italienska istället för latin – det gjorde texten tillgänglig för fler.
+**Viktigt:** Dante skrev på folkspråket italienska (toskanska) istället för latin – det gjorde texten tillgänglig för fler. Han står med ett ben i medeltiden (kristen moral) och ett i renässansen (antiken som förebild, individens känslor framträder).
 
 ### Dödssynder och dygder
 
@@ -173,6 +190,8 @@ Kärlekstragedi mellan två ungdomar från fientliga släkter (Montague och Capu
 
 ### Georg Stiernhielm – *Hercules* (1658)
 
+**Stiernhielm som renässansmänniska:** Utsökt exempel på renässansidealet – ämbetsman, vetenskapsman, författare och poet. Precis som Leonardo var han verksam inom flera områden.
+
 **Syfte:** Talar till Sveriges unga adelsmän. Uppmanar dem att välja studier och dygd för att tjäna stormakten.
 
 **Form:** Skriven i **hexameter** (sextaktsvers) – antik versform som visar renässansens inflytande.
@@ -180,7 +199,7 @@ Kärlekstragedi mellan två ungdomar från fientliga släkter (Montague och Capu
 **Handlingen:** Unge Hercules står vid en vägskäl och måste välja mellan två vägar:
 
 * **Fru Lusta** och hennes syskon (Lättja, Kättja, Flättja, brodern Ruus) – erbjuder njutning och bekvämlighet
-* **Den trogna gudinnan** – erbjuder dygdens väg med studier, flit och ära
+* **Fru Dygd** – erbjuder dygdens väg med studier, flit och ära
 
 **Budskap:** Ungdomen är förgänglig. Välj studier, flit och karaktär för varaktig ära istället för kortvariga nöjen.
 
@@ -248,25 +267,48 @@ Kärlekstragedi mellan två ungdomar från fientliga släkter (Montague och Capu
 
 **Medeltid vs renässans:**
 
-* Heder och öde → individens val och utveckling
-* Lakonisk stil → komplexa karaktärer
-* Gud i centrum → människan i centrum
+| Aspekt | Medeltiden | Renässansen |
+| --- | --- | --- |
+| **Fokus** | Gud och frälsningen – människan som hon *borde* vara | Människan och hennes möjligheter – människan som hon *verkligen är* |
+| **Kunskap** | Kyrkan har svaren – ifrågasätt inte | Undersök själv! Experimentera! Ifrågasätt! |
+| **Ideal** | Specialisten – munken, riddaren (behärskar ETT område) | Universalgeniet – Leonardo (behärskar ALLT) |
+| **Mål** | Himmelriket efter döden | Skapa, upptäcka och förstå DENNA värld |
+| **Människosyn** | Kollektivism – vi är syndare som behöver frälsning | Individualism/Humanism – vi är skapande varelser med enorm potential |
+| **Karaktärer** | Oföränderliga idealtyper (Gunnar, Tristan) | Komplexa, föränderliga karaktärer (Hamlet, Don Quijote) |
+| **Politik** | Härskaren som Guds ställföreträdare | Politik som mänsklig strategi (Machiavelli) |
+| **Förhållande till texter** | Kopiera Guds ord – texten som evig sanning | Omtolka mönster – sampla, remixa, förändra |
 
-**Riddarideal vs hövisk kärlek:**
+**Riddarideal vs hövisk kärlek:** Plikt och trohet till härskaren → passion som bryter eder.
 
-* Plikt och ära → passion som bryter eder
+**Dante vs Copernicus:** Medeltida kosmologi (Gud, helvete, himmel) → vetenskaplig världsbild (heliocentrism).
 
-**Dante vs Copernicus:**
+**Dante vs Machiavelli:** Kristen moralisk ordning → realpolitik och stabilitet.
 
-* Medeltida kosmologi (Gud, helvete, himmel) → vetenskaplig världsbild (heliocentrism)
+**Äldre berättarform vs modern:** Statiska figurer → utvecklande karaktärer (Cervantes, Shakespeare).
 
-**Dante vs Machiavelli:**
+### Kontinuitet och brobyggare
 
-* Kristen moralisk ordning → realpolitik och stabilitet
+**Dante (ca 1300):**
 
-**Äldre berättarform vs modern:**
+* **Medeltida:** Didaktisk allegori, kristen moral, Gud i centrum
+* **Renässans:** Skriver på folkspråket (inte latin), förmänskligar syndarna i helvetet, använder antiken (Vergilius)
 
-* Statiska figurer → utvecklande karaktärer (Cervantes, Shakespeare)
+**Stiernhielm (1658):**
+
+* **Medeltida:** Didaktisk allegori, dygd och plikt, moralisk fostran
+* **Renässans:** Antik form (hexameter), antika motiv (Hercules), omtolkar fritt, förmänskligar hjälten (Hercules tvekar och väljer)
+
+### Hovkulturens avgörande roll
+
+**Varför började renässansen i Italien?**
+
+* **Rikedom från handel** – gav tid att tänka på annat än överlevnad
+* **Gamla manuskript** – bysantinska lärda flydde till Italien med antika texter
+* **Konkurrerande stadsstater** – furstarna tävlade om att vara mest bildade
+
+**Hovkultur = förutsättning för renässansen:** I en hovmiljö bygger status inte på rikedom (alla är rika) utan på *bildning* och *klassisk skolning*. Därför frodas litteratur och lärdom vid hoven – det är så eliten särskiljer sig från borgare och bönder.
+
+**Exempel:** Drottning Kristinas hov i Sverige (1600-tal) – här belönas Stiernhielms kunskap om Homeros och antiken.
 
 ---
 

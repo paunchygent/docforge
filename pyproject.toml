@@ -100,6 +100,7 @@ distribution = false
 "build:pdf" = "python scripts/handout_builder.py build pdf"
 "build:docx" = "python scripts/handout_builder.py build docx"
 "build:all" = { composite = ["python scripts/handout_builder.py build all"] }
+"build:md-docx" = "python scripts/converters/convert_md_to_docx.py"
 "lint" = "ruff check ."
 "format" = "ruff format ."
 "typecheck" = "mypy --config-file pyproject.toml"
