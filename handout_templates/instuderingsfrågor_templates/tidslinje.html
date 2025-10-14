@@ -6,7 +6,7 @@
 <title>Tidslinje: Från Roms fall till svensk renässans</title>
 <style>
 @page {
-  size: A4 landscape;
+  size: 297mm 1150mm;
   margin: 12mm 15mm;
 }
 
@@ -28,20 +28,18 @@ body {
   line-height: 1.4;
   font-size: 9pt;
   background-color: #ffffff;
+  page-break-inside: avoid;
 }
 
 .container {
-  width: 100%;
-  max-width: 267mm;
-  margin: 0 auto;
+  max-width: 100%;
+  margin: 0;
   padding: 0 2mm;
 }
 
 header {
   margin-bottom: 4mm;
   border-bottom: 1mm solid #2c3e50;
-  page-break-after: avoid;
-  break-after: avoid;
 }
 
 h1 {
@@ -60,20 +58,6 @@ h1 {
   border-radius: 1mm;
   font-size: 9.5pt;
   line-height: 1.35;
-}
-
-.timeline-container {
-  position: relative;
-  margin: 5mm 0;
-}
-
-.timeline-line {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 20mm;
-  height: 2px;
-  background: linear-gradient(to right, #7a9ab8 0%, #5a7a9b 50%, #7a9ab8 100%);
 }
 
 .timeline-section {
@@ -127,9 +111,6 @@ h1 {
 }
 
 .timeline-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(60mm, 1fr));
-  gap: 3mm;
   margin-top: 3mm;
 }
 
@@ -138,9 +119,7 @@ h1 {
   border-left: 3mm solid #bdc3c7;
   padding: 2.5mm 3mm;
   border-radius: 1mm;
-  box-shadow: 0 0.5mm 1mm rgba(0,0,0,0.1);
-  page-break-inside: avoid;
-  break-inside: avoid;
+  margin-bottom: 3mm;
 }
 
 .timeline-event.ancient {
@@ -196,13 +175,13 @@ h1 {
 }
 
 .legend {
-  display: flex;
-  gap: 4mm;
-  margin-top: 5mm;
-  padding: 3mm;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3mm;
+  margin-top: 3mm;
+  padding: 2mm;
   background: #f9f9f9;
   border-radius: 2mm;
-  flex-wrap: wrap;
   page-break-inside: avoid;
   break-inside: avoid;
 }
@@ -222,6 +201,9 @@ h1 {
 
 .page-break {
   page-break-before: always;
+  break-before: page;
+  margin: 0;
+  padding: 0;
 }
 
 strong {
@@ -240,28 +222,28 @@ em {
     </header>
 
     <div class="intro">
-      <p>Denna tidslinje spänner från antiken via medeltidens tre faser (äldre, hög- och senmedeltid) genom renässansen och blickar framåt mot upplysningen. Författare från antiken som vi nämner som referenser markeras särskilt.</p>
+      <p>Denna tidslinje spänner från antiken via medeltidens tre faser (äldre, hög- och senmedeltid) genom renässansen och blickar framåt mot upplysningen. Samtliga författare som nämns i läroboken eller har tagits upp under mina föreläsningar är utmarkerade på tidslinjen.</p>
     </div>
 
     <!-- ANTIKEN (REFERENSER) -->
     <div class="timeline-section">
       <h2 class="section-title">
-        Antiken (referenser)
-        <span class="era-marker era-ancient">Referensperiod</span>
+        Antiken (800 f.Kr.–476 e.Kr.)
+        <span class="era-marker era-ancient">Epos, tragedi & filosofi</span>
       </h2>
       
       <div class="timeline-grid">
         <div class="timeline-event ancient">
           <div class="event-year">Ca 800 f.Kr.</div>
           <div class="event-title">Homeros</div>
-          <div class="event-desc"><em>Iliaden</em> och <em>Odysséen</em>. Grundläggande epos som inspirerar hela den västerländska litteraturtraditionen.</div>
+          <div class="event-desc"><em>Iliaden</em> och <em>Odysséen</em>. Epos som blir förebild för västerländsk litteratur.</div>
           <span class="author-ref">REFERENS: Antik författare</span>
         </div>
 
         <div class="timeline-event ancient">
           <div class="event-year">Ca 600 f.Kr.</div>
           <div class="event-title">Sapfo</div>
-          <div class="event-desc">Grekisk poetessa från Lesbos. Kärleksdiktning som blir förebild för senare epoker.</div>
+          <div class="event-desc">Grekisk lyriker från Lesbos. Kärleksdiktning som blir förebild för senare epoker.</div>
           <span class="author-ref">REFERENS: Antik författare</span>
         </div>
 
@@ -275,27 +257,25 @@ em {
         <div class="timeline-event ancient">
           <div class="event-year">384-322 f.Kr.</div>
           <div class="event-title">Aristoteles</div>
-          <div class="event-desc">Filosof och poet. <em>Poetiken</em> om den tragiska hjältens hybris. Stor influens på renässansens människosyn.</div>
+          <div class="event-desc">Filosof och poet. <em>Poetiken</em> om den tragiska hjältens hybris. Stor påverkan på renässansens människosyn.</div>
           <span class="author-ref">REFERENS: Antik författare</span>
         </div>
 
         <div class="timeline-event ancient">
           <div class="event-year">70-19 f.Kr.</div>
           <div class="event-title">Vergilius</div>
-          <div class="event-desc">Romersk poet. <em>Aeneiden</em>. Blir Dantes vägvisare i <em>Den gudomliga komedin</em> – symboliserar förnuft och antik vishet.</div>
+          <div class="event-desc">Romersk poet. <em>Aeneiden</em>. Blir Dantes vägvisare i <em>Den gudomliga komedin</em> – symboliserar förnuft och antik visdom.</div>
           <span class="author-ref">REFERENS: Antik författare</span>
         </div>
 
         <div class="timeline-event ancient">
           <div class="event-year">Ca 431 f.Kr.</div>
           <div class="event-title">Medea (Euripides)</div>
-          <div class="event-desc">Grekisk tragedi. Medeas kärlek förvandlas till rasande hämnd när Jason sviker henne – hybris som undergång.</div>
+          <div class="event-desc">Grekisk tragedi. Medeas kärlek förvandlas till rasande hämnd när Jason sviker henne. Hybris leder till undergång.</div>
           <span class="author-ref">REFERENS: Antik författare</span>
         </div>
       </div>
     </div>
-
-    <div class="page-break"></div>
 
     <!-- ÖVERGÅNG TILL MEDELTIDEN -->
     <div class="timeline-section">
@@ -329,7 +309,7 @@ em {
     <div class="timeline-section">
       <h2 class="section-title">
         Äldre medeltid (500–1000)
-        <span class="era-marker era-medieval">Island & myt</span>
+        <span class="era-marker era-medieval">Island & fornnordiska myter</span>
       </h2>
       
       <div class="timeline-grid">
@@ -342,7 +322,7 @@ em {
         <div class="timeline-event medieval">
           <div class="event-year">Ca 874</div>
           <div class="event-title">Island koloniseras</div>
-          <div class="event-desc">Norrmän bosätter sig på Island. Grunden för den isländska sagakulturen.</div>
+          <div class="event-desc">Norrmän bosätter sig på Island.</div>
         </div>
 
         <div class="timeline-event medieval">
@@ -381,8 +361,6 @@ em {
       </div>
     </div>
 
-    <div class="page-break"></div>
-
     <!-- SENMEDELTID -->
     <div class="timeline-section">
       <h2 class="section-title">
@@ -394,7 +372,7 @@ em {
         <div class="timeline-event medieval">
           <div class="event-year">Ca 1308–1321</div>
           <div class="event-title">Den gudomliga komedin</div>
-          <div class="event-desc">Dante skriver sitt huvudverk i exil. Helvetet, skärselden, paradiset. Vergilius och Beatrice som vägvisare. Skriver på folkspråket italienska!</div>
+          <div class="event-desc">Dante skriver sitt stora verk i exil. Helvetet, skärselden, paradiset. Vergilius och Beatrice som vägvisare. Skriver på folkspråket italienska!</div>
         </div>
 
         <div class="timeline-event medieval">
@@ -417,11 +395,11 @@ em {
       </div>
     </div>
 
-    <!-- RENÄSSANSEN -->
+    <!-- TIDIG RENÄSSANS -->
     <div class="timeline-section">
       <h2 class="section-title">
-        Renässansen (1400–1600)
-        <span class="era-marker era-renaissance">Pånyttfödelse av antiken</span>
+        Tidig renässans (1400–1500)
+        <span class="era-marker era-renaissance">Upptäckter & humanism</span>
       </h2>
       
       <div class="timeline-grid">
@@ -432,33 +410,37 @@ em {
         </div>
 
         <div class="timeline-event renaissance">
-          <div class="event-year">1452–1519</div>
-          <div class="event-title">Leonardo da Vinci</div>
-          <div class="event-desc">Renässansmänniskan – universalgeni. Konstnär, uppfinnare, anatom. <em>Mona Lisa</em>, <em>Nattvarden</em>, <em>Den vitruvianske mannen</em>.</div>
-        </div>
-
-        <div class="timeline-event renaissance">
-          <div class="event-year">1469–1527</div>
-          <div class="event-title">Niccolò Machiavelli</div>
-          <div class="event-desc">Diplomat från Florens. <em>Fursten</em> (1532) – realpolitik utan Gud. Fursten som räv och lejon.</div>
-        </div>
-
-        <div class="timeline-event renaissance">
           <div class="event-year">1492</div>
           <div class="event-title">Columbus upptäcker Amerika</div>
           <div class="event-desc">Kristofer Columbus når Västindien. Upptäckternas tidsålder. Världsbilden expanderar.</div>
         </div>
 
         <div class="timeline-event renaissance">
-          <div class="event-year">1466–1536</div>
-          <div class="event-title">Erasmus av Rotterdam</div>
-          <div class="event-desc"><em>Dårskapens lov</em> (1511). Humanist som kritiserar kyrkan genom satir. Människan behöver lek och njutning.</div>
+          <div class="event-year">1452–1519</div>
+          <div class="event-title">Leonardo da Vinci</div>
+          <div class="event-desc">Renässansmänniskan – universalgeni. Konstnär, uppfinnare, anatom. <em>Mona Lisa</em>, <em>Nattvarden</em>, <em>Den vitruvianske mannen</em>.</div>
         </div>
 
         <div class="timeline-event renaissance">
-          <div class="event-year">Ca 1494–1553</div>
-          <div class="event-title">François Rabelais</div>
-          <div class="event-desc"><em>Gargantua</em> (1534). Berättelse om jätten Gargantua. Klostret Thélème med regeln: "Gör vad du vill!"</div>
+          <div class="event-year">1466–1536</div>
+          <div class="event-title">Erasmus av Rotterdam</div>
+          <div class="event-desc"><em>Dårskapens lov</em> (1511). Humanist som kritiserar kyrkan genom satir. Visdom och måttfullhet framför fanatism.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- HÖGRENÄSSANS -->
+    <div class="timeline-section">
+      <h2 class="section-title">
+        Högrenässans (1500–1550)
+        <span class="era-marker era-renaissance">Politik & reformation</span>
+      </h2>
+      
+      <div class="timeline-grid">
+        <div class="timeline-event renaissance">
+          <div class="event-year">1469–1527</div>
+          <div class="event-title">Niccolò Machiavelli</div>
+          <div class="event-desc">Diplomat från Florens. <em>Fursten</em> (1532) – realpolitik utan Gud. Fursten som räv och lejon.</div>
         </div>
 
         <div class="timeline-event renaissance">
@@ -468,15 +450,25 @@ em {
         </div>
 
         <div class="timeline-event renaissance">
+          <div class="event-year">Ca 1494–1553</div>
+          <div class="event-title">François Rabelais</div>
+          <div class="event-desc"><em>Gargantua</em> (1534). Berättelse om jätten Gargantua. Klostret Thélème med regeln: "Gör vad du vill!"</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SENRENÄSSANS -->
+    <div class="timeline-section">
+      <h2 class="section-title">
+        Senrenässans (1550–1600)
+        <span class="era-marker era-renaissance">Den moderna romanen & teatern</span>
+      </h2>
+      
+      <div class="timeline-grid">
+        <div class="timeline-event renaissance">
           <div class="event-year">1547–1616</div>
           <div class="event-title">Miguel Cervantes</div>
           <div class="event-desc">Spansk författare. <em>Don Quijote</em> (1605) – första moderna romanen. Väderkvarnsscenen. Parodi på riddarromaner.</div>
-        </div>
-
-        <div class="timeline-event renaissance">
-          <div class="event-year">1564–1616</div>
-          <div class="event-title">William Shakespeare</div>
-          <div class="event-desc">Engelsk dramatiker. Ca 37 pjäser, 154 sonetter. Globe Theatre. Blankvers. Tragiska hjältar där dygd blir last (hybris).</div>
         </div>
 
         <div class="timeline-event renaissance">
@@ -486,14 +478,18 @@ em {
         </div>
 
         <div class="timeline-event renaissance">
+          <div class="event-year">1564–1616</div>
+          <div class="event-title">William Shakespeare</div>
+          <div class="event-desc">Engelsk dramatiker. Ca 37 pjäser, 154 sonetter. Globe Theatre. Blankvers. Tragiska hjältar där dygd blir last (hybris).</div>
+        </div>
+
+        <div class="timeline-event renaissance">
           <div class="event-year">1609</div>
           <div class="event-title">Shakespeares sonetter publiceras</div>
           <div class="event-desc">154 sonetter, inklusive <em>Sonett 18</em> ("Skall jag dig likna vid en sommardag?"). Dikten ger odödlighet.</div>
         </div>
       </div>
     </div>
-
-    <div class="page-break"></div>
 
     <!-- SVENSK RENÄSSANS -->
     <div class="timeline-section">
@@ -510,21 +506,15 @@ em {
         </div>
 
         <div class="timeline-event renaissance">
+          <div class="event-year">1598–1672</div>
+          <div class="event-title">Georg Stiernhielm</div>
+          <div class="event-desc">Renässansmänniska: ämbetsman, vetenskapsman, poet. Kan sin Homeros och antika mönster. Den svenska poesins fader. <em>Hercules</em> (1658) – svenskt epos på hexameter.</div>
+        </div>
+
+        <div class="timeline-event renaissance">
           <div class="event-year">1626–1672</div>
           <div class="event-title">Drottning Kristina</div>
           <div class="event-desc">Regent från 1644. Stort kulturintresse – för lärda till hovet. Ogift. Renässansens idéer når äntligen Sverige!</div>
-        </div>
-
-        <div class="timeline-event renaissance">
-          <div class="event-year">1598–1672</div>
-          <div class="event-title">Georg Stiernhielm</div>
-          <div class="event-desc">Renässansmänniska: ämbetsman, vetenskapsman, poet. Kan sin Homeros och antika mönster. Sveriges "faderkung av poesi".</div>
-        </div>
-
-        <div class="timeline-event renaissance">
-          <div class="event-year">1658</div>
-          <div class="event-title">Hercules av Stiernhielm</div>
-          <div class="event-desc">Svenskt epos på hexameter (antik versform). Hercules väljer mellan Fru Lusta och Fru Dygd. Didaktisk allegori för unga adelsmän.</div>
         </div>
       </div>
     </div>
@@ -532,7 +522,7 @@ em {
     <!-- FRAMÅTBLICK MOT UPPLYSNINGEN -->
     <div class="timeline-section">
       <h2 class="section-title">
-        Framåtblick: Mot upplysningen (1700-tal)
+        Framåtblick: Mot upplysningen och vidare
         <span class="era-marker era-enlightenment">Nästa epok</span>
       </h2>
       
@@ -545,17 +535,16 @@ em {
 
         <div class="timeline-event enlightenment">
           <div class="event-year">1800-talet</div>
-          <div class="event-title">Naturalismen</div>
-          <div class="event-desc">Människan som del av naturen, präglad av arv och miljö. Darwin, Zola, Strindberg. Vetenskapen förklarar människan.</div>
+          <div class="event-title">1800-talets litterära rörelser</div>
+          <div class="event-desc"><strong>Romantiken:</strong> Känsla, fantasi, nationalism. <strong>Realismen:</strong> Verklighetsskildring. <strong>Naturalismen:</strong> Arv och miljö bestämmer människan (Darwin, Zola, Strindberg).</div>
         </div>
       </div>
-    </div>
 
     <!-- LEGEND -->
     <div class="legend">
       <div class="legend-item">
         <div class="legend-color" style="background: #3498db;"></div>
-        <span><strong>Antiken (referenser):</strong> Författare vi nämner som förebilder</span>
+        <span><strong>Antiken (800 f.Kr.–476 e.Kr.):</strong> Grunden för europeisk bildning</span>
       </div>
       <div class="legend-item">
         <div class="legend-color" style="background: #f39c12;"></div>
