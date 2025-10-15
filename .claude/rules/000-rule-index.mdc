@@ -1,0 +1,11 @@
+# Regelindex
+
+## Global arbetsordning
+1. Öppna denna fil först i varje session.
+2. Läs sedan de regel- eller kontextfiler som 000-index länkar till för det aktuella uppdraget.
+3. Gå därefter igenom `HANDOFF.md` och `README_FIRST.md` (samt motsvarigheter i `.claude/` om de finns) innan arbete påbörjas.
+
+## Tillgängliga regelkällor
+- `AGENTS.md` – samlar övergripande agentinstruktioner, utvecklings- och rapporteringsrutiner.
+
+> Uppdatera denna indexfil när nya regler eller viktiga dokument tillkommer.

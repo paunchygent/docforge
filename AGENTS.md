@@ -7,16 +7,16 @@ Being in read-only sandbox means you can run any terminal command in sandbox but
 ### 1. Initial Setup
 
 ```markdown
-- FIRST ACTION Read `.claude/rules/000-rule-index.mdc` first. The index contains onboard instructions for all services and project rules and standards.
+- FIRST ACTION Read `.windsurf/rules/000-rule-index.mdc` first. The index contains onboard instructions for all services and project rules and standards.
 - SECOND ACTION Use the user's task description to read and review all rule files related to the task at hand.
 - Key architectural documents in this order:
 
 ### 2. Task Execution
 
 ```markdown
-1. **To avoid immediate task failure**: Read `.HANDOFF.md` and README_FIRST.md` for **critical** cross-service task context.
-2. **Rule Reference**: Consult `.claude/rules/000-rule-index.mdc` for relevant rules. If `.claude/rules/000-rule-index.mdc` does not exist or is not up to date, create and/or update it.
-3. **Update**: Update `.claude/HANDOFF.md` and `.claude/README_FIRST.md` with any new information.
+1. **To avoid immediate task failure**: in .windsurf/rules/ read `.HANDOFF.md` and README_FIRST.md` for **critical** cross-service task context.
+2. **Rule Reference**: Consult `.windsurf/rules/000-rule-index.mdc` for relevant rules. If `.windsurf/rules/000-rule-index.mdc` does not exist or is not up to date, create and/or update it.
+3. **Update**: Update `.windsurf/HANDOFF.md` and `.windsurf/README_FIRST.md` with any new information.
 ```
 
 ## 3. Repository Guidelines
