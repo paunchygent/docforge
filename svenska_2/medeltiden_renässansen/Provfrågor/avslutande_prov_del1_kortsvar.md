@@ -109,7 +109,7 @@
 
 17. **Författare:** Miguel Cervantes.
 
-18. **Författare:** Georg Stiernhielm. **Versmått:** Hexameter (sextaktsvers).
+18. **Författare:** Georg Stiernhielm. **Versmått:** Hexameter.
 
 19. **Pjäser:** Valfria två av: *Hamlet*, *Romeo och Julia*, *Macbeth*, *Othello*, *Köpmannen i Venedig*, *En midsommarnattsdröm* (andra accepteras också).
 

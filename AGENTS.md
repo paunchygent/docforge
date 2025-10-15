@@ -2,11 +2,28 @@
 
 Being in read-only sandbox means you can run any terminal command in sandbox but the user must then grant or deny each request.
 
-## Repository Guidelines
+## Core Workflow
+
+### 1. Initial Setup
+
+```markdown
+- FIRST ACTION Read `.claude/rules/000-rule-index.mdc` first. The index contains onboard instructions for all services and project rules and standards.
+- SECOND ACTION Use the user's task description to read and review all rule files related to the task at hand.
+- Key architectural documents in this order:
+
+### 2. Task Execution
+
+```markdown
+1. **To avoid immediate task failure**: Read `.HANDOFF.md` and README_FIRST.md` for **critical** cross-service task context.
+2. **Rule Reference**: Consult `.claude/rules/000-rule-index.mdc` for relevant rules. If `.claude/rules/000-rule-index.mdc` does not exist or is not up to date, create and/or update it.
+3. **Update**: Update `.claude/HANDOFF.md` and `.claude/README_FIRST.md` with any new information.
+```
+
+## 3. Repository Guidelines
 
 Contributors help convert Tailwind-powered HTML handouts into polished PDFs/Docx deliverables. Follow these notes to keep Python, Tailwind, and documentation assets aligned.
 
-## Project Structure & Module Organization
+### 4. Project Structure & Module Organization
 
 - `handout_templates/` holds production-ready HTML templates plus any data/partials required per handout family.
 - `scripts/` contains operational tooling: CLI entry points at the root (`handout_builder.py`, `build_css.py`), conversion utilities in `scripts/converters/`, and maintenance helpers in `scripts/maintenance/`.
@@ -15,7 +32,7 @@ Contributors help convert Tailwind-powered HTML handouts into polished PDFs/Docx
 - `rapportmallar/` retains example datasets and historical report assets—scrub sensitive exports before committing updates.
 - `TASKS/` tracks worklog and plans; append new notes instead of rewriting history.
 
-## Build, Test, and Development Commands
+### 5. Build, Test, and Development Commands
 
 - `pnpm install` and `pdm install` set up Node + Python environments; rerun after dependency changes.
 - Let pnpm manage semantic versions (use caret ranges by default; avoid hard pins unless a regression requires it).
@@ -24,19 +41,19 @@ Contributors help convert Tailwind-powered HTML handouts into polished PDFs/Docx
 - `pdm run lint`, `pdm run format`, and `pdm run typecheck` enforce Ruff and MyPy baselines.
 - `pdm run test` executes the pytest suite; add fixtures for new template families.
 
-## Coding Style & Naming Conventions
+### 6. Coding Style & Naming Conventions
 
 - Python: 4-space indentation, 100-character lines, Ruff-managed imports, and descriptive module names (`convert_*`, `render_*`).
 - Tailwind: author source CSS in `styles/src/tailwind.css` using `@import "tailwindcss";` + `@theme` variables; keep class names kebab-case in templates.
 - Templates: ensure Jinja blocks and front-matter keys read as lower_snake_case; prefix shared partials with `_`.
 
-## Testing Guidelines
+### 7. Testing Guidelines
 
 - Place automated tests under `tests/` following `test_*.py` naming; mirror module structure (`tests/converters/test_html_to_pdf.py`).
 - Snapshot critical PDF/Docx outputs or compare metadata hashes; accompany binary checks with readable HTML fixtures.
 - Document manual QA steps in `docs/` whenever you introduce a new handout style or conversion backend.
 
-## Commit & Pull Request Guidelines
+### 8. Commit & Pull Request Guidelines
 
 - Write imperative, scoped commit messages (`Add Tailwind v4 build runner`). Group related template/CSS assets in the same commit to simplify reviews.
 - PRs should summarise behaviour changes, list generated artefacts (PDF/Docx paths), and include screenshots or rendered PDFs for visual updates.
