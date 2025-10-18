@@ -1,0 +1,234 @@
+/* Written Exam Template - Consistent with Main Design System */
+@page {
+  size: A4 portrait;
+  margin: 12mm;
+}
+
+:root {
+  /* Force light mode colors */
+  --accent: #1e3a8a;
+  --accent-light: #3b82f6;
+  --accent-dark: #1d4ed8;
+  --text: #1f2937;
+  --muted: #6b7280;
+  --border: #d1d5db;
+  --panel-bg: #f9fafb;
+  --highlight: #dbeafe;
+  color-scheme: light;
+}
+
+/* Force light mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --accent: #1e3a8a;
+    --accent-light: #3b82f6;
+    --accent-dark: #1d4ed8;
+    --text: #1f2937;
+    --muted: #6b7280;
+    --border: #d1d5db;
+    --panel-bg: #f9fafb;
+    --highlight: #dbeafe;
+  }
+  
+  body {
+    background: #ffffff;
+    color: var(--text);
+  }
+}
+
+* { 
+  box-sizing: border-box;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  color: var(--text);
+  background: #fff;
+  padding: 0;
+  line-height: 1.5;
+  max-width: 100%;
+  margin: 0 auto;
+  font-size: 11pt;
+}
+
+.page {
+  max-width: 210mm;
+  margin: 0 auto;
+  padding: 12mm;
+}
+
+/* Header */
+.exam-header {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.exam-title {
+  font-family: "Avenir Next", Avenir, "Gill Sans", sans-serif;
+  color: var(--accent);
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  font-size: 1.75rem;
+}
+
+.exam-subtitle {
+  color: var(--muted);
+  font-weight: normal;
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.exam-meta {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+/* Instructions */
+.instructions {
+  background-color: var(--panel-bg);
+  padding: 1.25rem;
+  border-left: 4px solid var(--accent-light);
+  margin: 0 0 2rem 0;
+  border-radius: 4px;
+}
+
+.instructions h3 {
+  font-family: "Avenir Next", Avenir, "Gill Sans", sans-serif;
+  color: var(--accent);
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  font-size: 1.2rem;
+}
+
+.instructions ul {
+  margin: 0.75rem 0;
+  padding-left: 1.25rem;
+}
+
+.instructions li {
+  margin-bottom: 0.35rem;
+}
+
+.exam-info {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.exam-info p {
+  margin: 0.25rem 0;
+}
+
+/* Sections */
+.section {
+  margin-bottom: 2rem;
+  page-break-inside: avoid;
+}
+
+.section-header {
+  font-family: "Avenir Next", Avenir, "Gill Sans", sans-serif;
+  color: var(--accent);
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.5rem;
+  margin: 1.5rem 0 1rem 0;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.section-instructions {
+  color: var(--muted);
+  margin: 0.5rem 0 1.25rem 0;
+  font-style: italic;
+  font-size: 0.95rem;
+}
+
+/* Questions */
+.question {
+  margin-bottom: 1.75rem;
+  page-break-inside: avoid;
+}
+
+.question-text {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+.points {
+  font-style: italic;
+  color: var(--accent);
+  margin-left: 0.5rem;
+  font-weight: normal;
+  font-size: 0.9em;
+}
+
+/* Lined notes for answers */
+.lined-notes {
+  /* SVG-based lines for consistent rendering in PDF */
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='7mm'%3e%3cline x1='0' y1='100%25' x2='100%25' y2='100%25' stroke='%23d1d5db' stroke-width='0.3mm'/%3e%3c/svg%3e");
+  background-size: 100% 7mm;
+  border: 0.3mm solid var(--border);
+  border-radius: 2mm;
+  padding: 2mm 4mm;
+  margin: 0.5rem 0 1.5rem;
+}
+
+.small-notes {
+  min-height: 14mm;  /* 2 lines */
+}
+
+.large-notes {
+  min-height: 140mm;  /* Full page */
+}
+
+.writeable-line {
+  margin: 0;
+  padding: 0;
+  height: 7mm;
+  line-height: 7mm;
+}
+
+.writeable-line:last-child {
+  border-bottom: none;
+}
+
+/* Footer */
+.exam-footer {
+  text-align: center;
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
+/* Print specific styles */
+@media print {
+  @page {
+    margin: 15mm;
+  }
+  
+  body {
+    padding: 0;
+    font-size: 10.5pt;
+  }
+  
+  .no-print {
+    display: none;
+  }
+  
+  .lined-notes {
+    border: 0.3mm solid #d1d5db;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  
+  .section {
+    page-break-inside: avoid;
+  }
+}

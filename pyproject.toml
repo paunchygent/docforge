@@ -12,7 +12,7 @@ dependencies = [
     "jinja2",
     "typer",
     "rich",
-    "python-frontmatter",
+    "python-frontmatter>=1.1.0",
     "weasyprint",
     "pypandoc",
     "docxtpl",
@@ -20,6 +20,7 @@ dependencies = [
     "beautifulsoup4",
     "pymupdf",
     "pytesseract",
+    "markdown>=3.9",
 ]
 
 [dependency-groups]

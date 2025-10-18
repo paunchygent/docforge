@@ -260,6 +260,15 @@ def markdown_to_html(input_path: Path, output_path: Optional[Path] = None) -> Pa
 
     try:
         # Use pypandoc with explicit UTF-8 encoding
+        # First, read the markdown content to extract the first H1 heading
+        with open(input_path, 'r', encoding='utf-8') as f:
+            content = f.read()
+
+        # Find the first H1 heading (starts with # followed by space)
+        import re
+        h1_match = re.search(r'^#\s+(.+?)(\n|$)', content, re.MULTILINE)
+        title = h1_match.group(1).strip() if h1_match else input_path.stem
+
         pypandoc.convert_file(
             str(input_path),
             "html",
@@ -267,7 +276,7 @@ def markdown_to_html(input_path: Path, output_path: Optional[Path] = None) -> Pa
             extra_args=[
                 "--standalone",  # Include HTML document structure
                 "--metadata",
-                "title=" + input_path.stem,
+                f"title={title}",
                 "--from=markdown+smart",  # Enable smart typography
                 "--to=html5",
             ],
