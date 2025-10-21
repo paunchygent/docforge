@@ -1,0 +1,8 @@
+# Python Environment Guidelines
+
+- **Package management**: Initialize and manage the project with PDM only; do not introduce alternative dependency managers.
+- **Dependencies**: Add runtime packages with `pdm add <package>` and dev/test tools with `pdm add -d <package>`; avoid manual version pinning unless explicitly required by compatibility constraints.
+- **Scripts**: Expose CLI entry points and automation through `[tool.pdm.scripts]` to ensure invocation via `pdm run`.
+- **Testing**: Execute all Python tests with `pdm run pytest -s` (include `-k` filters for targeted suites when appropriate).
+- **Linting & QA**: Run quality checks (e.g. `ruff`, `mypy`) through `pdm run` commands; never invoke tools directly from the global environment.
+- **Lockfile**: Maintain a single `pdm.lock` in the repository root; update it via `pdm update` when dependencies change.

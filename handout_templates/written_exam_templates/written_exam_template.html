@@ -23,7 +23,6 @@
             <h3>Instruktioner</h3>
             <ul>
                 <li>Läs igenom hela provet innan du börjar.</li>
-                <li>Använd svart eller blå bläck.</li>
                 <li>Skriv tydligt och läsbart.</li>
                 <li>Förklara dina svar utförligt där det behövs.</li>
                 <li>Kontrollera att du har svarat på alla delar av varje fråga.</li>
@@ -45,25 +44,23 @@
             {% for question in section.questions %}
             <div class="question">
                 <div class="question-text">
-                    {{ loop.index }}. {{ question.text }}
+                    {% if question.label %}{{ question.label }}.{% else %}{{ loop.index }}.{% endif %}
+                    {{ question.title }}
                     {% if question.points %}
                     <span class="points">({{ question.points }} poäng)</span>
                     {% endif %}
                 </div>
-                
-                <div class="lined-notes {% if question.type == 'essay' %}large-notes{% else %}small-notes{% endif %}">
-                    {% if question.type == 'essay' %}
-                        <!-- Add multiple lines for essay answers -->
+                {% if question.body_html %}
+                <div class="question-body">{{ question.body_html | safe }}</div>
+                {% endif %}
+
+                {% set notes_class = question.notes_class or 'medium-notes' %}
+                <div class="lined-notes {{ notes_class }}">
+                    {% if question.lines > 0 %}
+                        {% for _ in range(question.lines) %}
                         <p class="writeable-line"></p>
-                        <p class="writeable-line"></p>
-                        <p class="writeable-line"></p>
-                        <p class="writeable-line"></p>
-                        <p class="writeable-line"></p>
-                        <p class="writeable-line"></p>
-                        <p class="writeable-line"></p>
-                        <p class="writeable-line"></p>
+                        {% endfor %}
                     {% else %}
-                        <!-- Single line for short answers -->
                         <p class="writeable-line"></p>
                     {% endif %}
                 </div>

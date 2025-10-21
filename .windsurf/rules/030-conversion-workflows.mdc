@@ -1,0 +1,8 @@
+# HTML/PDF/Docx Conversion Workflows
+
+- **Template metadata**: Store template front-matter (title, format targets, context variables) in the source HTML/Markdown file using YAML headers or adjacent `.yml` configs.
+- **Rendering**: Render dynamic HTML via Jinja2 using a Python CLI (`scripts/handout_builder.py`), ensuring Tailwind CSS has been built before conversion.
+- **PDF generation**: Prefer WeasyPrint for CSS-rich documents; fall back to Pandoc/PyPandoc only when necessary. Always call through `pdm run`.
+- **Docx generation**: Use Pandoc for straight HTML→Docx conversions; leverage `docxtpl` for advanced templating scenarios.
+- **Batch operations**: Support multi-output builds (HTML, PDF, Docx) through orchestrated commands (`pdm run build:pdf`, `pdm run build:docx`, `pdm run build:all`).
+- **Validation**: After each conversion run, verify output existence and non-zero size; log backend choice for traceability.

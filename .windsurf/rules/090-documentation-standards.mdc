@@ -1,0 +1,7 @@
+# Documentation & Task Tracking Standards
+
+- **CURRENT TASK log**: Maintain `TASKS/CURRENT_TASK.md` with sections for context, worklog entries (timestamp + change summary), outstanding questions, and next actions.
+- **Update cadence**: Append a new worklog entry whenever you complete a meaningful change, run tests, or adjust scope.
+- **Task files**: For larger efforts, create dedicated task briefs under `TASKS/` (e.g. `TASKS/001-html-to-pdf-setup.mdt`) summarizing objectives, requirements, and acceptance criteria.
+- **Linkage**: Reference relevant rule files and scripts inside task documents to keep workflows discoverable.
+- **Completion checklist**: Each task document should end with a checklist that includes code updates, documentation updates, and test execution (with `pdm run pytest -s`).

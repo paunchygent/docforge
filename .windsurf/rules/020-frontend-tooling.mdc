@@ -1,0 +1,17 @@
+# Frontend Tooling Standards
+
+- **Package manager**: Use `pnpm` for Node.js dependencies; do not mix with npm or yarn.
+- **Tailwind CSS**: Target Tailwind v4 (`tailwindcss@next`) driven by the bundled CLI. Wrap builds with `pdm run build:css` so Python tasks can invoke them.
+- **Directory layout**: Author source files in `styles/src/` (e.g. `styles/src/tailwind.css`) and emit compiled assets to `styles/dist/`. Avoid committing generated CSS; the folder is ignored.
+- **Configuration style**: Prefer the CSS-first approach introduced in v4 (`@import "tailwindcss";` + `@theme` blocks). Add overrides in CSS before reaching for a JS config.
+- **Live preview**: Default workflow relies on the Tailwind CLI `--watch` flag. Introduce Vite or similar dev servers only if interactive previews become necessary.
+- **Version control**: Commit CSS sources, theme tokens, and docs only. Keep `styles/dist/` output, node_modules, and other generated artifacts out of git.
+
+## Tailwind v4 + WeasyPrint compatibility
+
+- Keep Tailwind output limited to utility classes that compile into standard CSS declarations. WeasyPrint ignores modern CSS at-rules such as `@layer`, `@supports`, and `@property`, so utilities relying on those mechanisms may be dropped.
+- Avoid depending on Tailwind-generated CSS custom-property shorthands (for example `var(--tw-shadow)` or `var(--tw-ring-shadow)`). WeasyPrint will discard declarations whose values resolve solely to these Tailwind placeholders.
+- Prefer author-defined classes in `styles/src/tailwind.css` that use `@apply` to bake in the needed properties. This ensures the compiled CSS contains explicit values WeasyPrint understands.
+- When a Tailwind utility expands to unsupported features, define an equivalent rule in a companion stylesheet (e.g. `spaced_repetition_style.css`) using plain CSS properties. Keep these fallbacks next to the template so PDF output remains faithful.
+- After adjusting styles, run `pdm run build:css` followed by `pdm run build:pdf --template <name> --verbose` to confirm WeasyPrint logs no critical warnings and that the PDF layout matches expectations.
+

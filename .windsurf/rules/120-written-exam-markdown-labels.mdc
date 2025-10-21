@@ -1,0 +1,17 @@
+# Rule 120: Written exam markdown labels
+
+## Summary
+- Markdown exams use `<svarstyp: ...>` tags to size answer panels in the written-exam template.
+
+## Guidelines
+- Use `<svarstyp: kort>` for single-line answers (maps to `small-notes`).
+- Use `<svarstyp: medel>` when 10 lines of space is sufficient (default).
+- Use `<svarstyp: lång>` for extended responses; generates 24 lines and `long-notes` styling.
+- Use `<svarstyp: essä>` for essay prompts; generates 40 lines and allows multi-page flow.
+- Question numbers 10 and 11 auto-upgrade to `lång` and `essä` unless explicitly overridden.
+- Run `pdm run python scripts/convert_md_to_written_exam.py <path>` after tagging to regenerate HTML/PDF.
+
+## References
+- Template: `handout_templates/written_exam_templates/written_exam_template.html`
+- Stylesheet: `handout_templates/written_exam_templates/css/written_exam.css`
+- Converter: `scripts/convert_md_to_written_exam.py`

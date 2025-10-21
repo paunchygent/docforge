@@ -150,10 +150,11 @@ body {
 /* Questions */
 .question {
   margin-bottom: 1.75rem;
-  page-break-inside: avoid;
+  page-break-inside: auto;
 }
 
 .question-text {
+  page-break-after: avoid;
   font-weight: 500;
   margin-bottom: 0.5rem;
   line-height: 1.5;
@@ -176,14 +177,23 @@ body {
   border-radius: 2mm;
   padding: 2mm 4mm;
   margin: 0.5rem 0 1.5rem;
+  page-break-inside: auto;
 }
 
 .small-notes {
   min-height: 14mm;  /* 2 lines */
 }
 
-.large-notes {
-  min-height: 140mm;  /* Full page */
+.medium-notes {
+  min-height: 56mm;  /* approx 8 lines */
+}
+
+.long-notes {
+  min-height: 140mm;  /* approx double medium */
+}
+
+.essay-notes {
+  min-height: auto;
 }
 
 .writeable-line {

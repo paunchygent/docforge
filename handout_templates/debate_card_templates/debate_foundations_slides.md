@@ -17,7 +17,7 @@ A **structured argument** between two teams:
 
 ---
 
-## The Format: 6 Speeches, 3 Minutes Each
+## The Format: 6 Speeches, 2 Minutes Each
 
 | Order | Speaker Role | Main Job |
 |-------|-------------|----------|
@@ -28,7 +28,7 @@ A **structured argument** between two teams:
 | 5 | **Aff Closer** | Summarize + weigh your case |
 | 6 | **Neg Closer** | Summarize + weigh your case |
 
-**Each speech:** 3:00 minutes (1:00 in drills)
+**Each speech:** 2:00 minutes (1:00 in drills)
 
 ---
 
@@ -120,13 +120,13 @@ Show the impact on the debate.
 
 ### **As the Speaker:**
 
-- You may **accept or decline** (accept at least one)
-- Answer in **one sentence**, then return to your speech
+- You may **accept or decline**. During Builder/Closer speeches expect at most one POI from the opposing team.
+- Answer in **one sentence**, then return to your speech. In the final 5:00 POI stage, alternate responses and keep answers within 10 seconds.
 
 ### **As the Asker:**
 
 - Stand and say: *"Point of information"*
-- If accepted, ask **one clear question**
+- If accepted, ask **one clear question**. During Builder/Closer speeches you get one attempt; in the final stage, alternate requests and take only one follow-up.
 - Sit down immediately after asking
 
 **Purpose:** Test the logic of their argument, not to interrupt rudely.

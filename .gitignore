@@ -12,7 +12,6 @@ __pycache__/
 .ruff_cache/
 
 # Tooling metadata
-.windsurf/
 
 # Node / frontend
 node_modules/

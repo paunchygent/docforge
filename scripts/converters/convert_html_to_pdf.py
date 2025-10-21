@@ -206,7 +206,8 @@ def convert_with_weasyprint(
     html_path: Path,
     output_path: Path,
     add_supplementary_css: bool = True,
-    html_content: Optional[str] = None
+    html_content: Optional[str] = None,
+    base_url: Optional[str] = None,
 ) -> Path:
     """
     Convert HTML to PDF using WeasyPrint (best CSS support).
@@ -234,9 +235,12 @@ def convert_with_weasyprint(
                 html_content = f.read()
 
         # Create HTML object with proper base URL for relative image paths
+        resolved_base_url = base_url or str(html_path.parent.resolve())
+        if not resolved_base_url.endswith("/"):
+            resolved_base_url = resolved_base_url + "/"
         html_doc = HTML(
             string=html_content,
-            base_url=str(html_path.parent.absolute()) + "/"
+            base_url=resolved_base_url,
         )
 
         # Prepare stylesheets
@@ -330,7 +334,8 @@ def convert_html_to_pdf(
     input_path: Path,
     output_path: Optional[Path] = None,
     prefer_weasyprint: bool = True,
-    verbose: bool = False
+    verbose: bool = False,
+    base_url: Optional[str] = None,
 ) -> Tuple[Path, str]:
     """
     Convert HTML file to PDF with automatic backend selection.
@@ -376,6 +381,7 @@ def convert_html_to_pdf(
                 output_path,
                 add_supplementary_css=template_options.inject_supplementary_css,
                 html_content=html_content,
+                base_url=base_url,
             )
             backend_used = "weasyprint"
             return result, backend_used
