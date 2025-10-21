@@ -1,0 +1,225 @@
+/* Landdokument Instruktion Style - Minimal Clean Design */
+
+@page {
+  size: A4 portrait;
+  margin: 12mm;
+}
+
+:root {
+  --page-width: 186mm;
+  --accent: #1e3a8a;
+  --accent-light: #3b82f6;
+  --text: #1f2937;
+  --muted: #6b7280;
+  --border: #d1d5db;
+  --panel-bg: #f9fafb;
+  --highlight: #dbeafe;
+}
+
+* { 
+  box-sizing: border-box;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+html, body { 
+  padding: 0; 
+  margin: 0; 
+}
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  color: var(--text);
+  background: #fff;
+  padding: 0;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.page {
+  max-width: var(--page-width);
+  margin: 0 auto;
+  padding: 6mm;
+}
+
+/* Typography */
+h1 {
+  font-family: "Avenir Next", Avenir, "Gill Sans", sans-serif;
+  font-size: 22pt;
+  margin: 0 0 2mm;
+  font-weight: 700;
+  color: var(--accent);
+  letter-spacing: 0.005em;
+  border-bottom: 1mm solid var(--accent);
+  padding-bottom: 0mm;
+}
+
+h2 { 
+  font-family: "Avenir Next", Avenir, "Gill Sans", sans-serif;
+  font-size: 11pt;
+  margin: 3mm 0 0.5mm;
+  font-weight: 700;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+h3 { 
+  font-size: 12pt;
+  margin: 2mm 0 2mm;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.week-section,
+.later-section {
+  border: 0.4mm solid var(--border);
+  border-radius: 3mm;
+  background: #ffffff;
+  padding: 4mm;
+  margin-top: 5mm;
+  break-inside: avoid;
+}
+
+.week-section h3,
+.later-section h3 {
+  margin-top: 0;
+}
+
+p { 
+  font-size: 10pt;
+  margin: 0;
+  line-height: 1.4;
+}
+
+p + p {
+  margin-top: 2mm;
+}
+
+p + h2,
+ul + h2,
+ol + h2 {
+  margin-top: 3mm;
+}
+
+ul, ol { 
+  margin: 0;
+  padding-left: 5mm;
+}
+
+li {
+  margin: 0 0 1mm;
+  font-size: 10pt;
+  line-height: 1.4;
+}
+
+.multi-column {
+  column-count: 2;
+  column-gap: 5mm;
+}
+
+.multi-column.three-columns {
+  column-count: 3;
+}
+
+.multi-column li {
+  break-inside: avoid;
+}
+
+.sub {
+  font-size: 9.5pt;
+  color: var(--muted);
+  margin: 1mm 0 3mm;
+  font-style: italic;
+}
+
+code {
+  background-color: var(--panel-bg);
+  border: 0.3mm solid var(--border);
+  border-radius: 1mm;
+  padding: 0.5mm 1mm;
+  font-family: "Menlo", "Consolas", "Courier New", monospace;
+  font-size: 9pt;
+  color: var(--text);
+  white-space: nowrap;
+}
+
+/* Week 43 highlight */
+.week-highlight {
+  background: var(--highlight);
+  border-left: 3mm solid var(--accent);
+  padding: 3mm 4mm;
+  margin: 2mm 0 4mm;
+  font-size: 10pt;
+  line-height: 1.4;
+  border-radius: 2mm;
+}
+
+/* Section markers for week 43 */
+h3 .week-marker {
+  display: inline-block;
+  background: #10b981;
+  color: white;
+  font-size: 8pt;
+  font-weight: 700;
+  padding: 1mm 2mm;
+  border-radius: 1.5mm;
+  margin-left: 2mm;
+  vertical-align: middle;
+}
+
+h3 .optional-marker {
+  display: inline-block;
+  background: #f59e0b;
+  color: white;
+  font-size: 8pt;
+  font-weight: 700;
+  padding: 1mm 2mm;
+  border-radius: 1.5mm;
+  margin-left: 2mm;
+  vertical-align: middle;
+}
+
+.later-note {
+  font-size: 9.5pt;
+  color: var(--muted);
+  margin: 0 0 3mm;
+}
+
+.list-panel {
+  background: var(--panel-bg);
+  border: 0.3mm solid var(--border);
+  border-radius: 2mm;
+  padding: 3mm 4mm;
+  margin: 3mm 0;
+  display: flex;
+  gap: 4mm;
+}
+
+.list-panel ul {
+  margin: 0;
+  padding-left: 5mm;
+  flex: 1;
+}
+
+.list-panel ul li {
+  margin-bottom: 1mm;
+}
+
+.list-panel.three-columns ul {
+  flex: 1;
+}
+
+.tip-block {
+  font-size: 9.5pt;
+  color: var(--muted);
+  margin: 3mm 0 0;
+  line-height: 1.45;
+}
+
+/* Print optimizations */
+@media print {
+  body { padding: 0; }
+  .page { padding: 0; }
+  h1 { margin-top: 0; }
+}

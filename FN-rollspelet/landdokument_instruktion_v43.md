@@ -74,13 +74,13 @@ Vad kännetecknar landet? Ta reda på om landet beskrivs med ord som:
 - Växande marknad
 - Interna politiska oroligheter
 
-Vissa delar är mer relevanta för ert land än andra. Eftersom utrymmet är begränsat måste ni välja ut de delar som är mest relevant för ert land. En bra princip är att tänka på vad ni själva skulle anse som nyttigt att veta om ni tillhörde en annat lands delegation.
+Vissa delar är mer relevanta för ert land än andra. Eftersom utrymmet är begränsat måste ni välja ut de delar som är mest relevanta för ert land. En bra princip är att tänka på vad ni själva skulle anse som nyttigt att veta om ni tillhörde ett annat lands delegation.
 
 ### 2. Befinner sig landet i en speciell situation? 🟢 VECKA 43
 
 Här följer ett urval av frågor som kan hjälpa er att hitta relevanta aspekter att besvara:
 
-- Är landet i krig eller präglat av en långvarig konflik? 
+- Är landet i krig eller präglat av en långvarig konflik?
 - Är landet en demokrati, en diktatur eller kanske på väg att utvecklas någon av dessa riktningar?
 - Påverkas landet av terrorism, ockupation eller sanktioner?
 - Finns det minoritetsgrupper som vill ha självständighet?

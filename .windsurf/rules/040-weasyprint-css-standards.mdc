@@ -1,0 +1,42 @@
+# WeasyPrint CSS Standards
+
+## Canonical Reference
+- **Primary source**: `handout_templates/debate_card_templates/debate_card_style.css` – All patterns here are battle-tested and WeasyPrint-compatible. Inherit from this file for consistency.
+- **Secondary source**: `handout_templates/fn_rollspel/landdokument_style.css` – Demonstrates flexbox multi-column patterns.
+
+## Supported Patterns (✅)
+- **CSS columns**: `column-count`, `column-gap`, `break-inside: avoid` for single-UL multi-column lists (see `.domain-words`).
+- **Flexbox layouts**: `display: flex`, `gap`, `flex: 1` or explicit widths for side-by-side blocks. Each column must be separate HTML element (see `.twocol`, `.list-panel`).
+- **Simple borders**: `border`, `border-radius`, `padding`, `margin`, `break-inside: avoid` for sections (see `.prep-section`, `.week-section`).
+- **Panel backgrounds**: `background`, `border`, `border-left` for highlighted panels (see `.block`, `.week-highlight`).
+- **Page breaks**: `page-break-before: always`, `break-before: page`, `break-inside: avoid`.
+
+## Unsupported Patterns (❌)
+- **calc() in flex contexts**: WeasyPrint ignores `flex: 1 1 calc(50% - 5mm)` and `flex-basis: calc(...)`. Use `flex: 1` + `gap` or explicit widths instead.
+- **Complex grid**: `grid-template-columns: repeat(auto-fit, ...)` is unreliable. Use flexbox or CSS columns.
+- **Transforms/animations**: `transform`, `transition`, `animation` – PDF is static.
+- **Advanced selectors**: `:has()`, `:is()`, complex pseudo-classes may fail silently.
+
+## Design System
+- **Variables** (from `debate_card_style.css`): `--accent: #1e3a8a`, `--accent-light: #3b82f6`, `--text: #1f2937`, `--muted: #6b7280`, `--border: #d1d5db`, `--panel-bg: #f9fafb`, `--highlight: #dbeafe`.
+- **Typography**: Body in Georgia 10pt/1.4, headings in Avenir Next (H1: 22pt/700, H2: 11pt/700/uppercase, H3: 12pt/600).
+- **Spacing**: Use millimeters (`mm`) for all spacing. Standard scale: 1mm, 2mm, 3mm, 4mm, 5mm.
+
+## Workflow
+1. Copy base structure from `debate_card_style.css`.
+2. Test new patterns in isolation with `pdm run build:pdf --template <test-template>` before committing.
+3. Check build output for WeasyPrint warnings (ignored `calc()`, unsupported properties).
+4. Verify multi-column layouts don't overlap and page breaks occur logically.
+
+## Common Pitfalls
+- Forgetting `break-inside: avoid` on column items → mid-item splits.
+- Using `calc()` in flex → silent layout failure.
+- Mixing spacing units (px/mm/pt) → inconsistent print output.
+- Missing `width: 100%` on flex containers → misaligned columns.
+
+## Testing
+- Generate PDF, inspect for warnings, validate layout, compare consistency with `debate_card_style.css`.
+- If pattern not in `debate_card_style.css`, test before use.
+
+## Reference Docs
+- `docs/converters/html_to_pdf.md` – WeasyPrint backend documentation.
