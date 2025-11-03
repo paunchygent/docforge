@@ -1,8 +1,53 @@
 # HTML/PDF/Docx Conversion Workflows
 
+## Template Conversion (HTML → PDF/Docx)
+
 - **Template metadata**: Store template front-matter (title, format targets, context variables) in the source HTML/Markdown file using YAML headers or adjacent `.yml` configs.
 - **Rendering**: Render dynamic HTML via Jinja2 using a Python CLI (`scripts/handout_builder.py`), ensuring Tailwind CSS has been built before conversion.
 - **PDF generation**: Prefer WeasyPrint for CSS-rich documents; fall back to Pandoc/PyPandoc only when necessary. Always call through `pdm run`.
 - **Docx generation**: Use Pandoc for straight HTML→Docx conversions; leverage `docxtpl` for advanced templating scenarios.
 - **Batch operations**: Support multi-output builds (HTML, PDF, Docx) through orchestrated commands (`pdm run build:pdf`, `pdm run build:docx`, `pdm run build:all`).
 - **Validation**: After each conversion run, verify output existence and non-zero size; log backend choice for traceability.
+
+## PDF to Markdown Conversion
+
+### Basic Conversion (PyMuPDF)
+- **Script**: `scripts/converters/convert_pdf_to_md.py`
+- **Command**: `pdm run convert:pdf-md`
+- **Use for**: Quick text extraction, simple documents, previews
+- **Features**: Font-based heading detection, basic structure
+- **Limitations**: No table extraction, no image extraction, basic formatting
+
+### Advanced Conversion (Docling)
+- **Script**: `scripts/converters/convert_pdf_to_md_advanced.py`
+- **Command**: `pdm run convert:pdf-md-advanced`
+- **Use for**: Academic papers, research documents, complex tables, technical documents
+- **Features**: AI-powered layout analysis, table structure recognition, formula extraction, citation preservation
+- **Performance**: ~4-5 minutes per document (optimized with OCR disabled, fast table mode)
+- **See**: `.windsurf/rules/035-docling-pdf-conversion.mdc` for detailed configuration
+
+### DOCX to Markdown Conversion
+- **Script**: `scripts/converters/docx_to_markdown.py`
+- **Backend**: Pandoc
+- **Use for**: Converting Word documents to markdown format
+- **Features**: Preserves formatting, tables, lists, images, links
+
+## Conversion Strategy Selection
+
+**Choose PyMuPDF** when:
+- Speed is critical
+- Document is simple text-only
+- Tables and complex structure not needed
+- Quick preview/draft needed
+
+**Choose Docling** when:
+- Document contains tables (research papers, reports)
+- Complex multi-column layouts
+- Academic citations and references
+- High-quality structure preservation needed
+- Formula or code block extraction required
+
+**Choose PDF → DOCX → Markdown** when:
+- Docling and PyMuPDF both fail
+- Need intermediate editable format
+- Manual review/correction needed

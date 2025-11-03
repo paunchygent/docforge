@@ -5,30 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="handout:pdf:inject_supplementary_css" content="false">
     <title>Kalibrering Rapport - Uppdaterad med aktuell data</title>
-    <link rel="stylesheet" href="kalibrering_rapport_style.css">
+    <link rel="stylesheet" href="report_template.css">
 </head>
 <body>
     <div class="container">
-        <h1>Vad är det egentligen som pågår, Olof?</h1>
+        <h1>Va fan får jag för pengarna, Olof?</h1>
 
         <p>Ok! Nedan följer ett försök att sammanfatta vad det egentligen var ni gjorde på det där första (skälvande?) ämneslagsmötet i augusti. För er som redan har förträngt den första arbetsveckans vedermödor: ni bedömde elevuppsatser skrivna som svar på uppsatsdelen från NP i kursen Engelska 5 (från VT 2016). Målet var att ta fram <strong>ankaruppsatser</strong> – elevtexter med ett så rättvist och stabilt betyg som möjligt – som kan användas för att kalibrera min <em>comparative judgement</em>-modell.</p>
 
         <p>Ankaruppsatserna fungerar som fasta referenspunkter när systemet jämför och rangordnar nya elevuppsatser. Processen går till så att "vanliga" uppsatser (utan känt betyg) jämförs mot varandra och med de inblandade ankaruppsatserna vars betyg redan är fastställda. När alla uppsatser har jämförts med varandra kan vi ranka dem genom att analysera vilka uppsatser som vann respektive förlorade mest matcher och hur svåra eller lätta motståndarna i dessa matcher var. Eftersom ankaruppsatsernas betyg är kända kan systemet sedan beräkna det mest sannolika betyget för alla övriga uppsatser baserat på var de hamnar relativt ankarna i rankningen.</p>
-
-        <div class="highlight">
-            <h3>Viktigt: Bifogade bedömningsanvisningar</h3>
-            <p>Tillsammans med rapporten har jag bifogat <strong>bedömningsanvisningarna för det nationella provet i Engelska 5 VT 2017</strong>. Det är viktigt att samtliga läser in sig på de kritiska delarna innan onsdagens konferens:</p>
-            <ul>
-                <li><strong>De inledande bedömningsanvisningarna (se sidan 7)</strong> </li>
-                <li><strong>De bedömda exempeluppsatserna (se sidan 8-33)</strong> – Fokusera främst uppsatserna snarare än bedömningarna, eftersom vi kommer att göra holistiska jämförelser mellan dem och uppsatserna vi betygsatte i augusti</li>
-            </ul>
-            <p>Detta är nödvändigt för att:</p>
-            <ul>
-                <li>Ni ska få en gemensam bild av vad som krävs på varje betygsnivå redan innan konferensen</li>
-                <li>Vi ska kunna kalibrera oss mot bedömningsinstruktionerna</li>
-                <li>De kalibrerande diskussionerna efter comparative judgement/komparativ bedömning ska bli mer produktiva och fokuserade</li>
-            </ul>
-        </div>
 
         <h2>Metod för att beräkna konsensusbetyg</h2>
 
@@ -68,7 +53,7 @@
                 </tr>
             </thead>
             <tbody>
-                <tr class="table-header-success">
+                <tr style="background-color: #E8F5E9;">
                     <td colspan="4"><strong>Högst rankade</strong></td>
                 </tr>
                 <tr>
@@ -89,7 +74,7 @@
                     <td>7.43</td>
                     <td>0.31</td>
                 </tr>
-                <tr class="table-header-warning">
+                <tr style="background-color: #FFEBEE;">
                     <td colspan="4"><strong>Lägst rankade</strong></td>
                 </tr>
                 <tr>
@@ -119,12 +104,12 @@
 
         <h2>Resultat: Bedömarnas stränghet</h2>
 
-        <p>Analysen visar att ni bedömer olika strängt – vilket är helt normalt, särskilt före kalibrering! Det viktiga är att vi tar hänsyn till detta i modellen.</p>
+        <p>Analysen visar att ni bedömer olika strängt – vilket är helt normalt! Det viktiga är att vi kan ta hänsyn till detta i modellen.</p>
 
         <div class="figure">
             <img src="figur2_bedömarstränghet.png" alt="Bedömarstränghet">
             <div class="figure-caption">
-                <strong>Figur 2: Systematiska skillnader i bedömarstränghet.</strong> Värdet 0 representerar genomsnittlig stränghet. <strong>Negativa värden (röda staplar) indikerar stränga bedömare</strong> som tenderar att ge lägre betyg än genomsnittet. <strong>Positiva värden (gröna staplar) visar generösa bedömare</strong> som ger högre betyg. Antalet bedömda uppsatser visas i parentes. Bedömare med färre bedömningar visas med lägre transparens.
+                <strong>Figur 2: Systematiska skillnader i bedömarstränghet.</strong> Värdet 0 representerar genomsnittlig stränghet. <strong>Negativa värden (röda staplar) indikerar stränga bedömare</strong> som tenderar att ge lägre betyg än genomsnittet. <strong>Positiva värden (gröna staplar) visar generösa bedömare</strong> som ger högre betyg. Antalet bedömda uppsatser visas i parentes. B13 är strängast med -0.74 medan B04 är generösast med +0.56. Observera att B14 (markerad med ⚠) endast har bedömt 2 uppsatser vilket gör värdet extremt osäkert. Bedömare med färre bedömningar visas med lägre transparens.
             </div>
         </div>
 
@@ -249,7 +234,7 @@
 
         <h2>Bedömarsamstämmighet</h2>
 
-        <p>Analys av hur väl ni överensstämmer i era bedömningar.</p>
+        <p>Analyses av hur väl ni överensstämmer i era bedömningar.</p>
 
         <div class="figure">
             <img src="figur4_bedömarspridning.png" alt="Bedömarspridning">
@@ -268,42 +253,70 @@
 
         <p>Ett alpha-värde på 0.56 ligger under den gräns (0.667) som Krippendorff rekommenderar för att dra säkra slutsatser. Det är dock viktigt att komma ihåg att vi inte genomfört någon gemensam kalibreringsträning innan bedömningen – ni fick uppsatserna och bedömde dem individuellt utifrån era egna tolkningar av betygskriterierna. Med tanke på detta är 0.56 faktiskt inte så illa. Efter kalibreringsträffar brukar samstämmigheten öka markant.</p>
 
-        <h2>Plan</h2>
+        <h2>Några problem och hur vi bäst löser dem</h2>
+
+        <div class="warning">
+            <h3>Problem: Ojämn bedömarmatris</h3>
+            <p><strong>Flera bedömare har för få uppsatser:</strong></p>
+            <ul>
+                <li>B14: endast 2 uppsatser (behöver minst 3-4 till)</li>
+                <li>B04, B05, B06: endast 3 uppsatser (behöver 2-3 till)</li>
+                <li>B09, B10, B11: endast 4 uppsatser (behöver 1 till)</li>
+            </ul>
+            <p>Med fem bedömningar per person får vi tillförlitliga bedömarprofiler – både för varje individ och för gruppen som helhet. Detta ger oss underlag för framtida kalibrerande sambedömningsträffar.</p>
+        </div>
+
+        <h2>Mitt förslag på kompletterande bedömningar</h2>
 
         <div class="recommendation">
-            <h3>Förberedelse inför konferensen</h3>
-            <p><strong>Viktigt:</strong> Läs igenom de bifogade bedömningsanvisningarna noggrant innan onsdagens konferens.</p>
-            
-            <h3>Onsdagens konferens 29/10</h3>
-            <p>På onsdagens ämneskonferens kommer jag att presentera ett schema för komparativa bedömningar där vi:</p>
+            <h3>Vem bedömer vad</h3>
+
+            <h4>Första omgången:</h4>
             <ul>
-                <li>Använder de bifogade bedömningsanvisningarna tillsammans med exempeluppsatserna</li>
-                <li>Jämför elevuppsatserna med varandra genom komparativ bedömning</li>
-                <li>Diskuterar spridningen i bedömningarna och hur vi värderar uppsatsernas kvalitetsaspekter</li>
-                <li>Kalibrerar vår gemensamma förståelse av betygsnivåerna</li>
+                <li><strong>B14:</strong> <strong>EK24</strong> och <strong>ER24</strong></li>
             </ul>
+            <p><em>Båda ligger på bara fyra bedömningar.</em></p>
+
+            <h4>Andra omgången:</h4>
+            <ul>
+                <li><strong>B04:</strong> <strong>JP24</strong></li>
+                <li><strong>B05:</strong> <strong>SA24</strong></li>
+                <li><strong>B06:</strong> <strong>JA24</strong></li>
+            </ul>
+            <p><em>Då har alla bedömare minst fyra uppsatser. JP24 och SA24 får sin femte bedömning.</em></p>
+
+            <h4>Tredje omgången – om vi vill ha fem uppsatser per person:</h4>
+            <ul>
+                <li><strong>B14:</strong> <strong>SN24</strong> eller <strong>TK24</strong></li>
+                <li><strong>B04:</strong> <strong>II24</strong></li>
+                <li><strong>B05:</strong> <strong>ES24</strong></li>
+                <li><strong>B06:</strong> <strong>LW24</strong></li>
+            </ul>
+
+            <p>Med fem uppsatser per bedömare får modellen tillräckligt underlag för att skilja mellan verklig bedömarstränghet och slumpmässig variation. Då vet vi om någon verkligen är strängare eller om det bara såg ut så på grund av vilka uppsatser hen råkade få.</p>
         </div>
 
         <h2>Tidslinje</h2>
 
         <ol>
-            <li><strong>Vecka 44:</strong> Onsdagens ämneskonferens - presentation av komparativt bedömningsschema</li>
-            <li><strong>Vecka 48:</strong> Analys av komparativa bedömningar</li>
+            <li><strong>Vecka 39-47:</strong> Kompletterande bedömningar enligt ovan</li>
+            <li><strong>Vecka 48:</strong> Omkörning av analysen med fullständiga data</li>
             <li><strong>December/januari:</strong> Pilottest med elevernas mid-terms</li>
-            <li><strong>April/maj:</strong> Skarpt läge efter NP, Del C: Writing</li>
+            <li><strong>Januari/februari:</strong> Eventuell finjustering baserat på pilottestets resultat</li>
+            <li><strong>April/maj:</strong> Om allt fungerar kör vi om processen på riktigt i skarpt läge direkt efter NP, Del C: Writing (Eng 5 och om vi orkar: Eng 6)</li>
         </ol>
 
         <h2>Avslutande kommentarer</h2>
 
         <p>Analysen visar att ni bedömer olika – vissa är konsekvent strängare (negativa värden) medan andra är mer generösa (positiva värden) i sin bedömning. För vissa uppsatser skiljer det upp till fem betygssteg mellan er. Det är inget konstigt utan helt normalt! Poängen med den bayesianska modellen är att den kan räkna ut ett konsensusbetyg för varje uppsats, justerat för era individuella bedömarprofiler. De uppsatser som får stabila konsensusbetyg (hög konfidens) blir våra ankaruppsatser.</p>
 
-        <p>Nästa steg blir att samla in de kompletterande bedömningarna under onsdagens konferens. Därefter kör vi om analysen och får förhoppningsvis mer tillförlitliga siffror för alla bedömare. I pilottestet får vi se om ankaruppsatserna verkligen fungerar som stabila referenspunkter när AI-systemet ska rangordna och betygsätta elevuppsatserna.</p>
+        <p>Nästa steg blir att samla in de kompletterande bedömningarna enligt schemat ovan. Därefter kör vi om analysen och får förhoppningsvis mer tillförlitliga siffror för alla bedömare. I pilottestet får vi se om ankaruppsatserna verkligen fungerar som stabila referenspunkter när AI-systemet ska rangordna och betygsätta elevuppsatserna.</p>
 
-        <p class="closing"><em>Tack och hej, leverpastej,</em></p>
+        <p style="margin-top: 40px;"><em>Tack och hej, leverpastej,</em></p>
         <p><em>Olof</em></p>
 
-        <hr>
-        <p class="footer-note">
+        <hr style="margin-top: 50px; border: none; border-top: 1px solid #e0e0e0;">
+        <p style="font-size: 0.9em; color: #666; margin-top: 20px;">
             <em>En oerhört parentetisk fotnot: Analysen baseras på en ordinal kumulativ logit-modell som skattar underliggande uppsatskvalitet (θ), bedömarstränghet (ρ) och betygsgränser (τ) samtidigt. Modellen använder nollsummerestriktion (Σρ = 0) för identifiering och monotont ökande betygsgränser. Inget antagande om lika avstånd mellan betygsstegen görs – stegen tillåts vara olika stora, vilket data bekräftar (särskilt de stora hoppen vid C-gränserna). Genomförd i Python/PyMC med 2000 MCMC-dragningar över 4 kedjor.</em>
         </p>
     </div>

@@ -1,0 +1,105 @@
+# Project Architecture & Scope
+
+## Repository Purpose
+Convert Tailwind-powered HTML handouts into polished PDF/Docx deliverables for classroom distribution. Single-source templates render to multiple output formats via centralized build tooling.
+
+## Shared Infrastructure (Cross-Cutting)
+
+### Build System
+- **CLI**: `scripts/handout_builder.py` (Typer-based) – Invokes converters, generates artefacts under `build/pdf/` and `build/docx/`.
+- **Commands**: `pdm run build:pdf`, `pdm run build:docx`, `pdm run build:all` – Orchestrate HTML→PDF (WeasyPrint) and HTML→Docx (Pandoc).
+- **Dependencies**: `pyproject.toml`, `pdm.lock` – Python tooling (Jinja2, WeasyPrint, pypandoc, docxtpl, typer).
+
+### Styling
+- **Tailwind CSS**: `frontend/styles/src/tailwind.css` → `frontend/styles/dist/tailwind.css` via `pnpm` (Tailwind v4 CLI).
+- **Design system**: `handout_templates/debate_card_templates/debate_card_style.css` – Canonical reference for typography, colors, spacing, WeasyPrint-compatible patterns.
+- **Build command**: `pdm run build:css` wraps `pnpm` Tailwind compilation.
+
+### Converters
+- `scripts/converters/convert_html_to_pdf.py` – WeasyPrint backend.
+- `scripts/converters/convert_md_to_docx.py` – Markdown→Docx via Pandoc.
+- `scripts/converters/docx_to_markdown.py` – Extract text from DOCX for versioning.
+- `scripts/converters/extract_text_from_image.py` – OCR via pytesseract.
+- Additional converters in `scripts/converters/` – Specialized workflows (MD→HTML, written exam processing).
+
+### Maintenance & Utilities
+- `scripts/maintenance/clean_textbook_questions.py` – Data cleanup.
+- `scripts/maintenance/sync_rules.py` – Synchronize `.windsurf/rules/` with `.claude/rules/`.
+
+### Documentation
+- `docs/converters/` – Backend documentation (WeasyPrint, Pandoc).
+- `docs/tailwind/` – Tailwind v4 reference.
+- `docs/examples/` – Template usage examples.
+- `.windsurf/rules/` – Governance, standards, workflows.
+
+### Testing
+- `tests/` – pytest fixtures, test data.
+- **Run**: `pdm run test` (pytest with `-s` flag for stdout).
+- **Linting**: `pdm run lint`, `pdm run format`, `pdm run typecheck`.
+
+## Independent Template Families (Do Not Cross-Contaminate)
+
+Each template family is self-contained with its own HTML/CSS and may target different subjects/grade levels:
+
+### `handout_templates/debate_card_templates/`
+- **Subject**: English debate (Model UN, policy debate).
+- **Artifacts**: Debate cards, prep sheets, score cards, glossaries.
+- **Style**: `debate_card_style.css` (canonical design system).
+- **Language**: English.
+
+### `handout_templates/debattkort_mallar/`
+- **Subject**: Swedish climate/ethics debates.
+- **Artifacts**: Debate cards (`debatt_mall.html`, topic-specific cards).
+- **Style**: Inherits from `debate_card_style.css`.
+- **Language**: Swedish.
+
+### `handout_templates/english_1_templates/`
+- **Subject**: English 1 course.
+- **Artifacts**: Formal letter checklists.
+- **Style**: Minimal, specific to assignment type.
+- **Language**: English.
+
+### `handout_templates/instuderingsfrågor_templates/`
+- **Subject**: Swedish 2 literature/history study guides.
+- **Artifacts**: Summaries (`sammanfattning_medeltiden_renässansen.html`), timelines (`tidslinje.html`).
+- **Style**: Custom for study materials.
+- **Language**: Swedish.
+
+### `handout_templates/fn_rollspel/`
+- **Subject**: UN role-play simulation (climate negotiations).
+- **Artifacts**: Country document instructions (`landdokument_instruktion.html`).
+- **Style**: `landdokument_style.css` (adapted from `debate_card_style.css`).
+- **Language**: Swedish.
+
+### `svenska_2/`
+- **Subject**: Swedish 2 course materials.
+- **Subfolders**: `medeltiden_renässansen/` (lectures, exams, Impulser 2 scanned pages).
+- **Artifacts**: Markdown lecture notes, exam questions, DOCX originals.
+- **Style**: Converted to various formats via converters.
+- **Language**: Swedish.
+
+## Output Structure
+- `build/pdf/<template-family>/<template-name>.pdf` – PDF artefacts mirror source structure.
+- `build/docx/<template-family>/<template-name>.docx` – Docx artefacts mirror source structure.
+- **Distribution**: PDFs intended for direct classroom distribution; Docx for editing/archival.
+
+## Workflow Boundaries
+- **When modifying debate cards**: Touch only `handout_templates/debate_card_templates/` or `handout_templates/debattkort_mallar/`. Do not alter `svenska_2/` or `fn_rollspel/`.
+- **When modifying FN role-play materials**: Touch only `handout_templates/fn_rollspel/`. Do not alter debate templates.
+- **When modifying shared tooling**: Touch `scripts/`, `docs/`, `frontend/`, or `pyproject.toml`. Validate changes across all template families with `pdm run build:all`.
+- **When updating design system**: Modify `debate_card_style.css` and propagate to dependent stylesheets (`landdokument_style.css`, etc.). Document deviations in template-specific CSS.
+
+## Cross-References
+- **Style standards**: `.windsurf/rules/040-weasyprint-css-standards.mdc` – CSS patterns for PDF compatibility.
+- **Conversion workflows**: `.windsurf/rules/030-conversion-workflows.mdc` – HTML/PDF/Docx pipelines.
+- **Python environment**: `.windsurf/rules/010-python-environment.mdc` – PDM, dependencies, CLI usage.
+- **Frontend tooling**: `.windsurf/rules/020-frontend-tooling.mdc` – Tailwind v4, pnpm, CSS build.
+- **Documentation standards**: `.windsurf/rules/090-documentation-standards.mdc` – Task tracking, worklog updates.
+
+## Onboarding Checklist for New Tasks
+1. Read `.windsurf/rules/000-rule-index.md` for rule overview.
+2. Check `.windsurf/HANDOFF.md` for latest status.
+3. Identify affected template family (independent scope).
+4. Verify shared infrastructure changes don't break other families (run `pdm run test`).
+5. Update `TASKS/CURRENT_TASK.md` with worklog entries.
+6. Regenerate affected artefacts with `pdm run build:pdf` or `pdm run build:all`.

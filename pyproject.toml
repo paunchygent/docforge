@@ -21,6 +21,7 @@ dependencies = [
     "pymupdf",
     "pytesseract",
     "markdown>=3.9",
+    "docling>=2.60.0",
 ]
 
 [dependency-groups]
@@ -102,6 +103,8 @@ distribution = false
 "build:docx" = "python scripts/handout_builder.py build docx"
 "build:all" = { composite = ["python scripts/handout_builder.py build all"] }
 "build:md-docx" = "python scripts/converters/convert_md_to_docx.py"
+"convert:pdf-md" = "python scripts/converters/convert_pdf_to_md.py"
+"convert:pdf-md-advanced" = "python scripts/converters/convert_pdf_to_md_advanced.py"
 "lint" = "ruff check ."
 "format" = "ruff format ."
 "typecheck" = "mypy --config-file pyproject.toml"

@@ -217,6 +217,56 @@ h3 .optional-marker {
   line-height: 1.45;
 }
 
+/* Schedule table */
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 3mm 0;
+  break-inside: avoid;
+}
+
+.schedule-table td {
+  padding: 3mm 4mm;
+  border: 0.3mm solid var(--border);
+  font-size: 10pt;
+  line-height: 1.4;
+  vertical-align: top;
+}
+
+.schedule-table td:first-child {
+  background: var(--panel-bg);
+  font-weight: 600;
+  width: 35%;
+  color: var(--accent);
+}
+
+.schedule-table td:last-child {
+  width: 65%;
+}
+
+.schedule-table .goal {
+  margin-top: 2mm;
+  padding-top: 2mm;
+  border-top: 0.3mm solid var(--border);
+  font-size: 9.5pt;
+  color: var(--muted);
+}
+
+.schedule-table .goal strong {
+  color: var(--accent);
+}
+
+/* Keep sections together */
+.no-break-section {
+  break-inside: avoid;
+}
+
+h2 + p,
+h2 + ul,
+h2 + .schedule-table {
+  break-before: avoid;
+}
+
 /* Print optimizations */
 @media print {
   body { padding: 0; }

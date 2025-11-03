@@ -1,0 +1,324 @@
+/* Kalibrering Rapport Style - WeasyPrint Compatible */
+
+@page {
+  size: A4 portrait;
+  margin: 15mm;
+}
+
+:root {
+  --page-width: 180mm;
+  --accent: #1e3a8a;
+  --accent-light: #3b82f6;
+  --text: #1f2937;
+  --muted: #6b7280;
+  --border: #d1d5db;
+  --panel-bg: #f9fafb;
+  --highlight: #dbeafe;
+  --warning-bg: #fef2f2;
+  --warning-border: #fca5a5;
+  --success-bg: #f0fdf4;
+  --success-border: #86efac;
+}
+
+* { 
+  box-sizing: border-box;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+html, body { 
+  padding: 0; 
+  margin: 0; 
+}
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  color: var(--text);
+  background: #fff;
+  padding: 0;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: var(--page-width);
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* Typography */
+h1 {
+  font-family: "Avenir Next", Avenir, "Gill Sans", sans-serif;
+  font-size: 20pt;
+  margin: 0 0 4mm;
+  font-weight: 700;
+  color: var(--accent);
+  letter-spacing: 0.005em;
+  border-bottom: 1mm solid var(--accent);
+  padding-bottom: 2mm;
+}
+
+h2 { 
+  font-family: "Avenir Next", Avenir, "Gill Sans", sans-serif;
+  font-size: 13pt;
+  margin: 5mm 0 3mm;
+  font-weight: 700;
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  break-after: avoid;
+}
+
+h3 { 
+  font-size: 11pt;
+  margin: 3mm 0 2mm;
+  font-weight: 600;
+  color: var(--text);
+  break-after: avoid;
+}
+
+h4 {
+  font-size: 10pt;
+  margin: 2mm 0 1mm;
+  font-weight: 600;
+  color: var(--accent);
+  break-after: avoid;
+}
+
+p { 
+  font-size: 10pt;
+  margin: 0 0 2mm;
+  line-height: 1.5;
+}
+
+em {
+  font-style: italic;
+  color: var(--text);
+}
+
+strong {
+  font-weight: 700;
+  color: var(--text);
+}
+
+sup {
+  font-size: 8pt;
+  vertical-align: super;
+  line-height: 0;
+}
+
+/* Lists */
+ul, ol { 
+  margin: 2mm 0 3mm;
+  padding-left: 6mm;
+}
+
+li {
+  margin: 0 0 1mm;
+  font-size: 10pt;
+  line-height: 1.4;
+}
+
+li strong {
+  color: var(--accent);
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 3mm 0 4mm;
+  font-size: 9.5pt;
+  break-inside: avoid;
+}
+
+thead {
+  background: var(--panel-bg);
+}
+
+th, td {
+  border: 0.3mm solid var(--border);
+  padding: 2mm 3mm;
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  font-weight: 700;
+  color: var(--accent);
+  font-size: 9pt;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+tbody tr:nth-child(even) {
+  background: var(--panel-bg);
+}
+
+/* Figures */
+.figure {
+  margin: 4mm 0 5mm;
+  break-inside: avoid;
+}
+
+.figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 0.3mm solid var(--border);
+  border-radius: 2mm;
+}
+
+.figure-caption {
+  margin-top: 2mm;
+  font-size: 9pt;
+  line-height: 1.4;
+  color: var(--muted);
+}
+
+.figure-caption strong {
+  color: var(--text);
+  font-weight: 700;
+}
+
+/* Footnotes */
+.footnote {
+  background: var(--panel-bg);
+  border-left: 3mm solid var(--border);
+  padding: 3mm 4mm;
+  margin: 3mm 0 4mm;
+  font-size: 9pt;
+  line-height: 1.4;
+  break-inside: avoid;
+}
+
+.footnote p {
+  margin: 0 0 2mm;
+}
+
+.footnote p:last-child {
+  margin-bottom: 0;
+}
+
+.footnote strong {
+  color: var(--accent);
+}
+
+/* Highlight boxes */
+.highlight {
+  background: var(--highlight);
+  border: 0.4mm solid var(--accent-light);
+  border-left: 3mm solid var(--accent);
+  border-radius: 2mm;
+  padding: 3mm 4mm;
+  margin: 3mm 0 4mm;
+  break-inside: avoid;
+}
+
+.highlight h3 {
+  margin-top: 0;
+  color: var(--accent);
+}
+
+.highlight p {
+  margin: 0 0 2mm;
+}
+
+.highlight ul {
+  margin: 2mm 0 0;
+}
+
+/* Warning boxes */
+.warning {
+  background: var(--warning-bg);
+  border: 0.4mm solid var(--warning-border);
+  border-left: 3mm solid var(--warning-border);
+  border-radius: 2mm;
+  padding: 3mm 4mm;
+  margin: 3mm 0 4mm;
+  break-inside: avoid;
+}
+
+.warning h3 {
+  margin-top: 0;
+  color: #dc2626;
+}
+
+.warning p {
+  margin: 0 0 2mm;
+}
+
+.warning ul {
+  margin: 2mm 0 0;
+}
+
+/* Recommendation boxes */
+.recommendation {
+  background: var(--success-bg);
+  border: 0.4mm solid var(--success-border);
+  border-left: 3mm solid #10b981;
+  border-radius: 2mm;
+  padding: 3mm 4mm;
+  margin: 3mm 0 4mm;
+  break-inside: avoid;
+}
+
+.recommendation h3 {
+  margin-top: 0;
+  color: #059669;
+}
+
+.recommendation h4 {
+  margin-top: 2mm;
+  color: #059669;
+}
+
+.recommendation p {
+  margin: 0 0 2mm;
+}
+
+.recommendation ul {
+  margin: 2mm 0 0;
+}
+
+/* Horizontal rule */
+hr {
+  border: none;
+  border-top: 0.3mm solid var(--border);
+  margin: 5mm 0;
+}
+
+/* Page breaks */
+.page-break {
+  page-break-before: always;
+  break-before: page;
+  margin: 0;
+  padding: 0;
+}
+
+/* Table row highlights */
+.table-header-success {
+  background-color: #E8F5E9 !important;
+}
+
+.table-header-warning {
+  background-color: #FFEBEE !important;
+}
+
+/* Closing signature */
+.closing {
+  margin-top: 10mm;
+}
+
+.footer-note {
+  font-size: 9pt;
+  color: #666;
+  margin-top: 5mm;
+  font-style: italic;
+}
+
+/* Print optimizations */
+@media print {
+  body { padding: 0; }
+  .container { padding: 0; }
+  h1 { margin-top: 0; }
+}

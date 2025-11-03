@@ -1,0 +1,168 @@
+# Docling PDF to Markdown Conversion
+
+## Overview
+
+This project uses IBM Docling for advanced PDF to Markdown conversion, particularly for academic papers and research documents. Docling provides AI-powered document understanding with superior table extraction and structure preservation compared to basic PDF parsers.
+
+## Converter Script
+
+**Location**: `scripts/converters/convert_pdf_to_md_advanced.py`
+
+**PDM Command**: `pdm run convert:pdf-md-advanced`
+
+## Library Information
+
+- **Package**: `docling>=2.60.0`
+- **Source**: IBM Research (presented at AAAI 2025)
+- **Key Features**:
+  - AI-powered layout analysis
+  - Table structure recognition (TableFormer)
+  - Reading order detection
+  - Formula and code block enrichment
+  - Multi-format support (PDF, DOCX, PPTX, images, etc.)
+
+## Configuration
+
+The converter is pre-configured with optimal settings for academic papers:
+
+```python
+pipeline_options = PdfPipelineOptions()
+pipeline_options.do_ocr = False  # Disabled for digital PDFs
+pipeline_options.do_table_structure = True  # Critical for research papers
+pipeline_options.table_structure_options.mode = TableFormerMode.FAST
+```
+
+### Configuration Options Available
+
+#### OCR Control
+- `do_ocr` (bool): Enable/disable OCR
+  - Default: Auto-detection
+  - **Project default**: `False` (academic papers are digital)
+  - When to enable: Scanned documents, images with text
+
+#### Table Processing
+- `do_table_structure` (bool): Extract table structure
+  - **Project default**: `True` (research papers contain tables)
+- `table_structure_options.mode`: TableFormerMode.FAST or ACCURATE
+  - **Project default**: `FAST` (good balance of speed/quality)
+- `do_cell_matching` (bool): Match PDF cells vs predicted cells
+
+#### Backend Options
+- Default: DoclingParseV4DocumentBackend (high quality, slower)
+- Alternative: DoclingParseV2DocumentBackend (~10x faster, basic extraction)
+  - Use for simple documents without complex tables
+
+#### Other Features (can be toggled)
+- `do_picture_description` (bool): Generate image captions
+- `do_formula_enrichment` (bool): Process mathematical formulas
+- `do_code_enrichment` (bool): Enrich code blocks
+- `generate_page_images` (bool): Create page-level images
+
+## Usage Examples
+
+### Single File Conversion
+```bash
+pdm run convert:pdf-md-advanced "path/to/document.pdf" --output output_dir/
+```
+
+### Batch Conversion
+```bash
+pdm run convert:pdf-md-advanced input_dir/ --output output_dir/ --overwrite
+```
+
+### Recursive Processing
+```bash
+pdm run convert:pdf-md-advanced input_dir/ --output output_dir/ --recursive
+```
+
+## Performance Characteristics
+
+Based on testing with 3-page academic paper (106KB):
+
+**Default Configuration (OCR off, fast table mode)**:
+- Processing time: ~4-5 minutes for 3 pages
+- Includes: Model initialization, layout analysis, table extraction
+- First run may be slower (model downloads)
+
+**Optimization Tips**:
+1. Disable OCR for digital documents (already configured)
+2. Use FAST table mode unless high accuracy needed (already configured)
+3. Disable table structure if not needed (not recommended for academic papers)
+4. Consider V2 backend for simple documents without tables
+
+## Output Format
+
+Converted markdown includes:
+
+- **Metadata header**: Source file, converter info, timestamp
+- **Preserved structure**: Headings, paragraphs, lists
+- **Tables**: Extracted and formatted as markdown tables
+- **References**: Citations and bibliography preserved
+- **Images**: Marked as `<!-- image -->` comments
+
+## When to Use
+
+**Use Docling converter for**:
+- Academic papers with tables and complex structure
+- Research documents with citations
+- Technical documents with formulas
+- Multi-column layouts
+
+**Use basic PyMuPDF converter for**:
+- Simple text extraction
+- Quick previews
+- Documents without tables
+- When speed is critical over quality
+
+## Logging
+
+The converter includes comprehensive logging to stdout:
+- File processing progress (1/N)
+- Pipeline configuration confirmation
+- Conversion stages (initialize, convert, export)
+- Status updates and errors
+- Output file information
+
+Log format: `timestamp - module - level - message`
+
+## Troubleshooting
+
+### Slow Performance
+1. Verify OCR is disabled (`do_ocr = False`)
+2. Use FAST table mode
+3. Check if models need downloading (first run)
+4. Consider V2 backend for simpler documents
+
+### Table Extraction Issues
+1. Switch to ACCURATE table mode if tables malformed
+2. Toggle `do_cell_matching` setting
+3. Check source PDF quality (scanned vs digital)
+
+### Empty Output
+1. Check PDF is not password-protected
+2. Verify PDF is not corrupted
+3. Check logs for conversion errors
+4. Try with OCR enabled for scanned documents
+
+## Related Files
+
+- Converter script: `scripts/converters/convert_pdf_to_md_advanced.py`
+- Basic converter: `scripts/converters/convert_pdf_to_md.py` (PyMuPDF)
+- DOCX converter: `scripts/converters/docx_to_markdown.py` (Pandoc)
+- Test scripts: `scripts/test_docling_api.py`, `scripts/test_docling_performance.py`
+
+## Dependencies
+
+Primary: `docling>=2.60.0`
+
+Docling includes these sub-packages:
+- `docling-core`: Document representation
+- `docling-parse`: PDF parsing backend
+- `docling-ibm-models`: AI models for layout/tables
+- And 70+ transitive dependencies (PyTorch, transformers, opencv, etc.)
+
+## References
+
+- GitHub: https://github.com/docling-project/docling
+- Documentation: https://docling-project.github.io/docling/
+- Paper: AAAI 2025 - "Docling: An Efficient Open-Source Toolkit for AI-driven Document Conversion"
