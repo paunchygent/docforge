@@ -125,6 +125,35 @@ Fig. 1 Overview of systematized literature review
 
 The participants included in ACJ-related research have almost exclusively been university  students  (see  Fig.  4).  Other  assessors  included  in  ACJ  research  have  included industry professionals (4), university instructors/professors (6), and/or other academic staff (e.g., course TAs). The majority of research has situated university students as the assessors  in  ACJ  research  (21).  In  most  of  these  instances  the  students  have  acted  as assessors of their own work, their peers work, or similar work to that completed in the course (see Table 2).
 
+
+
+**Table 2: Higher education ACJ integration: settings, assessors, subject area, and participants**
+
+| ID | Author (year) | Participants [n] & artifacts | Assessor demographics | Research location | Subject area |
+|----|---------------|------------------------------|----------------------|-------------------|--------------|
+| A | Seery, N., Lane, D., & Canty, D. (2011) | University students [121] Design portfolios | University students | Ireland | Materials & Construction Education teacher education |
+| B | Jones, I. & Alcock, L. (2012) | University students [169] Math scripts | University students | United Kingdom | Calculus |
+| C | Seery, N., Canty, D., & Phelan, P. (2012) | University students [137 participating with 63 as judges] Student portfolios | University teachers | Ireland | Materials & Construction Education teacher education |
+| D | Canty, D. (2012) | University students [137, 133, 136] Design portfolio | University student peers and final round of experts | Ireland | Materials & Construction Education teacher education |
+| E | Rowsome, P., Seery, N., & Lane, D. (2013) | University students [13] Design portfolios | University students | Ireland | Materials & Construction Education teacher education |
+| F | Seery, N., Buckley, J., Doyle, A., & Canty, D. (2016) | University students [128] Design portfolios | University students | Ireland | Initial Technology Teacher Education |
+| G | Metzgar, M. (2016) | MBA students [34] Writing scripts | University students | USA | Business |
+| H | Canty, D., Seery, N., Hartell, E., & Doyle, A. (2017) | University students [136] Design portfolios | University students | Ireland | Initial Technology Teacher Education |
+| I | Potter, T., Englund, L., Charbonneau, J., MacLean, M. T., Newell, J., & Roll, I. (2017) | University students [approx. 450] writing scripts (English); writing scripts (Physics); drawing/diagram (Math) | University students | Canada | English, Math, & Physics |
+| J | Rhind, S. M., Hughes, K. J., Yool, D., Shaw, D., Kerr, W., & Reed, N. (2017) | University students [154] Writing scripts | University students | United Kingdom | Veterinary medicine |
+| K | Bartholomew, S.R., Strimel, G.J., & Jackson, A. (2018) | University students [16] Engineering notebooks, prototypes, and performance results | 5 independent judges (experience in evaluating engineering design projects) | USA | Engineering |
+| L | Barber, J. (2018) | University students [61] Writing scripts/test question | 12 academic staff for 1st study; university peers for 2nd study | United Kingdom | Pharmaceutical |
+| M | Bartholomew, S.R., Yoshikawa, E., & Connolly, P.E. (2018) | University students [28, 16, N/A, 36, 111] Portfolios (visual and/or audio) | University students, professors, practitioners | USA | Transdisciplinary Studies in Technology |
+| N | Seery, N., Buckley, J., Delahunty, T., & Canty, D. (2018) | University students [128] Design scripts | University students | Ireland | Initial Technology Teacher Education |
+| O | Bartholomew, S., Zhang, L., Bravo, E. G., & Strimel, G. J. (2019b) | University students [85] Graphic design drafts | University students and instructors | USA | Graphic Design |
+| P | Bartholomew, S., Zhang, L., Bravo, E. G., & Strimel, G. J. (2019c) | University students [158] and instructors [6] Design scripts | University students | USA | Graphic Design |
+| Q | Demonacos, C., Ellis, S., & Barber, J. (2019) | University students [130] Writing scripts | University students | United Kingdom | Pharmaceutical |
+| R | Canty, D., Buckley, J., & Seery, N. (2019) | University students [59] Assessment design portfolios | University students | Ireland | Initial Technology Teacher Education |
+| S | Zhang, L. (2019) | University students [3] and instructors [3] Graphic design projects | University students and instructors | USA | Graphic Design |
+| T | Bartholomew, S.R., Mentzer, N., & Jones, M. (2019) | University students [550], and instructors [6] Design portfolios | University students and instructors | USA | Design and Technology |
+| U | Strimel, G.J., Bartholomew, S.R., Purzer, S., Yoshikawa, E., & Zhang, L. (2020) | University students [110] Design presentations | University students, instructors, and practicing engineers | USA | Engineering |
+| V | Buckley, J., Canty, D., & Seery, N. (2020) | University students [126] Assessment design portfolios | University students | Ireland | Initial Technology Teacher Education |
+
 In terms of subject area, the ACJ research in higher education has spanned a variety of courses including writing, mathematics, and design and technology (in Europe) or Technology &amp; Engineering Education (USA). The most common subject matter for ACJ-assessment has been design portfolios  situated  in  design  and  technology/Technology  &amp;  Engineering Education courses (see Fig. 5). Not surprisingly, this finding mirrors the content area of the researchers most heavily involved with ACJ research (see Table 1).
 
 
@@ -277,29 +306,35 @@ Validity, as reported in ACJ research, most often refers to a comparison of ACJ-
 
 compared with the actual functionality of designs or other commonly accepted standards  as  a  'validity  check.'  A  synopsis  of  findings,  related  to  both  the  reliability  and validity of research around ACJ, is included in Table 3.
 
-Table 3 Reliability and validity results across studies
 
-| **Author (Year)** | **Validity (comparison with traditional grading or validity check)** | **Reliability level (JCC)** |
-|-------------------|---------------------------------------------------------------------|-----------------------------|
-| Seery et al. (2011) | Rank vs. weighted r=0.961 | Peer: r=0.91, Novices: r=0.99, Experts: r=0.97 |
-| Jones & Alcock (2012) | Spearman's statistic: r=-0.162 | Mean Expert/Peer correlation: r=0.628, Expert/Novice: r=0.546, Novice/Peer: r=0.666 |
-| Seery et al. (2012) | Student assessment (Y1) r=0.917, (Y2) r=0.917, (Y3) r=0.849 | Year 1: Cronbach ⍺=0.948, Year 2: Cronbach ⍺=0.955, Year 3: Cronbach ⍺=0.942; Rank A to B: ⍺=0.787, A to C: ⍺=0.702, B to C: ⍺=0.671 |
-| Canty (2012) | Correlation r=0.956 | Not reported |
-| Rowsome et al. (2013) | Not reported | Interrater reliability: r=0.961 |
-| Seery et al. (2016) | Traditional grading; no data reported | Reliability of five assignments: r=0.81, r=0.56, r=0.76, r=0.82, r=0.98 |
-| Metzgar (2016) | Not reported | r=0.690, r=0.98 |
-| Potter et al. (2017) | Traditional grading; no data reported | r=0.95 |
-| Rhind et al. (2017) | Grading; r=0.79, r=0.95 | Not reported |
-| Bartholomew et al. (2018a) | Grading | Correlation |
-| Bartholomew & Yoshikawa (2018) | Correlation | Correlation |
-| Seery et al. (2018) | Correlation | Correlation |
-| Bartholomew et al. (2019b) | Correlation | Correlation |
-| Bartholomew et al. (2019c) | Correlation | Correlation |
-| Demonacos et al. (2019) | Correlation | Correlation |
-| Canty et al. (2019) | Correlation | Correlation |
-| Zhang (2019) | Correlation | Correlation |
-| Buckley et al. (2020) | Correlation | Correlation |
-| Strimel et al. (2020) | Correlation | Correlation |
+
+**Table 3: Reliability and validity results across studies**
+
+| ID | Author (year) | Validity (comparison with traditional grading or validity check) | Reliability level (JCC) |
+|----|---------------|-------------------------------------------------------------------|-------------------------|
+| A | Seery, N., Lane, D., & Canty, D. (2011) | Spearman's Rho: r = -0.11 (student rank vs. weighted mean square score as judge) | r = 0.961 |
+| B | Jones, I. & Alcock, L. (2012) | Expert/Peer correlation: r = 0.628; Expert/Novice correlation: r = 0.546; Novice/Peer correlation: r = 0.666 | Peer: r = 0.91; Novices: r = 0.99; Experts: r = 0.97 |
+| C | Seery, N., Canty, D., & Phelan, P. (2012) | Not reported | r = 0.955 |
+| D | Canty, D. (2012) | (Year 1) Pearson's Correlation of Rank 1 and Rank 2 parameter values: r = 0.695; (Year 2) Spearman's Correlation of student rank order position and judging misfit statistic: r = -0.162; (Year 3) Professional assessor and student assessor rank order correlations: (Y1) r = 0.917, (Y2) r = 0.849, (Y3) r = 0.88 | (Year 1) Reliability of ACJ rank order: Rank 1 = Cronbach alpha α = 0.948; Rank 2 = Cronbach alpha α = 0.955; (Year 2) Reliability of ACJ rank order: Cronbach alpha α = 0.942; (Year 3) Reliability of ACJ rank order: Rank A to Rank B = α = 0.787; Rank A to Rank C = α = 0.702; Rank B to Rank C = α = 0.671 |
+| E | Rowsome, P., Seery, N., & Lane, D. (2013) | Not reported | r = 0.82 |
+| F | Seery, N., Buckley, J., Doyle, A., & Canty, D. (2016) | Correlation with traditional peer grading; r = 0.760 to r = 0.956 | Interrater reliability of 0.961 |
+| G | Metzgar, M. (2016) | Compared to traditional grading; no data reported | Reliability of five assignments reported: r = 0.77; r = 0.81; r = 0.56; r = 0.76; r = 0.82 |
+| H | Canty, D., Seery, N., Hartell, E., & Doyle, A. (2017) | Not reported | r = 0.98 |
+| I | Potter, T., Englund, L., Charbonneau, J., MacLean, M. T., Newell, J., & Roll, I. (2017) | Not reported | Not reported |
+| J | Rhind, S. M., Hughes, K. J., Yool, D., Shaw, D., Kerr, W., & Reed, N. (2017) | Correlation with traditional grading; r = 0.690 | r = 0.98 |
+| K | Bartholomew, S.R., Strimel, G.J., & Jackson, A. (2018) | Correlation with traditional grading; r = 0.79 | r = 0.95 |
+| L | Barber, J. (2018) | Correlation with traditional grading; no data reported | r = 0.95; r = 0.94 |
+| M | Bartholomew, S.R., Yoshikawa, E., & Connolly, P.E. (2018) | Not reported | Reliability of five domain area studies reported: r = 0.54 and 0.31 (Transdisciplinary Studies in Technology); r = 0.94, 0.97, and 0.20 (Theatre); r = 0.84 (Industrial Design); r = 0.798, 0.719, -0.372 (Computer Graphics Technology); r = 0.56, 0.66, and 0.33 (Engineering Education) |
+| N | Seery, N., Buckley, J., Delahunty, T., & Canty, D. (2018) | Correlation with traditional grading; no data reported | Cronbach's Alpha reported for four assignments: α = 0.974; α = 0.973; α = 0.965; α = 0.971 |
+| O | Bartholomew, S., Zhang, L., Bravo, E. G., & Strimel, G. J. (2019b) | Correlation with traditional grading; r = -0.65 | Reliability reported for two projects: Project 1, r = 0.78; Project 4, r = 0.85 |
+| P | Bartholomew, S., Zhang, L., Bravo, E. G., & Strimel, G. J. (2019c) | A one-way ANOVA was used to investigate the impact of ACJ timing on student achievement using parameter value means. Beginning group mean: -0.216; Middle group mean: -0.016; Beginning and middle group mean: 0.142. There was no significant difference among groups | Not reported |
+| Q | Demonacos, C., Ellis, S., & Barber, J. (2019) | Made qualitative correlations with traditional grading; no data reported | r = 0.55 |
+| R | Canty, D., Buckley, J., & Seery, N. (2019) | Not reported | Cronbach alpha of α = 0.68 |
+| S | Zhang, L. (2019) | Spearman's Rho for correlations between student and instructor ranks: r = 0.564; Spearman's Rho for correlations between student and instructor parameter values: r = 0.465 | Student session: r = 0.83; Instructor session: r = 0.80 |
+| T | Bartholomew, S.R., Mentzer, N., & Jones, M. (2019) | Correlation between student and instructor ranks: r = 0.57 | Not reported |
+| U | Strimel, G.J., Bartholomew, S.R., Purzer, S., Yoshikawa, E., & Zhang, L. (2020) | Correlations reported for ranks produced by students and teachers: r = 0.564; ranks produced by students and practicing engineers: r = 0.66; and for ranks produced by teachers and practicing engineers: r = 0.33 | Not reported |
+| V | Buckley, J., Canty, D., & Seery, N. (2020) | Auditing by module leaders through individually grading each piece of work for use and monitoring of misfit statistics. Qualitative analysis and coding to describe the amount of work, independent of quality, which was done (e.g. the number of sketches presented) | r = 0.974 |
+
 
 ## Conclusion
 

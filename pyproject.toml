@@ -22,6 +22,7 @@ dependencies = [
     "pytesseract",
     "markdown>=3.9",
     "docling>=2.60.0",
+    "openpyxl>=3.1.5",
 ]
 
 [dependency-groups]
