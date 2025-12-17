@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Build output (generated, can be rebuilt)
+styles/src/tailwind.css
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Netlify
+.netlify/

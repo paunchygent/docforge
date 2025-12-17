@@ -23,6 +23,10 @@ dependencies = [
     "markdown>=3.9",
     "docling>=2.60.0",
     "openpyxl>=3.1.5",
+    "anthropic>=0.39.0",
+    "openai",
+    "pydub",
+    "python-dotenv",
 ]
 
 [dependency-groups]
@@ -106,6 +110,9 @@ distribution = false
 "build:md-docx" = "python scripts/converters/convert_md_to_docx.py"
 "convert:pdf-md" = "python scripts/converters/convert_pdf_to_md.py"
 "convert:pdf-md-advanced" = "python scripts/converters/convert_pdf_to_md_advanced.py"
+"convert:tts" = "python scripts/converters/text_to_speech.py"
+"grade" = "python scripts/grading/grade_assessment.py"
+"auto-grade" = "python scripts/grading/auto_grade.py"
 "lint" = "ruff check ."
 "format" = "ruff format ."
 "typecheck" = "mypy --config-file pyproject.toml"

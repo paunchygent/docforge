@@ -1,0 +1,40 @@
+[build]
+  command = "pnpm install && pnpm tailwind:build"
+  publish = "styles/src"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# Redirects for SPA-like behavior (optional)
+[[redirects]]
+  from = "/dashboard"
+  to = "/dashboard-v2.html"
+  status = 200
+
+[[redirects]]
+  from = "/login"
+  to = "/login.html"
+  status = 200
+
+[[redirects]]
+  from = "/upload"
+  to = "/upload.html"
+  status = 200
+
+# Headers for security and caching
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "*.svg"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"

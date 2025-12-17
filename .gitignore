@@ -10,6 +10,7 @@ __pycache__/
 .mypy_cache/
 .pytest_cache/
 .ruff_cache/
+.env
 
 # Tooling metadata
 
@@ -28,5 +29,7 @@ build/
 fullständiga_prov/
 provbank/
 Läxförhör/
+medier-samhälle-och-kommunikation-1/
+scripts/grading/output/
 
 

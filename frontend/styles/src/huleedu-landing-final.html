@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HuleEdu – Bedömning med precision</title>
+    <meta name="description" content="Ett digitalt register som omvandlar elevtexter till objektiv data. Automatiserad bedömning med precision.">
+    
+    <!-- Fonts: IBM Plex industrial type system -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Serif:wght@400;600&display=swap" rel="stylesheet">
+    
+    <!-- Compiled Tailwind CSS -->
+    <link rel="stylesheet" href="tailwind.css">
+</head>
+
+<body class="font-sans">
+<!-- Skip link for keyboard navigation -->
+<a href="#main-content" class="skip-link">Hoppa till huvudinnehåll</a>
+
+<div class="ledger-frame flex flex-col">
+
+    <!-- ═══════════════════════════════════════════════════════════════
+         HEADER – The Sticky Bar
+    ═══════════════════════════════════════════════════════════════ -->
+    <header class="sticky top-0 z-50 bg-canvas border-b border-navy h-16 shrink-0" role="banner">
+        <div class="h-full flex">
+            
+            <!-- Logo Cell -->
+            <div class="h-full border-r border-navy px-5 flex items-center shrink-0">
+                <a href="/" aria-label="HuleEdu startsida">
+                    <img src="HuleEduLogo.svg" alt="HuleEdu" class="h-8 w-auto">
+                </a>
+            </div>
+
+            <!-- Navigation (desktop) -->
+            <nav class="hidden md:flex flex-grow items-center justify-center gap-10" role="navigation" aria-label="Huvudnavigation">
+                <a href="#produkten" class="text-xs font-semibold uppercase tracking-label text-navy hover:text-burgundy transition-colors">Produkten</a>
+                <a href="#vetenskap" class="text-xs font-semibold uppercase tracking-label text-navy hover:text-burgundy transition-colors">Vetenskap</a>
+                <a href="#om-oss" class="text-xs font-semibold uppercase tracking-label text-navy hover:text-burgundy transition-colors">Om oss</a>
+                <a href="#kontakt" class="text-xs font-semibold uppercase tracking-label text-navy hover:text-burgundy transition-colors">Kontakt</a>
+            </nav>
+
+            <!-- Spacer (mobil – tar platsen där nav är på desktop) -->
+            <div class="flex-grow md:hidden"></div>
+
+            <!-- Meny-knapp (endast mobil) -->
+            <button 
+                class="login-cell h-full border-l border-navy px-5 flex items-center justify-center md:hidden"
+                aria-label="Öppna meny"
+                aria-expanded="false"
+                aria-controls="mobile-menu"
+            >
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                </svg>
+            </button>
+
+            <!-- Logga in (alltid synlig) -->
+            <a href="/login" class="login-cell h-full border-l border-navy px-6 flex items-center justify-center">
+                <span class="text-xs font-semibold uppercase tracking-label">Logga in</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- ═══════════════════════════════════════════════════════════════
+         HERO – The Value Proposition
+    ═══════════════════════════════════════════════════════════════ -->
+    <main id="main-content" role="main">
+    <section class="grid grid-cols-1 md:grid-cols-2 border-b border-navy flex-grow" aria-labelledby="hero-heading">
+        
+        <!-- Left: Text -->
+        <div class="p-8 md:p-12 lg:p-16 flex flex-col justify-center border-b md:border-b-0 md:border-r border-navy">
+            <h1 id="hero-heading" class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-navy tracking-tightest leading-[1.05] mb-6">
+                Bedömning<br>med precision.
+            </h1>
+            <p class="text-lg leading-relaxed text-navy/80 max-w-md mb-10">
+                Ett digitalt register som omvandlar elevtexter till objektiv data. 
+                Vi automatiserar det repetitiva, så du kan fokusera på pedagogiken.
+            </p>
+            <button class="self-start bg-burgundy text-canvas px-8 py-4 text-sm font-semibold uppercase tracking-label rounded-[2px] hover:bg-navy transition-colors">
+                Starta demo
+            </button>
+        </div>
+
+        <!-- Right: AI Analysis Visualization -->
+        <div class="relative flex items-center justify-center p-8 md:p-12 lg:p-16 overflow-hidden">
+            
+            <!-- Grid Background -->
+            <div class="grid-bg absolute inset-0"></div>
+            
+            <!-- The "Paper" -->
+            <div class="relative bg-white border border-navy p-8 max-w-lg w-full shadow-brutal z-10">
+                
+                <!-- Header Bar -->
+                <div class="border-b border-navy pb-4 mb-6 flex justify-between items-center">
+                    <div class="flex items-center gap-3">
+                        <div class="h-2 w-2 rounded-full bg-burgundy analysis-badge"></div>
+                        <span class="text-xs font-semibold uppercase tracking-label text-navy/50">Analys pågår</span>
+                    </div>
+                    <div class="text-xs font-mono text-navy/40">SvA 3 · Kunskapskrav C</div>
+                </div>
+
+                <!-- Essay Text with Annotations -->
+                <div class="font-serif text-lg leading-loose text-gray-800 relative">
+                    <p class="mb-4">
+                        Eleven diskuterar orsakerna till den franska revolutionen. 
+                        Det är tydligt att de 
+                        <span class="relative inline-block group/tip">
+                            <span class="bg-burgundy/10 px-1 border-b-2 border-burgundy cursor-help transition-colors group-hover/tip:bg-burgundy/20">ekonomiska faktorerna</span>
+                            
+                            <!-- Tooltip: Begreppsnivå (visas endast på hover) -->
+                            <span class="
+                                absolute top-full left-0 mt-2
+                                bg-navy text-canvas text-xs font-sans font-semibold 
+                                py-1.5 px-3 whitespace-nowrap rounded-[2px]
+                                opacity-0 invisible 
+                                group-hover/tip:opacity-100 group-hover/tip:visible
+                                transition-all duration-150
+                                z-20
+                            ">
+                                <span class="text-burgundy">●</span> Begreppsnivå: C
+                                <span class="absolute bottom-full left-4 border-4 border-transparent border-b-navy"></span>
+                            </span>
+                        </span>
+                        väger tyngst i argumentationen.
+                    </p>
+                    
+                    <p>
+                        Resonemanget är 
+                        <span class="relative inline-block group/spell">
+                            <span class="wavy-error cursor-help">realtivt</span>
+                            <!-- Stavfel-tooltip -->
+                            <span class="
+                                absolute top-full left-0 mt-2
+                                bg-burgundy text-canvas text-xs font-sans font-semibold 
+                                py-1.5 px-3 whitespace-nowrap rounded-[2px]
+                                opacity-0 invisible 
+                                group-hover/spell:opacity-100 group-hover/spell:visible
+                                transition-all duration-150
+                                z-20
+                            ">
+                                Stavfel → relativt
+                                <span class="absolute bottom-full left-4 border-4 border-transparent border-b-burgundy"></span>
+                            </span>
+                        </span>
+                        välutvecklat, men saknar 
+                        <span class="border-b border-dashed border-navy/40">källhänvisningar</span>
+                        som stödjer påståendena.
+                    </p>
+                </div>
+
+                <!-- Margin Annotation (statisk, tydlig) -->
+                <div class="absolute -right-4 top-20 w-40 hidden lg:block">
+                    <div class="bg-canvas border border-navy p-4 shadow-brutal-sm">
+                        <div class="flex items-center gap-2 mb-2">
+                            <div class="h-2 w-2 rounded-full bg-burgundy"></div>
+                            <span class="text-xs font-bold uppercase tracking-label text-navy">Kunskapskrav</span>
+                        </div>
+                        <p class="text-xs text-navy/70 leading-relaxed">
+                            Eleven för <span class="font-semibold text-navy">välutvecklade</span> resonemang om orsaker.
+                        </p>
+                        <div class="mt-3 pt-2 border-t border-navy/20">
+                            <span class="text-xs font-mono text-navy/50">Hi 1b · Centralt innehåll</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Grade Watermark -->
+                <div class="absolute bottom-3 right-4 text-6xl font-extrabold text-navy/[0.06] select-none">
+                    C
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════════════
+         THE LEDGER – Funktionsregister
+    ═══════════════════════════════════════════════════════════════ -->
+    <section id="produkten" class="border-t-2 border-navy" aria-labelledby="features-heading">
+        
+        <!-- Section Label -->
+        <div class="px-6 py-3 border-b border-navy bg-canvas/50">
+            <h2 id="features-heading" class="text-xs font-semibold uppercase tracking-label text-navy/50">Funktionsregister</h2>
+        </div>
+        
+        <!-- Table Header -->
+        <div class="grid grid-cols-2 md:grid-cols-4 border-b border-navy bg-canvas">
+            <div class="p-4 px-6 border-r border-navy">
+                <span class="text-xs font-semibold uppercase tracking-label text-navy/60">Funktion</span>
+            </div>
+            <div class="col-span-2 p-4 px-6 border-r border-navy hidden md:block">
+                <span class="text-xs font-semibold uppercase tracking-label text-navy/60">Beskrivning</span>
+            </div>
+            <div class="p-4 px-6">
+                <span class="text-xs font-semibold uppercase tracking-label text-navy/60">Värde</span>
+            </div>
+        </div>
+
+        <!-- Row 1: AI-Judge -->
+        <div class="ledger-row grid grid-cols-2 md:grid-cols-4 border-b border-navy cursor-default group hover:bg-navy/[0.02] transition-colors">
+            <div class="p-5 px-6 border-r border-navy flex items-center">
+                <span class="font-bold text-lg">AI-Judge</span>
+            </div>
+            <div class="col-span-2 p-5 px-6 border-r border-navy hidden md:flex items-center">
+                <p class="text-navy/75">Semantisk analys som mäter elevens text direkt mot Skolverkets betygskriterier och kunskapskrav.</p>
+            </div>
+            <div class="p-5 px-6 flex items-center">
+                <span class="ledger-value text-lg transition-colors duration-150">Objektivitet</span>
+            </div>
+        </div>
+
+        <!-- Row 2: Feedback Loop -->
+        <div class="ledger-row grid grid-cols-2 md:grid-cols-4 border-b border-navy cursor-default group hover:bg-navy/[0.02] transition-colors">
+            <div class="p-5 px-6 border-r border-navy flex items-center">
+                <span class="font-bold text-lg">Feedback Loop</span>
+            </div>
+            <div class="col-span-2 p-5 px-6 border-r border-navy hidden md:flex items-center">
+                <p class="text-navy/75">Annotering sker direkt i texten. Eleven ser kopplingen mellan bedömning och kunskapskrav omedelbart.</p>
+            </div>
+            <div class="p-5 px-6 flex items-center">
+                <span class="ledger-value text-lg transition-colors duration-150">Snabbare inlärning</span>
+            </div>
+        </div>
+
+        <!-- Row 3: Timekeeper -->
+        <div class="ledger-row grid grid-cols-2 md:grid-cols-4 border-b border-navy cursor-default group hover:bg-navy/[0.02] transition-colors">
+            <div class="p-5 px-6 border-r border-navy flex items-center">
+                <span class="font-bold text-lg">Timekeeper</span>
+            </div>
+            <div class="col-span-2 p-5 px-6 border-r border-navy hidden md:flex items-center">
+                <p class="text-navy/75">Automatiserad rättning av mängdträning och formativ bedömning. Frigör lärarens tid för det som spelar roll.</p>
+            </div>
+            <div class="p-5 px-6 flex items-center">
+                <span class="ledger-value text-lg transition-colors duration-150">Frigjord tid</span>
+            </div>
+        </div>
+
+        <!-- Row 4: Comparative Judge -->
+        <div class="ledger-row grid grid-cols-2 md:grid-cols-4 border-b border-navy cursor-default group hover:bg-navy/[0.02] transition-colors">
+            <div class="p-5 px-6 border-r border-navy flex items-center">
+                <span class="font-bold text-lg">Comparative Judge</span>
+            </div>
+            <div class="col-span-2 p-5 px-6 border-r border-navy hidden md:flex items-center">
+                <p class="text-navy/75">Parvisa jämförelser för reliabel rangordning. Reducerar subjektiv bedömning genom statistisk validering.</p>
+            </div>
+            <div class="p-5 px-6 flex items-center">
+                <span class="ledger-value text-lg transition-colors duration-150">Precision</span>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <!-- ═══════════════════════════════════════════════════════════════
+         FOOTER – Inverterad, med borders
+    ═══════════════════════════════════════════════════════════════ -->
+    <footer id="kontakt" class="bg-navy text-canvas mt-auto" role="contentinfo">
+        <div class="grid grid-cols-2 md:grid-cols-4">
+            
+            <!-- Col 1: Brand -->
+            <div class="p-8 border-r border-canvas/15 border-b md:border-b-0">
+                <span class="font-extrabold text-xl tracking-tightest">HuleEdu.</span>
+                <p class="mt-4 text-sm text-canvas/50 leading-relaxed">
+                    Part of the Hulebäcksgymnasiet ecosystem.<br>
+                    Härryda kommun.
+                </p>
+            </div>
+            
+            <!-- Col 2: System -->
+            <div class="p-8 border-r border-canvas/15 border-b md:border-b-0">
+                <h4 class="text-xs font-semibold uppercase tracking-label text-canvas/40 mb-5">System</h4>
+                <ul class="space-y-3 text-sm">
+                    <li><a href="#" class="text-canvas/80 hover:text-canvas transition-colors">Driftstatus</a></li>
+                    <li><a href="#" class="text-canvas/80 hover:text-canvas transition-colors">API-dokumentation</a></li>
+                    <li><a href="#" class="text-canvas/80 hover:text-canvas transition-colors">Changelog</a></li>
+                </ul>
+            </div>
+
+            <!-- Col 3: Juridik -->
+            <div class="p-8 border-r border-canvas/15">
+                <h4 class="text-xs font-semibold uppercase tracking-label text-canvas/40 mb-5">Juridik</h4>
+                <ul class="space-y-3 text-sm">
+                    <li><a href="#" class="text-canvas/80 hover:text-canvas transition-colors">GDPR & integritet</a></li>
+                    <li><a href="#" class="text-canvas/80 hover:text-canvas transition-colors">Användaravtal</a></li>
+                    <li><a href="#" class="text-canvas/80 hover:text-canvas transition-colors">Cookies</a></li>
+                </ul>
+            </div>
+
+            <!-- Col 4: Kontakt -->
+            <div class="p-8">
+                <h4 class="text-xs font-semibold uppercase tracking-label text-canvas/40 mb-5">Kontakt</h4>
+                <ul class="space-y-3 text-sm">
+                    <li><a href="#" class="text-canvas/80 hover:text-canvas transition-colors">Support</a></li>
+                    <li><a href="#" class="text-canvas/80 hover:text-canvas transition-colors">För skolor</a></li>
+                    <li><a href="#" class="text-canvas/80 hover:text-canvas transition-colors"><span class="__cf_email__" data-cfemail="076e696168476f726b62626372297462">[email&#160;protected]</span></a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Copyright -->
+        <div class="border-t border-canvas/15 px-8 py-4 text-center text-xs text-canvas/30">
+            © 2025 HuleEdu · Utvecklat 
